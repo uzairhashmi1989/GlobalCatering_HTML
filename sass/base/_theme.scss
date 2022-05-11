@@ -1,0 +1,197 @@
+
+
+@use "sass:list";
+@use "sass:math";
+$browser-context: 16;
+@function em($pixels, $context: $browser-context) {
+    @return math.div($pixels, $context) * 1em;
+}
+
+@mixin secspacing() {
+    padding: 5em 0;
+    @media #{$tab} {
+        padding: 3em 0;
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+// css variables
+:root {
+    --primary-color:    #5A5A5A;
+    --black-color:      #000000;
+    --white-color:      #ffffff;
+    --grey-color:       #5A5A5A;
+    --grey-color-light:       #ccceef;
+    --blue-color:       #2E3191;
+    --yellow-color:     #FFCA1D;
+    --purple-color:     #7670B3;
+    --green-color:      #92C446;
+    --red-color:        #931E5A;
+    --red-color-light:        #f1c7dc;
+    --el-messeri: 'El Messiri', sans-serif;
+    --basefont: 'Avenir LT Std 45 Book';
+}
+
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+    &:focus {
+        outline: none;
+    }
+}
+
+$basefont: 'Avenir LT Std 45 Book';
+$el-messeri: 'El Messiri', sans-serif;
+
+$arialfont: 'Arial';
+$arialfontbold: 'Arial Bold';
+
+
+
+body {
+    font-family: $basefont;
+    font-size: 16px;
+    line-height: 1.14;
+    font-weight: 400;
+    color: $primary-color;
+    text-align: left;
+    overflow-x: hidden;
+    min-height: 100%;
+    margin: 0;
+    background-color: $white-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    @media (max-width: 1400px) and (min-width: 1300px) and (min-height: 900px) {
+        font-size: 11.485px;
+    }
+    @media #{$ipadpro} {
+        font-size: 12px;
+        overflow-x: hidden;
+    }
+    @media #{$tab} {
+        font-size: 14px;
+    }
+
+    &.disabled-scroll {
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+    }
+}
+
+.loadjs {
+    overflow: hidden;
+}
+
+::marker {
+    color: $black-color;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+picture {
+    display: block;
+}
+
+img,
+svg {
+    vertical-align: middle;
+    display: block;
+}
+
+.animate {
+    opacity: 0;
+}
+
+textarea {
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+}
+
+.img-wrapper {
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    position: relative;
+    padding: 0;
+    z-index: 2;
+}
+
+.sec__wrapper {
+    flex-direction: column;
+}
+
+.section {
+    padding: em(119) 0;
+    @media #{$ipad} {
+        padding: 3em 0;
+    }
+}
+
+.container {
+    max-width: 100%;
+    padding: 0 8%;
+    @media #{$ipad} {
+        padding: 0 5em;
+    }
+    @media #{$tab} {
+        padding: 0 3em;
+    }
+    @media #{$mob} {
+        padding: 0 15px;
+    }
+}
+
+
+.gray-bg {
+    background-color: #F8F8FB;
+}
+
+.gray-bg-2 {
+    background-color: #e5e5e5;
+}
+
+.blue-bg {
+    background-color: $blue-color;
+}
+
+.light-blue-bg {
+    background-color: #7670B3;
+}
+
+.red-bg {
+    background-color: $red-color;
+}
+
+.black-bg {
+    background-color: $black-color;
+}
+
+
+
+
+
+
+

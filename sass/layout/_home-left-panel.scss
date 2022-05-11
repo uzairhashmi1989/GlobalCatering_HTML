@@ -1,0 +1,35 @@
+
+
+.home-left-panel {
+    &__para-btn {
+        max-width: em(592);
+        margin-left: em(168);
+    }
+    &__counter {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 0;
+        margin: 0 em(-12);
+        margin-bottom: em(40);
+        li {
+            flex: 0 0 auto;
+            padding: 0 em(12);
+            width: auto;
+            text-align: center;    
+        }
+        &__value {
+            font-size: em(50);
+            font-weight: 700;
+            color: var(--blue-color);
+            margin-bottom: 0.16em;
+            font-family: var(--el-messeri);
+            display: inline-block;
+        }
+
+        &__title {
+            font-family: var(--basefont);
+        }
+    }
+}

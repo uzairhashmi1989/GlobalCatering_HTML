@@ -1,0 +1,103 @@
+.header {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1em 0;
+    z-index: 9;
+    transition: 0.5s;
+    @media #{$tab} {
+        padding: 1.5em 0;
+    }
+    &__container {
+        padding: 0 3.5%;
+        @media #{$ipadpro} {
+            padding: 0 1.5%;
+        }
+        @media #{$ipad} {
+            padding: 0 5em;
+        }
+        @media #{$tab} {
+            padding: 0 3em;
+        }
+        @media #{$mob} {
+            padding: 0 15px;
+        }
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        @media #{$tab} {
+            padding: 0.5em 0;
+        }
+        .header__wrapper__language__search {
+            flex: 0 1 20%;
+            margin-left: auto;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            .header-languages {
+                display: flex;
+                align-items: baseline;
+                position: relative;
+                margin-right: 2em;
+                a {
+                    text-decoration: none;
+                    color: $primary-color;
+                    font-size: em(20);
+                    padding: 0 em(20);
+                    font-weight: 400;
+                    &:last-child {
+                        &::before {
+                            content: "";
+                            position: absolute;
+                            width: 20%;
+                            height: 2px;
+                            background: $primary-color;
+                            left: 0;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            right: 0;
+                            margin: 0 auto;
+                        }
+                    }
+                    &.active {
+                        color: $black-color;
+                    }
+                }
+            }
+            .header-searh-icon {
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+.brand-logo {
+    position: relative;
+    width: em(263);
+    &__anchor {
+        display: inline-block;
+    }
+}
+
+
+
+.no-home {
+    .sticky {
+        background-color: $white-color;
+        padding: 1.5em 0;
+    }
+
+    .header {
+        position: relative;
+        // padding: 2em 0 1.2em;
+        // background: linear-gradient(166.52deg, #2368D0 9.16%, #0E337B 98.25%);
+        // background: linear-gradient(166.52deg,#010102 9.16%,#0e4dc8 98.25%);
+        background: linear-gradient(93.63deg, #FFFFFF 0.82%, #14326C 66.78%);
+        @media #{$mob} {
+            background: linear-gradient(93.63deg,#fff .82%,#1a58c2 66.78%);
+        }
+    }
+}

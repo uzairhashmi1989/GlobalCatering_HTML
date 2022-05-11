@@ -1,0 +1,288 @@
+
+
+.hero-home {
+    position: relative;
+    height: calc(100vh - em(143));
+    &__text {
+        max-width: 64em;
+        text-align: center;
+        margin: 0 auto;
+        padding-top: em(70);
+        p {
+            padding: 0 5em;
+            margin-bottom: 1.4347em;
+        }
+        .thm-btn {
+            margin: 0 auto;
+        }
+    }
+    &__container {
+        position: relative;
+        z-index: 1;
+        height: 100%;
+    }
+    &__bg {
+        position: absolute;
+        inset: 0;
+    }
+}
+
+
+// food bussiness
+.food-bussiness {
+    .twocol-row {
+        justify-content: space-between;
+        .col-20 {
+            align-self: flex-end;
+        }
+    }
+    &__title,
+    &__para {
+        color: $white-color;
+    }
+}
+
+
+// facilities
+.facilities {
+    &__box {
+        position: relative;
+        overflow: hidden;
+        &::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            z-index: 1;
+            transition: $transition-ease;
+            background: linear-gradient(188.59deg, rgba(146, 196, 70, 0) 15.89%,
+                     rgba(146, 196, 70, 0.89) 64.66%,
+                      rgba(136, 192, 49, 0.94) 97.76%);
+            opacity: 0;
+        }
+        &:hover::before {
+            opacity: 1;
+        }
+
+        &__figure {
+            position: relative;
+            height: 614px;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+            &::before {
+                content: "";
+                position: absolute;
+                background: linear-gradient(180deg, rgba(5, 5, 6, 0) 65.88%, rgba(22, 23, 33, 0.9) 109.85%);
+                inset: 0;
+            }
+        }
+        &__text {
+            position: absolute;
+            bottom: -38%;
+            bottom: -33%;
+            padding: 2em 13em 2em 2em;
+            z-index: 2;
+            transition: all 0.3s ease-in-out;
+        }
+        &__title {
+            color: #fff;
+            margin-bottom: 1em;
+        }
+        &__para {
+            color: #fff;
+            text-overflow: ellipsis;
+            overflow: hidden;
+            display: -webkit-box !important;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            white-space: normal;
+        }
+        &__stroke-title {
+            opacity: 0.7;
+            color: #fff;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: #fff;
+            position: absolute;
+            font-size: 110px;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 0;
+            font-family: var(--el-messeri);
+            width: 99px;
+            pointer-events: none;
+            span {
+                writing-mode: vertical-lr;
+                line-height: 0.9;
+            }
+        }
+        &:hover &__text {
+            bottom: 7%;
+        }
+    }
+    .swiper-slide {
+        width: 384px;
+        transition: all 0.3s ease-in-out;
+        &:hover {
+            width: 784px;
+        }
+    }
+}
+
+// foods-safety
+.foods-safety {
+    .twocol-row {
+        justify-content: space-between;
+    }
+    &__figures {
+        position: relative;
+        &__small {
+            width: em(208);
+            height: em(208);
+            border-radius: 50%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 2;
+            img {
+                height: 100%;
+                border-radius: inherit;
+            }
+        }
+        &__large {
+            width: em(530);
+            height: em(530);
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+            img {
+                height: 100%;
+                border-radius: inherit;
+            }
+        }
+
+        &::before {
+            content: "";
+            position: absolute;
+            width: em(365);
+            height: em(365);
+            border: 1.5px solid $red-color-light;
+            border-radius: 50%;
+            right: -5%;
+            bottom: 23%;
+        }
+        &::after {
+            content: "";
+            position: absolute;
+            width: em(529);
+            height: em(529);
+            border: 1.5px solid $grey-color-light;
+            border-radius: 50%;
+            left: 12%;
+            top: -6%;
+        }
+    }
+}
+
+// news
+.news {
+    &__box {
+        &__figure  {
+            height: em(338);
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        &__text-content {
+            padding: em(24) 0;
+            .date {
+                display: inline-block;
+                font-size: em(20);
+                margin-bottom: 1em;
+                color: var(--blue-color);
+            }
+            h4 {
+                margin-bottom: 1.0666em;
+            }
+        }
+    }
+    .thm-btn {
+        margin: 0 auto;
+    }
+}
+
+
+// leading multi sectors
+.multi-sectors {
+    position: relative;
+    padding: em(56) 0 em(112);
+    &__logo {
+        width: em(270);
+        margin-bottom: em(65);
+    }
+    &__figure {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: em(783);
+    }
+}
+
+
+// cta
+.cta {
+    text-align: center;
+    &__wrapper {
+        max-width: em(700);
+        margin: 0 auto;
+    }
+    &__title {
+        color: var(--red-color);
+        margin-bottom: 1em;
+    }
+    &__social__icons {
+        display: flex;
+        justify-content: center;
+        max-width: em(735);
+        margin: 0 auto em(75);
+        &__single {
+            width: em(50);
+            height: em(50);
+            border: 1px solid $red-color;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 em(10);
+            position: relative;
+            overflow: hidden;
+
+            // &::before {
+            //     content: "";
+            //     position: absolute;
+            //     clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+            //     background: var(--red-color-light);
+            //     width: 100%;
+            //     height: 100%;
+            //     pointer-events: none;
+            //     transition: $transition-ease;
+            //     left: -100%;
+            // }
+
+            // &:hover {
+            //     &::before {
+            //         left: 100%;
+            //     }
+            // }
+
+            img {
+                width: auto;
+                height: auto;
+                position: relative;
+            }
+
+        }
+    }
+}
