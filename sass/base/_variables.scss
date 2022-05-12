@@ -18,11 +18,12 @@ $transition-ease: all 0.3s ease-in-out;
 
 
 // Media Sizes
+$desktop: '(max-width:1680px)'; 
 $ipadproL: '(max-width:1399px)'; // Ipad Pro Landscape
 $ipadpro: '(max-width:1199px)'; // Ipad pro
 $ipad: '(max-width:991px)'; // Ipad
 $tab: '(max-width:767px)'; // Tablet
-$mob: '(max-width:576px)'; // Base Mobile
+$mob: '(max-width:575px)'; // Base Mobile
 $smallmob: '(max-width:375px)'; // Small Mobile
 
 

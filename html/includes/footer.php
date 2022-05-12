@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="footer__top">
+    <div class="footer__top thm-py-65">
         <div class="container footer__container">
             <div class="twocol-row">
                 <div class="footer__top--qlinks-wrapper">

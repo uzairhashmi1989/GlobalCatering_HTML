@@ -47,7 +47,7 @@
                     <a href="/">Ar</a>
                 </div>
                 <div class="header-searh-icon">
-                    <img src="/assets/svg/search-icon.svg" alt="search" width="20" height="20">
+                    <img src="/assets/svg/search-icon.svg" alt="search" width="20" height="20" class="svg-convert">
                 </div>
             </div>
 

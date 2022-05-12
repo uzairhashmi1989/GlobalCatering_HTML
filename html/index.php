@@ -38,7 +38,7 @@
     <main>
 
         <!-- food bussiness -->
-        <section class="food-bussiness section black-bg">
+        <section class="food-bussiness  black-bg thm-py-100 thm-pb-80 ">
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-60">
@@ -91,7 +91,7 @@
                                 <img src="/assets/images/home/facilities-2.jpg" alt="facilities">
                             </div>
                             <div class="facilities__box__stroke-title">
-                                <span >Restaurants</span>
+                                <span >Retail</span>
                             </div>
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Restaurants</h5>
@@ -111,7 +111,7 @@
                                 <img src="/assets/images/home/facilities-3.jpg" alt="facilities">
                             </div>
                             <div class="facilities__box__stroke-title">
-                                <span >Restaurants</span>
+                                <span>Catering</span>
                             </div>
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Restaurants</h5>
@@ -131,7 +131,7 @@
                                 <img src="/assets/images/home/facilities-1.jpg" alt="facilities">
                             </div>
                             <div class="facilities__box__stroke-title">
-                                <span >Restaurants</span>
+                                <span>Wholesale</span>
                             </div>
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Restaurants</h5>
@@ -144,11 +144,11 @@
                                 </a>
                             </div>
                         </div>
-                    </div>           
+                    </div>     
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure">
-                                <img src="/assets/images/home/facilities-1.jpg" alt="facilities">
+                                <img src="/assets/images/home/facilities-3.jpg" alt="facilities">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span >Restaurants</span>
@@ -164,12 +164,12 @@
                                 </a>
                             </div>
                         </div>
-                    </div>           
+                    </div>                      
                 </div>
         </section>
 
         <!-- foods safety -->
-        <section class="foods-safety section">
+        <section class="foods-safety thm-py-175 thm-pb-100 ">
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-50">
@@ -202,7 +202,7 @@
         </section>
 
         <!-- in the news -->
-        <section class="news gray-bg section">
+        <section class="news gray-bg thm-py-65 thm-pb-90">
             <div class="container">
                 <div class="home-left-panel">
                     <h2 class="h2"> In The News </h2>
@@ -261,9 +261,6 @@
                                     </div>
                                 </div>    
                             </div>
-
-                            
-
                         </div>
                     </div>
                 </div>
@@ -323,7 +320,7 @@
         </section>
 
         <!-- cta -->
-        <section class="cta gray-bg section">
+        <section class="cta gray-bg thm-py-120 ">
             <div class="cta__wrapper">
                 <p class="cta__title">Connect with us</p>
                 <h2 class="cta__main-title h2">Follow Us</h2>

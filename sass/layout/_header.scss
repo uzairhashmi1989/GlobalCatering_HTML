@@ -3,9 +3,12 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1em 0;
+    padding: 4em 0;
     z-index: 9;
     transition: 0.5s;
+    @media #{$desktop} {
+        padding: 5em 0;
+    }
     @media #{$tab} {
         padding: 1.5em 0;
     }
@@ -36,6 +39,7 @@
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            z-index: 1;
             .header-languages {
                 display: flex;
                 align-items: baseline;
@@ -47,6 +51,7 @@
                     font-size: em(20);
                     padding: 0 em(20);
                     font-weight: 400;
+                    transition: $transition-ease;
                     &:last-child {
                         &::before {
                             content: "";
@@ -64,10 +69,23 @@
                     &.active {
                         color: $black-color;
                     }
+                    &:hover {
+                        color: $red-color;
+                    }
                 }
             }
             .header-searh-icon {
                 cursor: pointer;
+                svg {
+                    path {
+                        transition: $transition-ease;
+                    }
+                }
+                &:hover {
+                    path {
+                        fill: $red-color;
+                    }
+                }
             }
         }
     }
@@ -75,8 +93,11 @@
 }
 
 .brand-logo {
-    position: relative;
-    width: em(263);
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: em(260);
     &__anchor {
         display: inline-block;
     }
