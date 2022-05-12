@@ -11,6 +11,9 @@
         p {
             padding: 0 5em;
             margin-bottom: 1.4347em;
+            @media #{$mob} {
+                padding: 0;
+            }
         }
         .thm-btn {
             margin: 0 auto;
@@ -26,8 +29,10 @@
         inset: 0;
         picture {
             height: 100%;
+            width: 100%;
             img {
                 height: 100%;
+                width: 100%;
             }
         }
     }
@@ -63,10 +68,14 @@
             background: linear-gradient(188.59deg, rgba(146, 196, 70, 0) 15.89%,
                      rgba(146, 196, 70, 0.89) 64.66%,
                       rgba(136, 192, 49, 0.94) 97.76%);
-            opacity: 0;
+            @media (min-width: 768px) {
+                opacity: 0;
+            }
         }
         &:hover::before {
-            opacity: 1;
+            @media (min-width: 768px) {
+                opacity: 1;
+            }
         }
 
         &__figure {
@@ -85,11 +94,13 @@
         }
         &__text {
             position: absolute;
-            bottom: -38%;
-            bottom: -33%;
+            bottom: 0;
             padding: 2em 13em 2em 2em;
             z-index: 2;
             transition: all 0.3s ease-in-out;
+            @media (min-width: 768px) {
+                bottom: -33%;
+            }
         }
         &__title {
             color: $white-color;
@@ -124,15 +135,22 @@
             }
         }
         &:hover &__text {
-            bottom: 7%;
+            @media (min-width: 768px) {
+                bottom: 7%;
+            }
         }
     }
     .swiper-slide {
-        width: em(384);
+        // width: em(384);
         transition: width 0.3s ease-in-out,
                     tansform;
         &:hover {
-            width: em(784);
+            @media (min-width: 768px) {
+                width: em(784) !important;
+            }
+
+            
+
         }
     }
 }

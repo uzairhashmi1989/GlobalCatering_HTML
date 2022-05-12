@@ -89,7 +89,7 @@ $(document).ready(function() {
     // facilities
     if ($(document).find("section").hasClass("facilities")) {
         var facilities_slider = new Swiper(".facilities .swiper", {
-            slidesPerView: "auto",
+            slidesPerView: 1,
             spaceBetween: 0,
             loop: false,
             speed: 1000,
@@ -100,6 +100,17 @@ $(document).ready(function() {
             pagination: {
                 el: ".facilities .swiper-pagination",
                 clickable: true
+            },
+            breakpoints: {
+                576: {
+                  slidesPerView: 2,
+                },
+                768: {
+                  slidesPerView: 3,
+                },
+                1200: {
+                  slidesPerView: 5,
+                },
             },
         });
     }

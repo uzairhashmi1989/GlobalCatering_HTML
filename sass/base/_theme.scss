@@ -205,22 +205,37 @@ main {
 
 .thm-py-100 {
     padding: em(100) 0;
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
 }
 
 .thm-py-90 {
     padding: em(90) 0;
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
 }
 
 .thm-py-85 {
     padding: em(85) 0;
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
 }
 
 .thm-py-75 {
     padding: em(75) 0;
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
 }
 
 .thm-py-65 {
     padding: em(65) 0;
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
 }
 
 
@@ -228,22 +243,37 @@ main {
 
 .thm-pb-110 {
     padding-bottom: em(110);
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
 }
 
 .thm-pb-100 {
     padding-bottom: em(100);
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
 }
 
 .thm-pb-90 {
     padding-bottom: em(90);
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
 }
 
 .thm-pb-80 {
     padding-bottom: em(80);
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
 }
 
 .thm-pb-70 {
     padding-bottom: em(70);
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
 }
 
 

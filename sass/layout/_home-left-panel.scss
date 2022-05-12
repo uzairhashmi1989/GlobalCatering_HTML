@@ -4,6 +4,9 @@
     &__para-btn {
         max-width: em(592);
         margin-left: em(168);
+        @media #{$ipadpro} {
+            margin-left: 3.5em;
+        }
     }
     &__counter {
         list-style: none;

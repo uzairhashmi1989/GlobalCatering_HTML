@@ -29,7 +29,7 @@
         </div>
         <div class="hero-home__bg">
             <picture>
-                <source media="(max-width: 767px)" srcset="/assets/images/home/mob-banner.jpg">
+                <source media="(max-width: 767px)" srcset="/assets/images/home/banner.jpg">
                 <img src="/assets/images/home/banner.jpg" alt="banner image">
             </picture>
         </div>

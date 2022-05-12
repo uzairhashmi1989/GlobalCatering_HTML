@@ -11,7 +11,7 @@
         height: 100vh;
         top: 0;
         transition: 0.7s;
-        background: $primary-color;
+        background: $blue-color;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -277,6 +277,9 @@
             text-transform: capitalize;
             text-decoration: none;
             transition: $transition-ease;
+            @media #{$ipad} {
+                color: $white-color;
+            }
             &.active {
                 color: $yellow-color;
             }
@@ -292,6 +295,9 @@
                 bottom: -6px;
                 transform: scaleX(0);
                 transition: $transition-ease;
+                @media #{$ipad} {
+                    display: none;
+                }
             }
             &:hover::before {
                 transform: scaleX(1);
@@ -334,7 +340,7 @@
         width: 100%;
         height: 3px;
         position: absolute;
-        background: $white-color;
+        background: $red-color;
         transition: all 250ms ease-out;
         will-change: transform;
     }

@@ -35,6 +35,9 @@
         z-index: 1;
         right: 7%;
         transition: $transition-ease;
+        svg {
+            width: em(26);
+        }
         path {
             transition: $transition-ease;
         }
