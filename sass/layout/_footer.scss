@@ -25,7 +25,13 @@
             @media #{$ipad} {
                 display: block;
             }
+            .qlinks__col__wrapper {
+                @media #{$ipad} {
+                    margin-bottom: 1em;
+                }
+            }
         }
+
     }
 }
 
@@ -61,6 +67,9 @@
                     bottom: -0.5em;
                     opacity: 0.5;
                     left: 0;
+                    @media #{$ipadpro} {
+                        width: 11.136em;
+                    }
                 }
                 @media #{$ipad} {
                     &::before,
@@ -147,6 +156,7 @@
             }
             .brand-logo {
                 position: relative;
+                margin: 0;
                 a {
                     display: inline-block;
                     width: 11.875em;
@@ -162,6 +172,10 @@
             .social {
                 display: flex;
                 flex-direction: column;
+                @media #{$ipad} {
+                    align-items: center;
+                    margin-bottom: 3em;
+                }
             }
             .social__links {
                 display: flex;
@@ -276,6 +290,9 @@
         font-weight: 400;
         padding: 0 1em 0 0;
         margin-bottom: 2.5em;
+        @media #{$ipad} {
+            margin-bottom: 1.5em;
+        }
         .uline {
             position: relative;
             &::before {

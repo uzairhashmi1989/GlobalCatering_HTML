@@ -83,6 +83,15 @@ body {
         width: 100vw;
         height: 100vh;
         overflow: hidden;
+        &::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0, 0.7);
+            width: 100vh;
+            height: 100vh;
+            z-index: 6;
+        }
     }
 }
 
@@ -192,19 +201,40 @@ main {
 
 .thm-py-225 {
     padding: em(225) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
 }
 
 
 .thm-py-175 {
     padding: em(175) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
 }
 
 .thm-py-120 {
     padding: em(120) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
 }
 
 .thm-py-100 {
     padding: em(100) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
     @media #{$mob} {
         padding: 3.25em 0;
     }
@@ -212,6 +242,9 @@ main {
 
 .thm-py-90 {
     padding: em(90) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
     @media #{$mob} {
         padding: 3.25em 0;
     }
@@ -219,6 +252,9 @@ main {
 
 .thm-py-85 {
     padding: em(85) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
     @media #{$mob} {
         padding: 3.25em 0;
     }
@@ -226,6 +262,9 @@ main {
 
 .thm-py-75 {
     padding: em(75) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
     @media #{$mob} {
         padding: 3.25em 0;
     }
@@ -233,6 +272,9 @@ main {
 
 .thm-py-65 {
     padding: em(65) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
     @media #{$mob} {
         padding: 3.25em 0;
     }
@@ -243,6 +285,9 @@ main {
 
 .thm-pb-110 {
     padding-bottom: em(110);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
     @media #{$mob} {
         padding-bottom: 3.25em;
     }
@@ -250,6 +295,9 @@ main {
 
 .thm-pb-100 {
     padding-bottom: em(100);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
     @media #{$mob} {
         padding-bottom: 3.25em;
     }
@@ -257,6 +305,9 @@ main {
 
 .thm-pb-90 {
     padding-bottom: em(90);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
     @media #{$mob} {
         padding-bottom: 3.25em;
     }
@@ -264,6 +315,9 @@ main {
 
 .thm-pb-80 {
     padding-bottom: em(80);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
     @media #{$mob} {
         padding-bottom: 3.25em;
     }
@@ -271,6 +325,9 @@ main {
 
 .thm-pb-70 {
     padding-bottom: em(70);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
     @media #{$mob} {
         padding-bottom: 3.25em;
     }

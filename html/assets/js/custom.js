@@ -71,7 +71,7 @@ $(document).ready(function() {
     //Home Hero Slider--------------
     if ($(document).find("div").hasClass("news__slider")) {
         var news_slider = new Swiper(".news__slider .swiper", {
-            slidesPerView: 3,
+            slidesPerView: 1,
             spaceBetween: 30,
             loop: true,
             speed: 1000,
@@ -83,6 +83,17 @@ $(document).ready(function() {
                 el: ".news__slider .swiper-pagination",
                 clickable: true
             },
+            breakpoints: {
+                576: {
+                  slidesPerView: 2,
+                },
+                768: {
+                  slidesPerView: 2,
+                },
+                1200: {
+                  slidesPerView: 3,
+                },
+            },
         });
     }
 
@@ -93,10 +104,10 @@ $(document).ready(function() {
             spaceBetween: 0,
             loop: false,
             speed: 1000,
-            // autoplay: {
-            //     delay: 2500,
-            //     disableOnInteraction: false,
-            // },
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
             pagination: {
                 el: ".facilities .swiper-pagination",
                 clickable: true
@@ -170,6 +181,21 @@ $(document).ready(function() {
             .find('.nav-login__bell__dropdown')
             .toggleClass('nav-login__bell__dropdown--notify-open');
             $('.nav-login__user__dropdown').removeClass('nav-login__user__dropdown--logout__open');
+    });
+
+    $(".toggle-btn > p").on("click", function() {
+        if (sw < 992) {
+            var tag = $(this).parent().find("ul");
+            if ($(this).hasClass("opened")) {
+                $(this).removeClass("opened");
+                $(".toggle-btn > .qlinks-menu").slideUp();
+            } else {
+                $(".toggle-btn > p").removeClass("opened");
+                $(".toggle-btn > .qlinks-menu").slideUp();
+                $(this).addClass("opened");
+                tag.slideDown();
+            }
+        }
     });
 
 

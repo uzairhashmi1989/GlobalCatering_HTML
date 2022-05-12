@@ -16,11 +16,17 @@
         padding: 0;
         margin: 0 em(-12);
         margin-bottom: em(40);
+        @media #{$mob} {
+            margin-bottom: 1em;
+        }
         li {
             flex: 0 0 auto;
             padding: 0 em(12);
             width: auto;
-            text-align: center;    
+            text-align: center;
+            @media #{$ipad} {
+                margin-bottom: 2em;
+            }    
         }
         &__value {
             font-size: em(50);
