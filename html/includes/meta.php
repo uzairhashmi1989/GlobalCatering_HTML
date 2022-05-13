@@ -48,7 +48,7 @@
     .lds-ellipsis div:nth-child(1) {
         left: 8px;
         animation: lds-ellipsis1 0.6s infinite;
-        background: #2368d0;
+        background: #931E5A;
     }
     .lds-ellipsis div:nth-child(2) {
         left: 8px;
@@ -57,12 +57,12 @@
     .lds-ellipsis div:nth-child(3) {
         left: 32px;
         animation: lds-ellipsis2 0.6s infinite;
-        background: #2368d0;
+        background: #931E5A;
     }
     .lds-ellipsis div:nth-child(4) {
         left: 56px;
         animation: lds-ellipsis3 0.6s infinite;
-        background: #2368d0;
+        background: #931E5A;
     }
     
     @keyframes lds-ellipsis1 {

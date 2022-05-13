@@ -4,7 +4,7 @@
             <div class="twocol-row">
                 <div class="footer__top--qlinks-wrapper">
                     <div class="footer__top--qlinks-col footer__top--qlinks-col--logo-panel">
-                        <div class="brand-logo">
+                        <div class="brand-logo animate" data-animation="animate__zoomIn" data-duration="200">
                             <a href="/">
                                 <img src="/assets/svg/white-logo.svg" alt="logo" />
                             </a>
@@ -28,13 +28,13 @@
                     <div class="footer__top--qlinks-col">
                         <div class="qlinks__col__wrapper">
                             <div class="toggle-btn qlinks__col__item">
-                                <p>Explore </p>
+                                <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Explore </p>
                                 <ul class="qlinks-menu">
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">Home.</a></li>
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">About.</a></li>
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">Food Safety.</a></li>
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">News.</a></li>
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">Contact. </a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/" class="uline">Home.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/" class="uline">About.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/" class="uline">Food Safety.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/" class="uline">News.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="600"><a href="/" class="uline">Contact. </a></li>
                                     
                                 </ul>
                             </div>
@@ -43,12 +43,12 @@
                     <div class="footer__top--qlinks-col">
                         <div class="qlinks__col__wrapper">
                             <div class="toggle-btn qlinks__col__item">
-                                <p>Business Sectors</p>
+                                <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Business Sectors</p>
                                 <ul class="qlinks-menu">
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">Restaurants.</a></li>
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">Retail.</a></li>
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">Catering.</a></li>
-                                    <li class="qlinks-menu__item"><a href="/" class="uline">Wholesale / Distribution.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/" class="uline">Restaurants.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/" class="uline">Retail.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/" class="uline">Catering.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/" class="uline">Wholesale / Distribution.</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -56,9 +56,9 @@
                     <div class="footer__top--qlinks-col">
                         <div class="qlinks__col__wrapper">
                             <div class="toggle-btn qlinks__col__item">
-                                <p>Contact Us</p>
+                                <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Contact Us</p>
                                 <ul class="qlinks-menu">
-                                    <li class="qlinks-menu__item">
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200">
                                         <span>Abu Dhabi</span>
                                         <i class="icon">
                                             <img src="/assets/svg/location-icon.svg" alt="location">
@@ -67,14 +67,15 @@
                                             Barthelsmühlring 24
                                             76870 Kandel
                                             Deutschland</a>
+                                    </li>
 
-                                    <li class="qlinks-menu__item">
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300">
                                         <a href="/" class="uline">p: 07275404440</a>
                                     </li>
-                                    <li class="qlinks-menu__item">
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <a href="/" class="uline">f: info@mh-service.de</a>
                                     </li>
-                                    <li class="qlinks-menu__item">
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500">
                                         <a href="/" class="uline">Dubai</a>
                                     </li>
                                 </ul>

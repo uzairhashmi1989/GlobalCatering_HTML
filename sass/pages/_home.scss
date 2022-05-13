@@ -59,6 +59,7 @@
     &__box {
         position: relative;
         overflow: hidden;
+        background-color: $blue-color;
         &::before {
             content: "";
             position: absolute;
