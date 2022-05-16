@@ -87,6 +87,11 @@
         }
         .thm-btn__icon {
             path {
+                fill: $white-color;
+            }
+        }
+        &:hover .thm-btn__icon {
+            path {
                 fill: $red-color;
             }
         }

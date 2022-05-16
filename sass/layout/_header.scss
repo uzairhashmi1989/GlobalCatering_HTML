@@ -125,19 +125,6 @@ header .brand-logo {
 
 
 .no-home {
-    .sticky {
-        background-color: $white-color;
-        padding: 1.5em 0;
-    }
 
-    .header {
-        position: relative;
-        // padding: 2em 0 1.2em;
-        // background: linear-gradient(166.52deg, #2368D0 9.16%, #0E337B 98.25%);
-        // background: linear-gradient(166.52deg,#010102 9.16%,#0e4dc8 98.25%);
-        background: linear-gradient(93.63deg, #FFFFFF 0.82%, #14326C 66.78%);
-        @media #{$mob} {
-            background: linear-gradient(93.63deg,#fff .82%,#1a58c2 66.78%);
-        }
-    }
+    
 }

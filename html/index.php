@@ -20,8 +20,8 @@
         <section class="hero-home">
             <div class="container hero-home__container">
                 <div class="hero-home__text">
-                    <h1 class="h1">Largest F&B inspired concepts in the region</h1>
-                    <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">We operate in four distinct sectors – Restaurants, Wholesale, Retail, and Catering. Learn more about them.</p>
+                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Largest F&B inspired concepts in the region</h1>
+                    <p class=" animate" data-animation="animate__fadeInUp" data-duration="300">We operate in four distinct sectors – Restaurants, Wholesale, Retail, and Catering. Learn more about them.</p>
                     <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                         <span class="thm-btn__text">Read more</span>
                         <span class="thm-btn__icon">
@@ -32,7 +32,7 @@
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/home/banner.jpg">
+                    <source media="(max-width: 767px)" srcset="/assets/images/home/mob-banner.jpg">
                     <img src="/assets/images/home/banner.jpg" alt="banner image">
                 </picture>
             </div>
@@ -321,26 +321,8 @@
         </section>
 
         <!-- cta -->
-        <section class="cta gray-bg thm-py-120 ">
-            <div class="cta__wrapper">
-                <p class="cta__title animate" data-animation="animate__fadeInUp" data-duration="200">Connect with us</p>
-                <h2 class="cta__main-title h2 animate" data-animation="animate__fadeInUp" data-duration="300">Follow Us</h2>
-                <p class=" animate" data-animation="animate__fadeInUp" data-duration="400">Through our choice of restaurants and cuisine we aim to create an overall experience that allows UAE residents, to “escape the</p>
-                <div class="cta__social__icons">
-                    <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="200">
-                        <img src="/assets/svg/social/c-instagram.svg" alt="instagram" target="_blank" title="instagram">
-                    </a>
-                    
-                    <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="300">
-                        <img src="/assets/svg/social/c-facebook.svg" alt="facebook" target="_blank" title="facebook">
-                    </a>
-                    
-                    <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="400">
-                        <img src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin">
-                    </a>
-                </div>
-            </div>
-        </section>
+        <?php include 'includes/follow-us.php'; ?>
+        
 
     </main>
 

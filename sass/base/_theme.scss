@@ -33,7 +33,7 @@ html {
     --red-color:        #931E5A;
     --red-color-light:        #f1c7dc;
     --el-messeri: 'El Messiri', sans-serif;
-    --basefont: 'Avenir LT Std 45 Book';
+    --basefont: 'Avenir LT Std';
 }
 
 
@@ -46,7 +46,7 @@ html {
     }
 }
 
-$basefont: 'Avenir LT Std 45 Book';
+$basefont: 'Avenir LT Std';
 $el-messeri: 'El Messiri', sans-serif;
 
 $arialfont: 'Arial';
@@ -91,8 +91,19 @@ body {
             width: 100vh;
             height: 100vh;
             z-index: 6;
+            animation: overlay 0.7s ease 0s 1 forwards;
         }
     }
+}
+
+@keyframes overlay {
+    from {
+        left: 100%;
+    }
+    to {
+        left:0;
+    }
+
 }
 
 .loadjs {
@@ -282,6 +293,38 @@ main {
 
 
 
+
+// padding bottom properties
+.thm-pb-225 {
+    padding-bottom: em(225);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
+}
+
+
+.thm-pb-175 {
+    padding-bottom: em(175);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
+}
+
+.thm-pb-120 {
+    padding-bottom: em(120);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
+}
 
 .thm-pb-110 {
     padding-bottom: em(110);

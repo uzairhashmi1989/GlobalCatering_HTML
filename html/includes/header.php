@@ -4,7 +4,7 @@
             <nav class="navigation">
                 <ul class="menu">
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="200">
-                        <a href="/about-us.php" class="menu__menuitem--menulink">
+                        <a href="/" class="menu__menuitem--menulink">
                             Home
                         </a>
                     </li>
@@ -14,22 +14,22 @@
                         </a>
                     </li>
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="400">
-                        <a href="/publications.php" class="menu__menuitem--menulink">
+                        <a href="javascript:;" class="menu__menuitem--menulink">
                             Business Sectors
                         </a>
                     </li>
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="500">
-                        <a href="/contact-us.php" class="menu__menuitem--menulink">
+                        <a href="javascript:;" class="menu__menuitem--menulink">
                             Food 
                         </a>
                     </li>
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="600">
-                        <a href="/dashboard.php" class="menu__menuitem--menulink">
+                        <a href="javascript:;" class="menu__menuitem--menulink">
                             Safety 
                         </a>
                     </li>
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="700">
-                        <a href="" class="menu__menuitem--menulink">
+                        <a href="javascript:;" class="menu__menuitem--menulink">
                             News 
                         </a>
                     </li>

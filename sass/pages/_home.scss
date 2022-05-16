@@ -27,15 +27,51 @@
     &__bg {
         position: absolute;
         inset: 0;
+        background-color: $grey-color-light2;
         picture {
             height: 100%;
             width: 100%;
+            @media #{$mob} {
+                display: none;
+            }
             img {
                 height: 100%;
                 width: 100%;
             }
         }
     }
+
+    &.inner--hero {
+        height: em(547);
+        .hero-home__container {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            .hero-home__text {
+                max-width: 28em;
+                text-align: left;
+                margin: 0;
+                padding-top: 0;
+                .h1 {
+                    font-size: em(65);
+                    color: $white-color;
+                    margin: 0;
+                    @media #{$mob} {
+                        font-size: 2.5em;
+                    }
+                }
+            }
+        }
+        & {
+            picture {
+                @media #{$mob} {
+                    display: block;
+                }
+            }
+        }
+    }
+
+
 }
 
 
@@ -45,6 +81,9 @@
         justify-content: space-between;
         .col-20 {
             align-self: flex-end;
+            .thm-btn {
+                margin-left: auto;
+            }
         }
     }
     &__title,

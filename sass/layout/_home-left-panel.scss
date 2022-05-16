@@ -7,6 +7,12 @@
         @media #{$ipadpro} {
             margin-left: 3.5em;
         }
+        &--inner {
+            margin-left: 0;
+            @media #{$tab} {
+                margin-bottom: 3em;
+            }
+        }
     }
     &__counter {
         list-style: none;

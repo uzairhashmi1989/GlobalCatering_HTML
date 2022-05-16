@@ -1,0 +1,171 @@
+
+
+.inner-first {
+    .h3 {
+        max-width: 23em;
+        margin-bottom: 2em;
+        @media #{$tab} {
+            margin-bottom: 0.5em;
+        }
+    }
+    .col-40 {
+        margin-left: auto;
+    }
+}
+
+
+
+// stroke figur main
+.stroke-figure__main {
+    .stroke-figure:nth-child(even) {
+        .twocol-row {
+            flex-direction: row-reverse;
+            .home-left-panel {
+                margin-left: 7em;
+                @media #{$tab} {
+                    margin-left: 0;
+                }
+            }
+        }
+        .stroke-figure__panel {
+            left: 0;
+            right: unset;
+            top: 50%;
+            bottom: unset;
+            transform: translateY(-50%);
+            @media #{$tab} {
+                top: unset;
+                transform: none;
+            }
+            &__stroke {
+                left: 100%;
+                right: unset;
+                span {
+                    writing-mode: vertical-lr;
+                }
+            }
+        }
+    }
+}
+
+.stroke-figure {
+    position: relative;
+    margin-bottom: 6em;
+    @media #{$tab} {
+        margin: 0;
+    }
+
+    &__panel {
+        position: absolute;
+        right: 0;
+        bottom: 12%;
+        @media #{$tab} {
+            position: relative;
+        }
+        &__img {
+            width: em(846);
+            @media #{$ipadpro} {
+                width: 33.875em;
+            }
+            @media #{$ipad} {
+                width: 26.875em;
+            }
+            @media #{$tab} {
+                margin: 0 auto;
+            }
+
+        }
+        &__stroke {
+            opacity: .2;
+            color: $black-color;
+            -webkit-text-fill-color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: $black-color;
+            position: absolute;
+            font-size: 6.875em;
+            top: 50%;
+            transform: translateY(-50%);
+            right: 100%;
+            font-family: var(--el-messeri);
+            width: 0.9em;
+            pointer-events: none;
+            @media #{$ipadpro} {
+                font-size: 3.875em;
+            }
+            @media #{$tab} {
+                display: none;
+            }
+            span {
+                writing-mode: vertical-lr;
+                line-height: 0.9;
+            }
+        }
+    }
+}
+
+
+// blue section
+.blue-section {
+    .stroke-figure {
+        margin: 0;
+    }
+    .stroke-figure__panel {
+        position: relative;
+        bottom: unset;
+        margin-left: auto;
+        width: em(682);
+        &__img {
+            width: auto;
+        }
+        &__stroke {
+            -webkit-text-stroke-color: $white-color;
+        }
+    }
+    .h3, p {
+        color: $white-color;
+    }
+
+    .twocol-row {
+        align-items: center;
+    }
+
+}
+
+// red section
+.red-section {
+    .stroke-figure {
+        margin: 0;
+        &__panel {
+            left: unset;
+            right: unset;
+            top: 50%;
+            bottom: unset;
+            transform: translateY(-50%);
+            position: absolute;
+            height: 100%;
+            &__img {
+                height: 100%;
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+            &__stroke {
+                left: 100%;
+                right: unset;
+                -webkit-text-stroke-color: $white-color;
+            }
+        }
+    }
+    .twocol-row {
+        flex-direction: row-reverse;
+    }
+    .home-left-panel {
+        margin-left: 7em;
+        .h3,p {
+            color: $white-color;
+        }
+
+        
+    }
+}
