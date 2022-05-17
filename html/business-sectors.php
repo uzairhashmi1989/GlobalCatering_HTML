@@ -144,8 +144,8 @@
         </section>
 
         <!-- red section -->
-        <section class="red-section">
-            <div class="stroke-figure  red-bg thm-py-175 ">
+        <section class="red-section red-bg">
+            <div class="stroke-figure thm-py-175 ">
                 <div class="container">
                     <div class="twocol-row">
                         <div class="col-50">

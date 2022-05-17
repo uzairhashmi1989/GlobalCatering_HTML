@@ -220,6 +220,16 @@ main {
     }
 }
 
+.thm-py-190 {
+    padding: em(190) 0;
+    @media #{$ipad} {
+        padding: 4.5em 0;
+    }
+    @media #{$mob} {
+        padding: 3.25em 0;
+    }
+}
+
 
 .thm-py-175 {
     padding: em(175) 0;
@@ -291,6 +301,10 @@ main {
     }
 }
 
+.thm-py-0 {
+    padding: 0;
+}
+
 
 
 
@@ -304,6 +318,18 @@ main {
         padding-bottom: 3.25em;
     }
 }
+
+.thm-pb-190 {
+    padding-bottom: em(190);
+    @media #{$ipad} {
+        padding-bottom: 4.5em;
+    }
+    @media #{$mob} {
+        padding-bottom: 3.25em;
+    }
+}
+
+
 
 
 .thm-pb-175 {
@@ -374,6 +400,10 @@ main {
     @media #{$mob} {
         padding-bottom: 3.25em;
     }
+}
+
+.thm-pb-0 {
+    padding-bottom: 0;
 }
 
 
