@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Catering | Business Sectors </title>
+    <title>Global Catering | About Us </title>
     <?php include 'includes/meta.php'; ?>
 </head>
 
@@ -20,13 +20,13 @@
         <section class="hero-home inner--hero">
             <div class="container hero-home__container">
                 <div class="hero-home__text">
-                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Business Sectors</h1>
+                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">About</h1>
                 </div>
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/bussiness-sectors/mob-banner.jpg">
-                    <img src="/assets/images/bussiness-sectors/banner.jpg" alt="banner image">
+                    <source media="(max-width: 767px)" srcset="/assets/images/about-us/mob-banner.jpg">
+                    <img src="/assets/images/about-us/banner.jpg" alt="banner image">
                 </picture>
             </div>
         </section>
@@ -35,10 +35,10 @@
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-100">
-                        <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">With 25 restaurants spread across in key locations in Dubai and Abu Dhabi, we at GCS do not restrict ourselves to a certain line of business.</h3>
+                        <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Global Catering Services or better known as GCS, founded in 2012, is one of the largest and fastest growing food inspired companies in the UAE.</h3>
                     </div>
                     <div class="col-40">
-                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300">Our services vary from acquiring quality restaurants, franchising, and developing appealing concepts of our own to cater the people of the MENA region. Also, our FMCG, Retail and Manufacturing division is responsible for producing renowned sweets and frozen food products, which are immensely popular in the region. The wholesale wing looks after general food products trading, in certain cases, GCS is sole distributor of specific products available in the UAE.</p>
+                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300">Global Catering Services or better known as GCS, founded in 2012, is one of the largest and fastest growing food inspired companies in the UAE. It serves as a significant F&B, retail. manufacturing and wholesale arm of the parent company. GCS started its celebrated journey with acquisition and introduction of renowned restaurants and eateries, which have since then become important culinary landmarks and an indispensable part of the food & beverage space in the UAE.</p>
                     </div>
                 </div>
             </div>

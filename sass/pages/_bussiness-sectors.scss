@@ -72,6 +72,8 @@
             }
             @media #{$tab} {
                 margin: 0 auto;
+                padding: 0 1em;
+                width: 100%;
             }
 
         }
@@ -114,6 +116,14 @@
         bottom: unset;
         margin-left: auto;
         width: em(682);
+        @media #{$ipad} {
+            width: 21.625em;
+        }
+        @media #{$tab} {
+            width: 100%;
+            margin: 0 auto;
+        }
+
         &__img {
             width: auto;
         }
@@ -143,6 +153,11 @@
             transform: translateY(-50%);
             position: absolute;
             height: 100%;
+            @media #{$tab} {
+                position: relative;
+                top: unset;
+                transform: none;
+            }
             &__img {
                 height: 100%;
                 img {
@@ -162,6 +177,9 @@
     }
     .home-left-panel {
         margin-left: 7em;
+        @media #{$tab} {
+            margin-left: 0;
+        }
         .h3,p {
             color: $white-color;
         }
