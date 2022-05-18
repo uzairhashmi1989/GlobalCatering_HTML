@@ -13,6 +13,24 @@
     }
 }
 
+.contact-us-body {
+    .inner-first {
+        padding-bottom: em(410);
+        @media #{$tab} {
+            padding-bottom: 15em;
+        }
+    }
+}
+
+.news-body {
+    .inner-first {
+        padding-bottom: em(218);
+        @media #{$tab} {
+            padding-bottom: 15em;
+        }
+    }
+}
+
 
 
 // stroke figur main
@@ -143,12 +161,27 @@
         .stroke-figure__panel {
             width: em(652);
             margin-left: 0;
+            margin-top: em(-150);
+            @media #{$ipadpro} {
+                width: 90%;
+                margin-top: 0;
+            }
+            @media #{$tab} {
+                margin: 0 auto 2em;
+            }
+            @media #{$mob} {
+                width: 100%;
+            }
+
             &__stroke {
                 display: none;
             }
         }
         p {
             color: $primary-color;
+        }
+        .home-left-panel__para-btn--inner {
+            max-width: 46em;
         }
 
     }
@@ -216,6 +249,12 @@
         }
         .stroke-figure__panel__img {
             width: em(960);
+            @media #{$ipadpro} {
+                width: 33em;
+            }
+            @media #{$ipad} {
+                width: 26em;
+            }
         }
     }
 }

@@ -74,10 +74,10 @@
         </section>
 
         <!-- simple center text section -->
-        <section class="simple-center thm-py-90 thm-pb-120 thm-pb-0">
+        <section class="simple-center thm-py-90 thm-pb-120 gray-bg">
             <div class="container">
                 <div class="simple-center__wrapper">
-                    <h3>GCS aims at renovating many more brands in the future and reinstating them with a touch of their signature flair, in the hopes of providing vibrant and multi-cultural residents of the UAE a taste of the best. GCS strives to constantly reach the demands of the ever-growing F&B market of the UAE, while maintaining the quality of service.</h3>
+                    <h3 class="animate" data-animation="animate__fadeInUp" data-duration="200">GCS aims at renovating many more brands in the future and reinstating them with a touch of their signature flair, in the hopes of providing vibrant and multi-cultural residents of the UAE a taste of the best. GCS strives to constantly reach the demands of the ever-growing F&B market of the UAE, while maintaining the quality of service.</h3>
                 </div>
             </div>
         </section>
@@ -107,16 +107,14 @@
                             </div>
                         </div>                   
                     </div>
-                </div>
-
-                
+                </div>               
             </div>         
         </section>
 
         <section class="simple-center simple-center--red thm-py-190 ">
             <div class="container">
                 <div class="simple-center__wrapper">
-                    <p> <strong>GCS provides an extraordinary experience to its customers, ensuring complete satisfaction.</strong> 
+                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> <strong>GCS provides an extraordinary experience to its customers, ensuring complete satisfaction.</strong> 
                         The group also boasts of a manufacturing and wholesale wing under Meera Al Sham Global, consisting of brands such as Diwan Al Muhanna, Malaza and Lebanese Roaster, while Golden Sands is responsible for the distribution network under the group. Global Catering Services is working aggressively to expand their FMCG division, along with the introduction of new manufactured products.</p>
                 </div>
             </div>
@@ -124,6 +122,28 @@
                 <img src="/assets/images/about-us/red-bg.jpg" alt="GCS figure">
             </div>
         </section>
+
+        <!-- with title and btn -->
+        <!-- <section class="simple-center simple-center--red simple-center--red--btn thm-py-190 ">
+            <div class="container">
+                <div class="simple-center__wrapper">
+                    <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Contact Us</h3>
+                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> <strong>GCS provides an extraordinary experience to its customers, ensuring complete satisfaction.</strong> 
+                        The group also boasts of a manufacturing and wholesale wing under Meera Al Sham Global, consisting of brands such as Diwan Al Muhanna, Malaza and Lebanese Roaster, while Golden Sands is responsible for the distribution network under the group. Global Catering Services is working aggressively to expand their FMCG division, along with the introduction of new manufactured products.</p>
+                    <a href="javascript:;" class="thm-btn thm-btn--white animate" data-animation="animate__fadeInUp" data-duration="200">
+                        <span class="thm-btn__text">Read more</span>
+                        <span class="thm-btn__icon">
+                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                        </span>
+                    </a>
+                </div>
+            </div>
+            <div class="simple-red-bg">
+                <img src="/assets/images/about-us/red-bg.jpg" alt="GCS figure">
+            </div>
+        </section> -->
+
+
 
         <!-- cta -->
         <?php include 'includes/follow-us.php'; ?>

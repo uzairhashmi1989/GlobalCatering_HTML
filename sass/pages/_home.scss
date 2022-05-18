@@ -63,6 +63,13 @@
             }
         }
         & {
+            .hero-home__bg::before {
+                content: "";
+                position: absolute;
+                inset: 0;
+                background: linear-gradient(90.1deg, rgba(0, 0, 0, 0.32) 0.84%, rgba(0, 0, 0, 0.09) 97.23%);
+                z-index: 0;
+            }
             picture {
                 @media #{$mob} {
                     display: block;
@@ -307,8 +314,12 @@
             }
         }
     }
-    .thm-btn {
-        margin: 0 auto;
+    .container {
+        > {
+            .thm-btn {
+                margin: 0 auto;
+            }
+        }
     }
 }
 
