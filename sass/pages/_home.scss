@@ -113,10 +113,9 @@
             left: 50%;
             transform: translateX(-120%);
             top: 16%;
-            // z-index: 1;
-            &--yellow {
+
+            &--abu-dhabi {
                 left: 65%;
-                // z-index: 0;
                 .hero-home__locations__pin {
                     background-color: $yellow-color;
                 }
@@ -136,8 +135,33 @@
                 }
             }
 
+            &--cairo {
+                left: 59.6%;
+                top: 39%;
+                .hero-home__locations__pin {
+                    background-color: $red-color;
+                }
+                .hero-home__locations__pin {
+                    + .hero-home__locations__popup {
+                        .hero-home__locations__popup__title {
+                            background-color: $red-color;
+                        }
+                    }
+                    .hero-home__locations__pin__pool::before {
+                        background-color: $red-color;
+                    }
+                    .hero-home__locations__pin__pool::after {
+                        animation: heartbeat__red 1s ease-in-out 0s infinite alternate;
+                    }
+
+                }
+            }
+
+
+
             &.width-imp {
                 width: 455px;
+                z-index: 99;
             }
         }
 
@@ -148,7 +172,7 @@
             transform: translateX(-50%);
             background: var(--green-color);
             color: var(--white-color);
-            padding: 0.5em 1em;
+            padding: 0.5em 0;
             border-radius: 3px;
             min-width: 8.5em;
             text-align: center;
@@ -329,6 +353,17 @@
         box-shadow: 0 0 0 6px $yellow-color;
     }
 }
+
+@keyframes heartbeat__red {
+    from {
+        box-shadow: 0 0 0 2px $red-color;
+    }
+    to {
+        box-shadow: 0 0 0 6px $red-color;
+    }
+}
+
+
 
 
 // food bussiness
