@@ -25,8 +25,8 @@
             </div>
             <div class="hero-home__bg before-bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/news/mob-banner.jpg">
-                    <img src="/assets/images/news/banner.jpg" alt="banner image">
+                    <source media="(max-width: 767px)" srcset="/assets/images/news-listing/mob-banner.jpg">
+                    <img src="/assets/images/news-listing/banner.jpg" alt="banner image">
                 </picture>
             </div>
         </section>
@@ -74,7 +74,7 @@
                     </div>
                 </div>
                 <div class="img-wrapper">
-                    <img src="/assets/images/news/news-listing.jpg" alt="">
+                    <img src="/assets/images/news-listing/news-listing.jpg" alt="">
                 </div>
                 <div class="bottom-area">
                     <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Catering equipment for 16 years.</h3>
@@ -85,27 +85,27 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="img-wrapper">
-                                    <img src="/assets/images/news/1.jpg" alt="">
+                                    <img src="/assets/images/news-listing/1.jpg" alt="">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="img-wrapper">
-                                    <img src="/assets/images/news/2.jpg" alt="">
+                                    <img src="/assets/images/news-listing/2.jpg" alt="">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="img-wrapper">
-                                    <img src="/assets/images/news/3.jpg" alt="">
+                                    <img src="/assets/images/news-listing/3.jpg" alt="">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="img-wrapper">
-                                    <img src="/assets/images/news/4.jpg" alt="">
+                                    <img src="/assets/images/news-listing/4.jpg" alt="">
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="img-wrapper">
-                                    <img src="/assets/images/news/5.jpg" alt="">
+                                    <img src="/assets/images/news-listing/5.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -131,7 +131,7 @@
                         <div class="col-50">
                             <div class="stroke-figure__panel">
                                 <div class="stroke-figure__panel__img img__observer__one">
-                                    <img src="/assets/images/news/handling.jpg" alt="restaurant" class="observer__child">
+                                    <img src="/assets/images/news-listing/handling.jpg" alt="restaurant" class="observer__child">
                                 </div>
                             </div>
                         </div>
@@ -142,39 +142,28 @@
             </div>
         </section>
 
-        <section class="flex-reverse">
-            <div class="stroke-figure  thm-py-75">
-                <div class="container">
-                    <div class="twocol-row">
-                        <div class="col-40">
-                            <div class="home-left-panel">
-                                <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">Handling <span class="small-number">01</span></h3>
-                                <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> According to The Food Standards Industry, most food contamination occurs during food handling, and is entirely preventable. For the catering industry, it’s recommended that each member of the team have a Food Handler Certification in order to ensure everyone is properly trained in food safe practices, but it’s not mandatory.</p>
-                                    <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
-                                        <span class="thm-btn__text">Read more</span>
-                                        <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
-                                        </span>
-                                    </a>
-                                </div>
+        <section class="preparations">
+            <div class="container">
+                <div class="twocol-row">
+                    <div class="col-50">
+                        <div class="img-wrapper before-bg">
+                            <img src="/assets/images/news-listing/video-banner.jpg" alt="">
+                            <div class="video-icon">
+                                <a href="#">
+                                    <img src="/assets/svg/youtube.svg" class="svg-convert" alt="">
+                                </a>
                             </div>
                         </div>
                     </div>
-                </div>
-                <div class="stroke-figure__panel">
-                    <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="/assets/images/food-safety/meat-shop.jpg" alt="restaurant" class="observer__child">
-                    </div>
-                    <div class="stroke-figure__panel__stroke">
-                        <span>Handling</span>
+                    <div class="col-50">
+                        <div class="content-wrapper">
+                            <h3 class="h3">Preparation</h3>
+                            <p>Just as mentioned in regards to cross contamination dangers, prepare vegetables and meats on separate boards. In catering you’ll often need to prepare food ahead of time, but if you’re chilling and storing that food, make sure you know the correct temperatures at which to store the food, and use correct storage methods. Never prepare foods...</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
-
-
-
 
 
         <!-- cta -->
