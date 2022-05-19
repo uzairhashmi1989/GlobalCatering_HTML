@@ -36,6 +36,215 @@
                     <img src="/assets/images/home/banner.jpg" alt="banner image">
                 </picture>
             </div>
+            <div class="hero-home__locations">
+
+                <div class="hero-home__locations__map">
+                    <div class="hero-home__locations__pin">
+                        <span>London, UK</span>
+                        <span class="hero-home__locations__pin__pool"></span>
+                    </div>
+                    <div class="hero-home__locations__popup hide animate" data-animation="animate__zoomIn" data-duration="200">
+                        <div class="hero-home__locations__popup__title">
+                            <h4 class="h4">London, UK</h4>
+                            <span class="icon">
+                                <img src="/assets/svg/cross-icon.svg" alt="icon" width="9" height="8">
+                            </span>
+                        </div>
+
+                        <div class="hero-home__locations__popup__scroll malihu-scroll">
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title active">
+                                    <h5 class="h5">Global Catering Services</h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Yas Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Abu Dhabi Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Bosporus</h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Yas Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Zahrat Lebnan</h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Yas Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Nasr Grill TCA </h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Yas Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-home__locations__map hero-home__locations__map--yellow ">
+                    <div class="hero-home__locations__pin">
+                        <span>Abu Dhabi, UAE</span>
+                        <span class="hero-home__locations__pin__pool"></span>
+                    </div>
+                    <div class="hero-home__locations__popup hide animate" data-animation="animate__zoomIn" data-duration="200">
+                        <div class="hero-home__locations__popup__title">
+                            <h4 class="h4">Abu Dhabi, UAE</h4>
+                            <span class="icon">
+                                <img src="/assets/svg/cross-icon.svg" alt="icon" width="9" height="8">
+                            </span>
+                        </div>
+
+                        <div class="hero-home__locations__popup__scroll malihu-scroll">
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title active">
+                                    <h5 class="h5">Global Catering Services</h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Yas Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Abu Dhabi Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Bosporus</h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Yas Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Zahrat Lebnan</h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Yas Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Nasr Grill TCA </h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Yas Mall</span>
+                                            <span>
+                                                <a href="/">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
         <!-- food bussiness -->

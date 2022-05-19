@@ -62,24 +62,24 @@
                                     <div class="col-50">
                                         <div class="lets-connect__form__field">
                                             <label for="">last Name</label>
-                                            <input type="text" placeholder="Enter Your Name">
+                                            <input type="text" placeholder="Enter Your last Name">
                                         </div>
                                     </div>
                                     <div class="col-50">
                                         <div class="lets-connect__form__field">
                                             <label for="">Email</label>
-                                            <input type="text" placeholder="Enter Your Name">
+                                            <input type="email" placeholder="Enter Your Email Address">
                                         </div>
                                     </div>
                                     <div class="col-50">
                                         <div class="lets-connect__form__field">
                                             <label for="">Phone Number</label>
-                                            <input type="text" placeholder="Enter Your Name">
+                                            <input type="tel" placeholder="Enter Your Phone Number">
                                         </div>
                                     </div>
                                     <div class="col-100">
                                         <div class="lets-connect__form__field">
-                                            <label for="">Phone Number</label>
+                                            <label for="">Your Message</label>
                                             <textarea name="" id="" cols="" rows="" placeholder="Enter Your Message"></textarea>
                                         </div>
                                     </div>
