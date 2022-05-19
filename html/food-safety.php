@@ -23,7 +23,7 @@
                     <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Food Safety</h1>
                 </div>
             </div>
-            <div class="hero-home__bg before-bg">
+            <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/food-safety/mob-banner.jpg">
                     <img src="/assets/images/food-safety/banner.jpg" alt="banner image">
