@@ -6,7 +6,7 @@
         max-width: 64em;
         text-align: center;
         margin: 0 auto;
-        padding-top: em(70);
+        padding-top: em(56);
 
         p {
             padding: 0 5em;
@@ -136,8 +136,30 @@
             }
 
             &--cairo {
-                left: 59.6%;
-                top: 39%;
+                left: 60%;
+                top: 29%;
+                .hero-home__locations__pin {
+                    background-color: $purple-color;
+                }
+                .hero-home__locations__pin {
+                    + .hero-home__locations__popup {
+                        .hero-home__locations__popup__title {
+                            background-color: $purple-color;
+                        }
+                    }
+                    .hero-home__locations__pin__pool::before {
+                        background-color: $purple-color;
+                    }
+                    .hero-home__locations__pin__pool::after {
+                        animation: heartbeat__purple 1s ease-in-out 0s infinite alternate;
+                    }
+
+                }
+            }
+
+            &--dubai {
+                left: 67.6%;
+                top: 29%;
                 .hero-home__locations__pin {
                     background-color: $red-color;
                 }
@@ -152,6 +174,72 @@
                     }
                     .hero-home__locations__pin__pool::after {
                         animation: heartbeat__red 1s ease-in-out 0s infinite alternate;
+                    }
+
+                }
+            }
+
+            &--sharjah {
+                left: 68.2%;
+                top: 43%;
+                .hero-home__locations__pin {
+                    background-color: $purple-color;
+                }
+                .hero-home__locations__pin {
+                    + .hero-home__locations__popup {
+                        .hero-home__locations__popup__title {
+                            background-color: $purple-color;
+                        }
+                    }
+                    .hero-home__locations__pin__pool::before {
+                        background-color: $purple-color;
+                    }
+                    .hero-home__locations__pin__pool::after {
+                        animation: heartbeat__purple 1s ease-in-out 0s infinite alternate;
+                    }
+
+                }
+            }
+
+            &--dammam {
+                left: 64.2%;
+                top: 52.5%;
+                .hero-home__locations__pin {
+                    background-color: $red-color;
+                }
+                .hero-home__locations__pin {
+                    + .hero-home__locations__popup {
+                        .hero-home__locations__popup__title {
+                            background-color: $red-color;
+                        }
+                    }
+                    .hero-home__locations__pin__pool::before {
+                        background-color: $red-color;
+                    }
+                    .hero-home__locations__pin__pool::after {
+                        animation: heartbeat__red 1s ease-in-out 0s infinite alternate;
+                    }
+
+                }
+            }
+
+            &--al-ain {
+                left: 68.2%;
+                top: 63%;
+                .hero-home__locations__pin {
+                    background-color: $green-color;
+                }
+                .hero-home__locations__pin {
+                    + .hero-home__locations__popup {
+                        .hero-home__locations__popup__title {
+                            background-color: $green-color;
+                        }
+                    }
+                    .hero-home__locations__pin__pool::before {
+                        background-color: $green-color;
+                    }
+                    .hero-home__locations__pin__pool::after {
+                        animation: heartbeat__green 1s ease-in-out 0s infinite alternate;
                     }
 
                 }
@@ -174,7 +262,7 @@
             color: var(--white-color);
             padding: 0.5em 0;
             border-radius: 3px;
-            min-width: 8.5em;
+            min-width: 8em;
             text-align: center;
             cursor: pointer;
 
@@ -362,6 +450,17 @@
         box-shadow: 0 0 0 6px $red-color;
     }
 }
+
+@keyframes heartbeat__purple {
+    from {
+        box-shadow: 0 0 0 2px $purple-color;
+    }
+    to {
+        box-shadow: 0 0 0 6px $purple-color;
+    }
+}
+
+
 
 
 
