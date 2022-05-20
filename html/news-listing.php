@@ -168,6 +168,75 @@
             </div>
         </section>
 
+        <!-- in the news -->
+        <section class="news news--listing  thm-py-65 thm-pb-90">
+            <div class="container">
+                <div class="home-left-panel">
+                    <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200"> Similar News </h3>
+                </div>
+                <div class="news__slider">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="news__box">
+                                    <div class="news__box__figure">
+                                        <img src="/assets/images/home/news-1.jpg" alt="news">
+                                    </div>
+                                    <div class="news__box__text-content">
+                                        <span class="date">Jan 15, 2022</span>
+                                        <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
+                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                            <span class="thm-btn__text">Read more</span>
+                                            <span class="thm-btn__icon">
+                                                <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="news__box">
+                                    <div class="news__box__figure">
+                                        <img src="/assets/images/home/news-2.jpg" alt="news">
+                                    </div>
+                                    <div class="news__box__text-content">
+                                        <span class="date">Jan 15, 2022</span>
+                                        <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
+                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                            <span class="thm-btn__text">Read more</span>
+                                            <span class="thm-btn__icon">
+                                                <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="news__box">
+                                    <div class="news__box__figure">
+                                        <img src="/assets/images/home/news-3.jpg" alt="news">
+                                    </div>
+                                    <div class="news__box__text-content">
+                                        <span class="date">Jan 15, 2022</span>
+                                        <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
+                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                            <span class="thm-btn__text">Read more</span>
+                                            <span class="thm-btn__icon">
+                                                <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+            </div>
+        </section>
+
 
         <!-- cta -->
         <?php include 'includes/follow-us.php'; ?>

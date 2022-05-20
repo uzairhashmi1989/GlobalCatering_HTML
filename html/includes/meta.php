@@ -4,9 +4,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.css" />
 <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="/assets/css/jquery.jqplot.min.css">
 
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<!-- <link rel="stylesheet" href="/assets/css/jquery.jqplot.min.css"> -->
+
+<link rel="icon" type="image/x-icon" href="/favicon.png">
 
 <!-- normal Custom CSS -->
 <link rel="stylesheet" href="/assets/css/custom.min.css">

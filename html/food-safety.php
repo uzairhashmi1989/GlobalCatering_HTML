@@ -119,7 +119,7 @@
                                 <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">Hygiene <span class="small-number">03</span></h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> Most caterers know how to keep a hygienic kitchen and serving station, but with the rush of an event, hygiene can slip in favour of fast service. However, it’s important to wash hands and surfaces often, keep away pests, and make sure...</p>
-                                    <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
+                                    <a href="javascript:;" class="thm-btn thm-btn--gray animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
                                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">

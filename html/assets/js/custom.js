@@ -83,6 +83,10 @@ $(document).ready(function () {
                 el: ".news__slider .swiper-pagination",
                 clickable: true
             },
+            navigation: {
+                nextEl: '.news__slider .swiper-button-next',
+                prevEl: '.news__slider .swiper-button-prev',
+            },
             breakpoints: {
                 576: {
                     slidesPerView: 2,
@@ -271,6 +275,50 @@ $(window).scroll(function () {
     }
 });
 // Sticky Header----------------End
+
+
+// hero accordion
+$(function() {
+    $('.hero-home__locations__popup__card__title').on('click', function(j) {
+        var dropDown = $(this).closest('.hero-home__locations__popup__card').find('.hero-home__locations__popup__card__panel');
+        $(this).closest('.hero-home__locations__popup__scroll').find('.hero-home__locations__popup__card__panel').not(dropDown).slideUp();
+        
+        if ($(this).hasClass('active')) {
+          $(this).removeClass('active');
+        } else {
+          $(this).closest('.hero-home__locations__popup__scroll').find('.hero-home__locations__popup__card__title.active').removeClass('active');
+          $(this).addClass('active');
+        }
+        
+        dropDown.stop(false, true).slideToggle();
+        j.preventDefault();
+         
+    });
+});
+
+// hero map popup
+$(function() {
+    $(".hero-home__locations__pin").on('click', function(e) {
+        e.stopPropagation();
+        $('.hero-home__locations__popup').addClass('hide');
+        $(this).siblings('.hide').removeClass('hide');
+        $('.hero-home__locations__pin').removeClass('active');
+        $(this).addClass("active");
+        $('.hero-home__locations__map').removeClass('width-imp');
+        $(this).parents('.hero-home__locations__map').addClass('width-imp');
+    });
+
+    $('.icon').on('click', function(e) {
+        e.stopPropagation();
+        $(this).parents('.hero-home__locations__popup').addClass('hide');
+        $(this).parents('.hero-home__locations__map').find(".hero-home__locations__pin").removeClass('active');
+        $(this).parents('.hero-home__locations__map').removeClass('width-imp');
+    });
+
+
+});
+
+
 
 
 
