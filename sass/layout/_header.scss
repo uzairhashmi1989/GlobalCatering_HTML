@@ -82,9 +82,11 @@
             }
             .header-searh-icon {
                 cursor: pointer;
+                position: relative;
                 svg {
                     path {
-                        transition: $transition-ease;
+                        // transition: $transition-ease;
+                        fill: $black-color;
                     }
                 }
                 &:hover {
@@ -92,7 +94,73 @@
                         fill: $red-color;
                     }
                 }
+
+                .search-bar {
+                    position: absolute;
+                    top: 4em;
+                    z-index: 999;
+                    min-width: 18.75em;
+                    right: 0;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: all .3s linear;
+                    &__form {
+                        border: 2px solid $yellow-color;
+                        position: relative;
+                        form {
+                            width: 100%;
+                            input {
+                                padding: 1em 3.5em 1em 1em;
+                                width: 100%;
+                                border: none;
+                                &:focus,
+                                &:focus-visible {
+                                    outline: 0;
+                                }
+                            }
+                        }
+
+                        &__btn {
+                            position: absolute;
+                            right: 1em;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            cursor: pointer;
+                            z-index: 2;
+                            background: 0 0;
+                            border: none;
+                        } 
+                    }
+
+                    &.search-bar--open {
+                        opacity: 1;
+                        visibility: visible;
+                        top: 4em;
+                    }
+                }
+
+                .search-icon-2 {
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+                    visibility: hidden;
+                }
+
+                .search-icon-1 {
+                    visibility: hidden;
+                }
+
+                .icon-show {
+                    visibility: visible;
+                }
+
+
             }
+
+
         }
     }
 
@@ -124,7 +192,3 @@ header .brand-logo {
 
 
 
-.no-home {
-
-    
-}

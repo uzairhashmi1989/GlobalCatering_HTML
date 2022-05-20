@@ -26,10 +26,50 @@
             margin-bottom: 1em;
         }
         li {
-            flex: 0 0 auto;
+            flex: 0 1 25%;
+            width: 25%;
             padding: 0 em(12);
-            width: auto;
             text-align: center;
+            position: relative;
+            @media #{$ipad} {
+                flex: 0 1 50%;
+                width: 50%;
+            }
+            
+            &:first-child::before,
+            &:last-child::before {
+                content: "+";
+                position: absolute;
+                font-size: em(50);
+                right: -0.3em;
+                font-weight: 700;
+                color: $blue-color;
+                font-family: var(--el-messeri);
+                @media #{$ipadpro} {
+                    right: -0.8em;
+                }
+                @media #{$ipad} {
+                    right: 0;
+                }
+
+                @media #{$mob} {
+                    right: -0.2em;
+                }
+
+            }
+            &:last-child::before {
+                right: 0.38em;
+                @media #{$ipadpro} {
+                    right: 0.2em;
+                }
+                @media #{$ipad} {
+                    right: 0.9em;
+                }
+                @media #{$mob} {
+                    right: 0.6em;
+                }
+
+            }
             @media #{$ipad} {
                 margin-bottom: 2em;
             }    

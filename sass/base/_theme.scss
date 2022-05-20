@@ -149,6 +149,12 @@ a {
     text-decoration: none;
 }
 
+input:focus,
+input:focus-visible {
+    outline: none;
+}
+
+
 main {
     position: relative;
 }

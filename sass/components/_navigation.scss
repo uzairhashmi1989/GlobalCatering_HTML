@@ -281,9 +281,9 @@
             @media #{$ipad} {
                 color: $white-color;
             }
-            &.active {
-                // color: $yellow-color;
-            }
+
+            
+
             &:hover {
                 color: $red-color;
             }
@@ -301,6 +301,9 @@
                 }
             }
             &:hover::before {
+                transform: scaleX(1);
+            }
+            &.active::before {
                 transform: scaleX(1);
             }
         }

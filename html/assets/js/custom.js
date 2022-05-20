@@ -187,9 +187,10 @@ $(document).ready(function () {
 
     // tabs active
     var path = window.location.pathname.split("/").pop();
-    var target = $('.newsroom-tabs__row > a[href="/' + path + '"]');
+    // var target = $('.newsroom-tabs__row > a[href="/' + path + '"]');
+    // target.addClass('tab-active');
+
     var target2 = $('.menu__menuitem--menulink[href="/' + path + '"]');
-    target.addClass('tab-active');
     target2.addClass('active');
 
 
@@ -230,12 +231,29 @@ $(document).ready(function () {
     });
 
 
+    // search bar
+    $(".header--right__cta__search").on("click", function(e) {
+        e.stopPropagation();
+        $(this).siblings(".search-bar").toggleClass("search-bar--open");
+        if($(this).find(".search-icon-1").hasClass("icon-show")) {
+            $(".search-icon-1").removeClass("icon-show");
+            $(".search-icon-2").addClass("icon-show");
+        }
+        else {
+            $(".search-icon-1").addClass("icon-show");
+            $(".search-icon-2").removeClass("icon-show");
+        }
+    });
 
 
 
-
+    $('.count-num').counterUp({
+        delay: 10,
+        time: 1500
+    });    
 
 });
+
 
 
 

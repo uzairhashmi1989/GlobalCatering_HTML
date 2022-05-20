@@ -37,8 +37,9 @@
                 </picture>
             </div>
             <div class="hero-home__locations">
-
-                <div class="hero-home__locations__map">
+                
+                <!-- London, UK -->
+                <div class="hero-home__locations__map animate" data-animation="animate__zoomIn" data-duration="200">
                     <div class="hero-home__locations__pin">
                         <span>London, UK</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -142,7 +143,7 @@
                 </div>
                 
                 <!-- Abu Dhabi, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--abu-dhabi ">
+                <div class="hero-home__locations__map hero-home__locations__map--abu-dhabi animate" data-animation="animate__zoomIn" data-duration="300">
                     <div class="hero-home__locations__pin">
                         <span>Abu Dhabi, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -246,7 +247,7 @@
                 </div>
 
                 <!-- Cairo, Egypt -->
-                <div class="hero-home__locations__map hero-home__locations__map--cairo ">
+                <div class="hero-home__locations__map hero-home__locations__map--cairo animate" data-animation="animate__zoomIn" data-duration="400">
                     <div class="hero-home__locations__pin">
                         <span>Cairo, Egypt</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -350,7 +351,7 @@
                 </div>
 
                 <!-- Dubai, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--dubai ">
+                <div class="hero-home__locations__map hero-home__locations__map--dubai animate" data-animation="animate__zoomIn" data-duration="500">
                     <div class="hero-home__locations__pin">
                         <span>Dubai, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -455,7 +456,7 @@
 
 
                 <!-- Sharjah, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--sharjah ">
+                <div class="hero-home__locations__map hero-home__locations__map--sharjah animate" data-animation="animate__zoomIn" data-duration="600">
                     <div class="hero-home__locations__pin">
                         <span>Sharjah, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -560,7 +561,7 @@
 
 
                 <!-- Dammam, KSA -->
-                <div class="hero-home__locations__map hero-home__locations__map--dammam ">
+                <div class="hero-home__locations__map hero-home__locations__map--dammam animate" data-animation="animate__zoomIn" data-duration="700">
                     <div class="hero-home__locations__pin">
                         <span>Dammam, KSA</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -664,7 +665,7 @@
                 </div>
 
                 <!-- Al Ain, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--al-ain ">
+                <div class="hero-home__locations__map hero-home__locations__map--al-ain animate" data-animation="animate__zoomIn" data-duration="800">
                     <div class="hero-home__locations__pin">
                         <span>Al Ain, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -1021,19 +1022,19 @@
                                 <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Established in 1980, the United Al Saqer Group (UASG) LLC is one of the leading multi-sector business groups in the United Arab Emirates. The UASG owns and operates a diverse yet complementary portfolio of UAE-based companies.</p>
                                 <ul class="home-left-panel__counter">
                                     <li>
-                                        <span class="home-left-panel__counter__value">4,000+</span>
+                                        <span class="home-left-panel__counter__value count-num ">4,000</span>
                                         <h6 class="home-left-panel__counter__title">Employees</h6>
                                     </li>
                                     <li>
-                                        <span class="home-left-panel__counter__value">16</span>
+                                        <span class="home-left-panel__counter__value count-num">16</span>
                                         <h6 class="home-left-panel__counter__title">Countries</h6>
                                     </li>
                                     <li>
-                                        <span class="home-left-panel__counter__value">42</span>
+                                        <span class="home-left-panel__counter__value count-num ">42</span>
                                         <h6 class="home-left-panel__counter__title">Years</h6>
                                     </li>
                                     <li>
-                                        <span class="home-left-panel__counter__value">55+</span>
+                                        <span class="home-left-panel__counter__value count-num ">55</span>
                                         <h6 class="home-left-panel__counter__title">Brands</h6>
                                     </li>
                                 </ul>

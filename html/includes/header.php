@@ -9,27 +9,24 @@
                         </a>
                     </li>
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="300">
-                        <a href="javascript:" class="menu__menuitem--menulink">
+                        <a href="/about-us.php" class="menu__menuitem--menulink">
                             About
                         </a>
                     </li>
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="400">
-                        <a href="javascript:;" class="menu__menuitem--menulink">
+                        <a href="/business-sectors.php" class="menu__menuitem--menulink">
                             Business Sectors
                         </a>
                     </li>
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="500">
-                        <a href="javascript:;" class="menu__menuitem--menulink">
-                            Food 
+                        <a href="/food-safety.php" class="menu__menuitem--menulink">
+                            Food Safety 
                         </a>
                     </li>
+
+
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="600">
-                        <a href="javascript:;" class="menu__menuitem--menulink">
-                            Safety 
-                        </a>
-                    </li>
-                    <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="700">
-                        <a href="javascript:;" class="menu__menuitem--menulink">
+                        <a href="/news.php" class="menu__menuitem--menulink">
                             News 
                         </a>
                     </li>
@@ -47,7 +44,22 @@
                     <a href="/">Ar</a>
                 </div>
                 <div class="header-searh-icon animate" data-animation="animate__fadeInUp" data-duration="1000">
-                    <img src="/assets/svg/search-icon.svg" alt="search" width="20" height="20" class="svg-convert">
+                    <a class="menu-item header--right__cta__search" href="javacript:;" role="button">
+                        <span class="search-wrapper">
+                            <img src="/assets/svg/search-icon.svg" alt="icon" class="svg-convert search-icon-1 icon-show" width="20" height="20">
+                            <img src="/assets/svg/x-lg.svg" alt="icon" class="svg-convert search-icon-2" width="20" height="20">
+                        </span>
+                    </a>
+                    <div class="search-bar">                  
+                        <div class="search-bar__form">
+                            <form>
+                                <input type="search" placeholder="Enter keyword (s)">
+                            </form>
+                            <button class="search-bar__form__btn">
+                                <img src="/assets/svg/search-icon.svg" alt="search icon" width="20" height="20">
+                            </button>
+                        </div>                
+                    </div>
                 </div>
             </div>
 
