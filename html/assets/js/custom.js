@@ -83,6 +83,10 @@ $(document).ready(function () {
                 el: ".news__slider .swiper-pagination",
                 clickable: true
             },
+            navigation: {
+                nextEl: '.news__slider .swiper-button-next',
+                prevEl: '.news__slider .swiper-button-prev',
+            },
             breakpoints: {
                 576: {
                     slidesPerView: 2,

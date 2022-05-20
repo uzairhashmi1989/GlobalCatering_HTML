@@ -48,37 +48,37 @@
                 <div class="main-wrapper">
                     <div class="left-wrapper">
                         <ul>
-                            <li>
+                            <li class="animate" data-animation="animate__fadeInUp" data-duration="300">
                                 <img src="/assets/svg/calender.svg" alt=""> <span>Jan 15, 2022</span>
                             </li>
-                            <li>
+                            <li class="animate" data-animation="animate__fadeInUp" data-duration="400">
                                 <img src="/assets/svg/other.svg" alt=""> <span>Other, Creative</span>
                             </li>
                         </ul>
                     </div>
                     <div class="right-wrapper">
                         <div class="cta__social__icons">
-                            <p>Share:</p>
-                            <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="200">
+                            <p class="animate" data-animation="animate__fadeInUp" data-duration="500">Share:</p>
+                            <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="600">
                                 <img src="/assets/svg/social/c-instagram.svg" alt="instagram" target="_blank" title="instagram">
                             </a>
 
-                            <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="300">
+                            <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="700">
                                 <img src="/assets/svg/social/c-facebook.svg" alt="facebook" target="_blank" title="facebook">
                             </a>
 
-                            <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="400">
+                            <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="800">
                                 <img src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="img-wrapper">
+                <div class="img-wrapper animate" data-animation="animate__fadeIn" data-duration="200">
                     <img src="/assets/images/news-listing/news-listing.jpg" alt="">
                 </div>
                 <div class="bottom-area">
                     <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Catering equipment for 16 years.</h3>
-                    <p>Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timed. Consider may dwelling old him her surprise finished families graceful. Gave led past poor met fine was new.Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timed. Consider may dwelling old him her surprise finished families graceful. Gave led past poor met fine was new.</p>
+                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300">Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timed. Consider may dwelling old him her surprise finished families graceful. Gave led past poor met fine was new.Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timed. Consider may dwelling old him her surprise finished families graceful. Gave led past poor met fine was new.</p>
                 </div>
                 <div class="listing-slider">
                     <div class="swiper">
@@ -146,21 +146,93 @@
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-50">
-                        <div class="img-wrapper before-bg">
+                        <div class="img-wrapper before-bg animate" data-animation="animate__fadeIn" data-duration="200">
                             <img src="/assets/images/news-listing/video-banner.jpg" alt="">
                             <div class="video-icon">
                                 <a href="#">
                                     <img src="/assets/svg/youtube.svg" class="svg-convert" alt="">
                                 </a>
                             </div>
+                            <div class="stroke-figure__panel__stroke">
+                                <span>Preparation</span>
+                            </div>
                         </div>
                     </div>
                     <div class="col-50">
                         <div class="content-wrapper">
-                            <h3 class="h3">Preparation</h3>
-                            <p>Just as mentioned in regards to cross contamination dangers, prepare vegetables and meats on separate boards. In catering you’ll often need to prepare food ahead of time, but if you’re chilling and storing that food, make sure you know the correct temperatures at which to store the food, and use correct storage methods. Never prepare foods...</p>
+                            <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="400">Preparation</h3>
+                            <p class="animate" data-animation="animate__fadeInUp" data-duration="500">Just as mentioned in regards to cross contamination dangers, prepare vegetables and meats on separate boards. In catering you’ll often need to prepare food ahead of time, but if you’re chilling and storing that food, make sure you know the correct temperatures at which to store the food, and use correct storage methods. Never prepare foods...</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- in the news -->
+        <section class="news news--listing  thm-py-65 thm-pb-90">
+            <div class="container">
+                <div class="home-left-panel">
+                    <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200"> Similar News </h3>
+                </div>
+                <div class="news__slider">
+                    <div class="swiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="news__box">
+                                    <div class="news__box__figure">
+                                        <img src="/assets/images/home/news-1.jpg" alt="news">
+                                    </div>
+                                    <div class="news__box__text-content">
+                                        <span class="date">Jan 15, 2022</span>
+                                        <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
+                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                            <span class="thm-btn__text">Read more</span>
+                                            <span class="thm-btn__icon">
+                                                <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="news__box">
+                                    <div class="news__box__figure">
+                                        <img src="/assets/images/home/news-2.jpg" alt="news">
+                                    </div>
+                                    <div class="news__box__text-content">
+                                        <span class="date">Jan 15, 2022</span>
+                                        <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
+                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                            <span class="thm-btn__text">Read more</span>
+                                            <span class="thm-btn__icon">
+                                                <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>    
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="news__box">
+                                    <div class="news__box__figure">
+                                        <img src="/assets/images/home/news-3.jpg" alt="news">
+                                    </div>
+                                    <div class="news__box__text-content">
+                                        <span class="date">Jan 15, 2022</span>
+                                        <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
+                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                            <span class="thm-btn__text">Read more</span>
+                                            <span class="thm-btn__icon">
+                                                <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            </span>
+                                        </a>
+                                    </div>
+                                </div>    
+                            </div>
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             </div>
         </section>

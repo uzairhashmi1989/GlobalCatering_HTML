@@ -737,6 +737,45 @@
             }
         }
     }
+
+    &--listing {
+        .h3 {
+            margin-bottom: 1.5em;
+        }
+
+       .news__slider {
+           position: relative;
+       }
+
+        .swiper-button-next,
+        .swiper-button-prev {
+            top: 33%;
+            &::after {
+                content: "";
+                background-image: url('../svg/left-long-arrow.svg');
+                width: 0.9545em;
+                height: 0.5454em;
+                background-size: contain;
+                background-repeat: no-repeat;
+
+            }
+        }
+
+        .swiper-button-next {
+            right: em(-70);
+            transform: rotate(180deg);
+        }
+        
+        .swiper-button-prev {
+            left: em(-70);
+        }
+
+
+
+
+
+
+    }
 }
 
 
