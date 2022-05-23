@@ -22,7 +22,7 @@
                 <div class="hero-home__text">
                     <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Largest F&B inspired concepts in the region</h1>
                     <p class=" animate" data-animation="animate__fadeInUp" data-duration="300">We operate in four distinct sectors – Restaurants, Wholesale, Retail, and Catering. Learn more about them.</p>
-                    <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
+                    <a href="/about-us.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                         <span class="thm-btn__text">Read more</span>
                         <span class="thm-btn__icon">
                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -785,7 +785,7 @@
                         </div>
                     </div>
                     <div class="col-20">
-                        <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
+                        <a href="/food-safety.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                             <span class="thm-btn__text">Read more</span>
                             <span class="thm-btn__icon">
                                 <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -811,7 +811,7 @@
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Restaurants</h5>
                                 <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors.php#Restaurant" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -829,9 +829,9 @@
                                 <span >Retail</span>
                             </div>
                             <div class="facilities__box__text">
-                                <h5 class="facilities__box__title h5">Restaurants</h5>
+                                <h5 class="facilities__box__title h5">Retail</h5>
                                 <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors.php#Retail" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -849,9 +849,9 @@
                                 <span>Catering</span>
                             </div>
                             <div class="facilities__box__text">
-                                <h5 class="facilities__box__title h5">Restaurants</h5>
+                                <h5 class="facilities__box__title h5">Catering</h5>
                                 <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors.php#Catering" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -869,9 +869,9 @@
                                 <span>Wholesale</span>
                             </div>
                             <div class="facilities__box__text">
-                                <h5 class="facilities__box__title h5">Restaurants</h5>
+                                <h5 class="facilities__box__title h5">Wholesale</h5>
                                 <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors.php#Wholesale" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -891,7 +891,7 @@
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Restaurants</h5>
                                 <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors.php#Restaurant" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -913,7 +913,7 @@
                             <div class="home-left-panel__para-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                                 <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                                 <p class=""> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <a href="javascript:;" class="thm-btn">
+                                <a href="/food-safety-details.php" class="thm-btn">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -953,7 +953,7 @@
                                     <div class="news__box__text-content">
                                         <span class="date">Jan 15, 2022</span>
                                         <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
-                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                        <a href="/news-listing.php" class="thm-btn thm-btn--transparant">
                                             <span class="thm-btn__text">Read more</span>
                                             <span class="thm-btn__icon">
                                                 <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -970,7 +970,7 @@
                                     <div class="news__box__text-content">
                                         <span class="date">Jan 15, 2022</span>
                                         <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
-                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                        <a href="/news-listing.php" class="thm-btn thm-btn--transparant">
                                             <span class="thm-btn__text">Read more</span>
                                             <span class="thm-btn__icon">
                                                 <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -987,7 +987,7 @@
                                     <div class="news__box__text-content">
                                         <span class="date">Jan 15, 2022</span>
                                         <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
-                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                        <a href="/news-listing.php" class="thm-btn thm-btn--transparant">
                                             <span class="thm-btn__text">Read more</span>
                                             <span class="thm-btn__icon">
                                                 <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -999,7 +999,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
+                <a href="/news.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                     <span class="thm-btn__text">Read more</span>
                     <span class="thm-btn__icon">
                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -1038,7 +1038,7 @@
                                         <h6 class="home-left-panel__counter__title">Brands</h6>
                                     </li>
                                 </ul>
-                                <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="300">
+                                <a href="/business-sectors.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="300">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">

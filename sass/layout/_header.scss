@@ -50,13 +50,14 @@
                 }
                 a {
                     text-decoration: none;
-                    color: $primary-color;
+                    color: $black-color;
                     font-size: em(20);
                     padding: 0 em(20);
                     font-weight: 400;
                     transition: $transition-ease;
                     @media #{$mob} {
                         padding: 0 1em;
+                        font-size: 1em;
                     }
                     &:last-child {
                         &::before {

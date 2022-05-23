@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="footer__top thm-py-65">
+    <div class="footer__top">
         <div class="container footer__container">
             <div class="twocol-row">
                 <div class="footer__top--qlinks-wrapper">
@@ -31,10 +31,10 @@
                                 <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Explore </p>
                                 <ul class="qlinks-menu">
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/" class="uline">Home.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/" class="uline">About.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/" class="uline">Food Safety.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/" class="uline">News.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="600"><a href="/" class="uline">Contact. </a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/about-us.php" class="uline">About.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/food-safety.php" class="uline">Food Safety.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/news.php" class="uline">News.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="600"><a href="/contact-us.php" class="uline">Contact. </a></li>
                                     
                                 </ul>
                             </div>
@@ -45,10 +45,10 @@
                             <div class="toggle-btn qlinks__col__item">
                                 <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Business Sectors</p>
                                 <ul class="qlinks-menu">
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/" class="uline">Restaurants.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/" class="uline">Retail.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/" class="uline">Catering.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/" class="uline">Wholesale / Distribution.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/business-sectors.php#Restaurant" class="uline">Restaurants.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/business-sectors.php#Retail" class="uline">Retail.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/business-sectors.php#Catering" class="uline">Catering.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/business-sectors.php#Wholesale" class="uline">Wholesale / Distribution.</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -70,13 +70,13 @@
                                     </li>
 
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300">
-                                        <a href="/" class="uline">p: 07275404440</a>
+                                        <a href="tel:07275404440 " class="uline">p: 07275404440</a>
                                     </li>
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400">
-                                        <a href="/" class="uline">f: info@mh-service.de</a>
+                                        <a href="tel:+971 26446678 " class="uline">f: +971 26446678</a>
                                     </li>
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500">
-                                        <a href="/" class="uline">Dubai</a>
+                                        <a href="/contact-us.php" class="uline">Dubai</a>
                                     </li>
                                 </ul>
                             </div>

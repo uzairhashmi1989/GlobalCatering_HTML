@@ -47,7 +47,7 @@
         <!-- stroke figure -->
         <section class="stroke-figure__main gray-bg thm-pb-120 ">
 
-            <div class="stroke-figure  thm-py-75">
+            <div class="stroke-figure  thm-py-75 thm-pb-120 " id="Restaurant">
                 <div class="container">
                     <div class="twocol-row">
                         <div class="col-50">
@@ -76,12 +76,12 @@
                 </div>
             </div>
 
-            <div class="stroke-figure  thm-py-75">
+            <div class="stroke-figure  thm-py-75" id="Retail">
                 <div class="container">
                     <div class="twocol-row">
                         <div class="col-50">
                             <div class="home-left-panel">
-                                <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Restail</h3>
+                                <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Retail</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> GCS retails an extensive, ever-growing portfolio of Levantine Products specializing in Coffee and Nuts for every taste and budget. There are 10 shops conveniently located across the UAE with more planned for the future.</p>                           
                                     <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
@@ -100,7 +100,7 @@
                         <img src="/assets/images/bussiness-sectors/restaurant.jpg" alt="restaurant" class="observer__child">
                     </div>
                     <div class="stroke-figure__panel__stroke">
-                        <span>Restail</span>
+                        <span>Retail</span>
                     </div>
                 </div>
             </div>
@@ -108,7 +108,7 @@
         </section>
 
         <!-- blue section -->
-        <section class="blue-section blue-bg thm-py-120">
+        <section class="blue-section blue-bg thm-py-120" id="Catering">
             <div class="stroke-figure">
                 <div class="container">
                     <div class="twocol-row">
@@ -144,7 +144,7 @@
         </section>
 
         <!-- red section -->
-        <section class="red-section red-bg">
+        <section class="red-section red-bg" id="Wholesale">
             <div class="stroke-figure thm-py-175 ">
                 <div class="container">
                     <div class="twocol-row">

@@ -30,7 +30,10 @@
 
     &__bg {
         position: absolute;
-        inset: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
         background-color: $grey-color-light2;
 
         picture {
@@ -87,7 +90,10 @@
             .hero-home__bg::before {
                 content: "";
                 position: absolute;
-                inset: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
                 background: linear-gradient(90.1deg, rgba(0, 0, 0, 0.32) 0.84%, rgba(0, 0, 0, 0.09) 97.23%);
                 z-index: 0;
             }
@@ -110,7 +116,10 @@
         }
         &__map {
             position: absolute;
-            inset: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
             width: 0;
             height: em(331);
             left: 50%;
@@ -143,6 +152,9 @@
             &--cairo {
                 left: 60.5%;
                 top: 29%;
+                @media #{$ipad} {
+                    left: 53.5%;
+                }
                 .hero-home__locations__pin {
                     background-color: $purple-color;
                 }
@@ -491,6 +503,9 @@
 
             .thm-btn {
                 margin-left: auto;
+                @media #{$tab} {
+                    margin-left: 0;
+                }
             }
         }
     }
@@ -498,6 +513,12 @@
     &__title,
     &__para {
         color: $white-color;
+    }
+    &__para {
+        margin: 0;
+        @media #{$tab} {
+            margin-bottom: 1.5em;
+        }
     }
 }
 
@@ -512,7 +533,10 @@
         &::before {
             content: "";
             position: absolute;
-            inset: 0;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
             z-index: 1;
             transition: $transition-ease;
             background: linear-gradient(188.59deg, rgba(146, 196, 70, 0) 15.89%,
@@ -530,6 +554,16 @@
             }
         }
 
+        &:hover & {
+            &__figure {
+                &::before {
+                    @media (min-width: 768px) {
+                        opacity: 0;
+                    }
+                }
+            }
+        }
+
         &__figure {
             position: relative;
             height: em(614);
@@ -543,7 +577,13 @@
                 content: "";
                 position: absolute;
                 background: linear-gradient(180deg, rgba(5, 5, 6, 0) 65.88%, rgba(22, 23, 33, 0.9) 109.85%);
-                inset: 0;
+                top: 0;
+                right: 0;
+                bottom: 0;
+                left: 0;
+                z-index: 1;
+                opacity: 1;
+                transition: all 0.5s ease-in-out;
             }
         }
 
@@ -749,7 +789,7 @@
     .container {
         > {
             .thm-btn {
-                margin: 0 auto;
+                margin: 2em auto 0;
             }
         }
     }
@@ -805,6 +845,9 @@
     &__logo {
         width: em(270);
         margin-bottom: em(65);
+        @media #{$mob} {
+            width: 9.875em;
+        }
     }
 
     &__figure {
@@ -814,11 +857,14 @@
         width: em(783);
 
         @media #{$ipadpro} {
-            width: 33.938em;
+            width: 47%;
+            bottom: unset;
+            top: 50%;
+            transform: translateY(-50%);
         }
 
         @media #{$ipad} {
-            width: 29em;
+            // width: 29em;
         }
 
         @media #{$tab} {
@@ -833,7 +879,7 @@
     text-align: center;
 
     &__wrapper {
-        max-width: em(700);
+        max-width: em(725);
         margin: 0 auto;
         padding: 0 2em;
     }
@@ -860,6 +906,15 @@
             margin: 0 em(10);
             position: relative;
             overflow: hidden;
+            @media #{$ipadpro} {
+                width: 4em;
+                height: 4em;
+            }
+            @media #{$ipadpro} {
+                width: 3em;
+                height: 3em;
+            }
+
             
             img, svg {
                 width: auto;

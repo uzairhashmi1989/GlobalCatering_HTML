@@ -338,6 +338,10 @@
     @media #{$ipad} {
         display: flex;
     }
+    @media #{$mob} {
+        margin-left: 1em;
+    }
+
     &::before,
     &::after {
         content: '';

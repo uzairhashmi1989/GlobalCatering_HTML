@@ -18,7 +18,7 @@
     border-radius: em(30);
     padding: 0;
     border: 2px solid $red-color;
-    width: 11.72em;
+    width: 10.722em;
     display: flex;
     align-items: center;
     position: relative;
@@ -26,9 +26,10 @@
         background: $red-color;
         border: 1px solid $red-color;
         border-radius: inherit;
-        padding: 0.6em 0;
+        padding: 0.5em 0;
         flex: 0 1 70%;
         transition: $transition-ease;
+        box-shadow: 0 0 0 1px $red-color;
     }
     &__icon {
         position: absolute;
@@ -57,6 +58,7 @@
         .thm-btn__text {
             background-color: $blue-color;
             border-color:  $blue-color;
+            box-shadow: 0 0 0 1px $blue-color;
         }
         .thm-btn__icon {
             path {
@@ -70,6 +72,7 @@
         .thm-btn__text {
             background-color: $primary-color;
             border-color:  $primary-color;
+            box-shadow: 0 0 0 1px $primary-color;
         }
         .thm-btn__icon {
             path {
@@ -84,6 +87,7 @@
             background-color: $white-color;
             border-color:  $white-color;
             color: $red-color;
+            box-shadow: 0 0 0 1px $white-color;
         }
         .thm-btn__icon {
             path {
@@ -103,6 +107,7 @@
             background-color: $white-color;
             border-color:  $white-color;
             color: $green-color;
+            box-shadow: 0 0 0 1px $white-color;
         }
         .thm-btn__icon {
             path {
@@ -125,13 +130,22 @@
             background-color: transparent;
             border-color:  transparent;
             color: $red-color;
+            box-shadow: 0 0 0 1px transparent;
         }
         
-        &:hover .thm-btn__icon {
-            path {
-                fill: $red-color;
+        &:hover { 
+            .thm-btn__icon {
+                path {
+                    fill: $red-color;
+                }
+            } 
+            .thm-btn__text {
+                color: $blue-color;
             }
+
         }
+
+
 
     }
 

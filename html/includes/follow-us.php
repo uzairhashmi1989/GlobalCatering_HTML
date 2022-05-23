@@ -1,5 +1,5 @@
 
-    <section class="cta gray-bg thm-py-120 ">
+    <section class="cta gray-bg thm-py-120 thm-pb-110">
         <div class="cta__wrapper">
             <p class="cta__title animate" data-animation="animate__fadeInUp" data-duration="200">Connect with us</p>
             <h2 class="cta__main-title h2 animate" data-animation="animate__fadeInUp" data-duration="300">Follow Us</h2>

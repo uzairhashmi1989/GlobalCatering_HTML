@@ -3,12 +3,20 @@
 .home-left-panel {
     &__para-btn {
         max-width: em(592);
-        margin-left: em(168);
+        margin-left: em(150.654);
         @media #{$ipadpro} {
             margin-left: 3.5em;
         }
         &--inner {
             margin-left: 0;
+            max-width: 40em;
+            @media #{$ipadpro} {
+                padding-right: 4em;
+            }
+            @media #{$ipad} {
+                padding-right: 1em;
+            }
+
             @media #{$tab} {
                 margin-bottom: 3em;
             }
