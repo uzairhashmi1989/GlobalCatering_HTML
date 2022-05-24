@@ -38,10 +38,14 @@
 
             input::placeholder,
             textarea::placeholder {
-                font-size: 12px;
+                font-size: 1em;
                 text-transform: uppercase;
                 color: rgba(0, 0, 0, 0.31);
                 font-family: var(--basefont);
+                opacity: 1;
+                @media #{$ipad} {
+                    font-size: 10px;
+                }
             }
 
             input:focus,
@@ -57,10 +61,18 @@
 
             &--checkbox {
                 flex-direction: row;
+                align-items: center;
                 label {
                     order: 2;
                     margin: 0 0 0 em(10);
                     text-transform: capitalize;
+                    a {
+                        transition: $transition-ease;
+                        &:hover {
+                            color: $blue-color;
+                            text-decoration: underline;
+                        }
+                    }
                 }
                 input {
                     order: 1;
@@ -81,14 +93,14 @@
     &__map-wrapper {
         position: absolute;
         right: 0;
-        max-width: em(906);
+        max-width: 47.5%;
         top: 7%;
         padding: 0 em(40) 0 em(90);
         @media #{$ipadpro} {
-            max-width: 42.625em;
+            // max-width: 42.625em;
         }
         @media #{$ipad} {
-            max-width: 35.625em;
+            // max-width: 35.625em;
         }
         @media #{$tab} {
             position: relative;
@@ -117,13 +129,20 @@
             span {
                 font-size: em(16);
                 font-style: normal;
-                color: $primary-color;
+                color: $black-color;
             }
             ul {
                 list-style: none;
                 padding: 0;
                 li {
                     margin-bottom: em(9);
+                }
+            }
+
+            a {
+                transition: $transition-ease;
+                &:hover {
+                    color: $blue-color;
                 }
             }
         }

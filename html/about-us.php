@@ -32,7 +32,7 @@
         </section>
 
         
-        <section class="inner-first thm-py-85 thm-pb-175">
+        <section class="inner-first thm-py-85 thm-pb-70">
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-100">
@@ -74,10 +74,10 @@
         </section>
 
         <!-- simple center text section -->
-        <section class="simple-center thm-py-90 thm-pb-120 gray-bg">
+        <section class="simple-center thm-py-90  thm-pb-175 gray-bg">
             <div class="container">
                 <div class="simple-center__wrapper">
-                    <h3 class="animate" data-animation="animate__fadeInUp" data-duration="200">GCS aims at renovating many more brands in the future and reinstating them with a touch of their signature flair, in the hopes of providing vibrant and multi-cultural residents of the UAE a taste of the best. GCS strives to constantly reach the demands of the ever-growing F&B market of the UAE, while maintaining the quality of service.</h3>
+                    <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">GCS aims at renovating many more brands in the future and reinstating them with a touch of their signature flair, in the hopes of providing vibrant and multi-cultural residents of the UAE a taste of the best. GCS strives to constantly reach the demands of the ever-growing F&B market of the UAE, while maintaining the quality of service.</h3>
                 </div>
             </div>
         </section>

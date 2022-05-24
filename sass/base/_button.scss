@@ -30,6 +30,9 @@
         flex: 0 1 70%;
         transition: $transition-ease;
         box-shadow: 0 0 0 1px $red-color;
+        @media #{$mob} {
+            padding: 0.3em 0;
+        }
     }
     &__icon {
         position: absolute;

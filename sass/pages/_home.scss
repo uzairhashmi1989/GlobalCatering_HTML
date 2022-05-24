@@ -781,8 +781,8 @@
                 color: var(--blue-color);
             }
 
-            h4 {
-                margin-bottom: 1.0666em;
+            .h4 {
+                margin-bottom: 0.8em;
             }
         }
     }
@@ -806,6 +806,9 @@
         .swiper-button-next,
         .swiper-button-prev {
             top: 33%;
+            @media #{$tab} {
+                display: none;
+            }
             &::after {
                 content: "";
                 background-image: url('../svg/left-long-arrow.svg');
@@ -933,12 +936,13 @@
     }
 }
 
+
+
 .before-bg {
     position: relative;
-
     &::before {
         content: '';
-        background: linear-gradient(90.1deg, rgba(0, 0, 0, 0.32) 4.97%, rgba(0, 0, 0, 0.09) 101.36%);
+        background: rgba(0, 0, 0, 0.48);
         width: 100%;
         height: 100%;
         position: absolute;

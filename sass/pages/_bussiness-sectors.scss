@@ -15,21 +15,30 @@
 
 .contact-us-body {
     .inner-first {
-        padding-bottom: em(410);
+        padding-bottom: em(315);
 
-        @media #{$tab} {
+        @media #{$ipad} {
             padding-bottom: 15em;
         }
+
+        
+
     }
 }
 
 .news-body {
     .inner-first {
-        padding-bottom: em(218);
+        padding-bottom: em(202);
 
         @media #{$tab} {
             padding-bottom: 15em;
         }
+
+        @media #{$mob} {
+            padding-bottom: 10em;
+        }
+
+
     }
 }
 
@@ -159,8 +168,8 @@
         margin-left: auto;
         width: em(682);
 
-        @media #{$ipad} {
-            width: 21.625em;
+        @media #{$ipadpro} {
+            width: 82%;
         }
 
         @media #{$tab} {
@@ -170,6 +179,9 @@
 
         &__img {
             width: auto;
+            @media #{$tab} {
+                padding: 0;
+            }
         }
 
         &__stroke {
@@ -190,7 +202,7 @@
         .stroke-figure__panel {
             width: em(652);
             margin-left: 0;
-            margin-top: em(-150);
+            margin-top: em(-165);
 
             @media #{$ipadpro} {
                 width: 90%;
@@ -281,6 +293,13 @@
     &--with--blue-bg {
         .stroke-figure__panel {
             right: 0;
+            @media #{$ipad} {
+                height: 45%;
+            }
+            @media #{$tab} {
+                height: 100%;
+            }
+
         }
 
         .twocol-row {
@@ -293,17 +312,22 @@
 
         .home-left-panel {
             margin-left: 0;
+            p {
+                &:last-child {
+                    margin: 0;
+                }
+            }
         }
 
         .stroke-figure__panel__img {
             width: em(960);
 
             @media #{$ipadpro} {
-                width: 33em;
+                width: 100%;
             }
 
             @media #{$ipad} {
-                width: 26em;
+                // width: 26em;
             }
         }
     }
