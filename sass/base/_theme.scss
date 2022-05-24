@@ -584,7 +584,7 @@ main {
 .head-number {
     position: relative;
     display: inline-flex;
-    padding-right: 1em;
+    padding-right: 0.8em;
 
     .small-number {
         opacity: .2;
@@ -594,6 +594,6 @@ main {
         -webkit-text-stroke-color: #000;
         position: absolute;
         right: 0;
-        font-size: 3.5625rem;
+        font-size: 1.4em;
     }
 }

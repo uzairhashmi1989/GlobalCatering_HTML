@@ -7,7 +7,7 @@
         .stroke-figure__panel {
             left: 3.5em;
             right: unset;
-            top: 50%;
+            top: 42%;
             bottom: unset;
             transform: translateY(-50%);
 
@@ -35,7 +35,7 @@
             right: 10em;
             
             &__stroke {
-                left: 100%;
+                left: 97%;
                 right: unset;
             }
         }
@@ -61,6 +61,10 @@
                 }
                 @media #{$tab} {
                     margin-left: 0;
+                }
+
+                p {
+                    color: $black-color;
                 }
 
             }
@@ -174,19 +178,25 @@
 
 .dishes-table {
     padding: 3.125em 0 5em;
+    @media #{$mob} {
+        padding: 3.125em 0;
+    }
 
     ul {
         display: flex;
         flex-wrap: wrap;
         list-style: none;
-        padding: 0;
         margin: 0;
-        margin-left: -1em;
-        margin-right: -1em;
+        margin-left: -0.8em;
+        margin-right: -0.8em;
+        padding: 0 2em;
+        @media #{$mob} {
+            padding: 0;
+        }
 
         li {
             width: 20%;
-            padding: 1em;
+            padding: 0.8em;
 
             @media #{$tab} {
                 width: 50%;

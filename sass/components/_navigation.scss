@@ -280,6 +280,7 @@
             transition: $transition-ease;
             @media #{$ipad} {
                 color: $white-color;
+                font-size: 2em;
             }
 
             

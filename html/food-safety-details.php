@@ -25,14 +25,14 @@
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/food-safety.details/mob-banner.jpg">
+                    <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
                     <img src="/assets/images/food-safety-details/banner.jpg" alt="banner image">
                 </picture>
             </div>
         </section>
 
 
-        <section class="thm-py-85 thm-pb-70">
+        <section class="thm-py-85 thm-pb-175">
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-100">

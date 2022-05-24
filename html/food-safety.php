@@ -266,7 +266,7 @@
                     <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> <strong>GCS provides an extraordinary experience to its customers, ensuring complete satisfaction.</strong>
                         The group also boasts of a manufacturing and wholesale wing under Meera Al Sham Global, consisting of brands such as Diwan Al Muhanna, Malaza and Lebanese Roaster, while Golden Sands is responsible for the distribution network under the group. Global Catering Services is working aggressively to expand their FMCG division, along with the introduction of new manufactured products.</p>
                     <a href="javascript:;" class="thm-btn thm-btn--white animate" data-animation="animate__fadeInUp" data-duration="200">
-                        <span class="thm-btn__text">Read more</span>
+                        <span class="thm-btn__text">Get A Qoute</span>
                         <span class="thm-btn__icon">
                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
                         </span>

@@ -31,7 +31,7 @@
         transition: $transition-ease;
         box-shadow: 0 0 0 1px $red-color;
         @media #{$mob} {
-            padding: 0.3em 0;
+            padding: 0.4em 0;
         }
     }
     &__icon {
@@ -51,6 +51,9 @@
     }
     &:hover &__icon {
         right: 9%;
+        @media #{$mob} {
+            right: 7%;
+        }
         path {
             fill: $white-color;
         }
