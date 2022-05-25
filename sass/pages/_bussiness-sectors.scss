@@ -72,7 +72,7 @@
             }
 
             &__stroke {
-                left: 100%;
+                left: 97%;
                 right: unset;
 
                 span {
@@ -87,8 +87,8 @@
     position: relative;
     margin-bottom: 6em;
 
-    @media #{$ipad} {
-        margin: 0;
+    @media #{$ipadpro} {
+        margin-bottom: 3em;
     }
 
     &__panel {
@@ -264,7 +264,7 @@
             }
 
             &__stroke {
-                left: 100%;
+                left: 97%;
                 right: unset;
                 -webkit-text-stroke-color: $white-color;
             }

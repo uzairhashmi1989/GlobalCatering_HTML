@@ -19,7 +19,7 @@
 
 
             &__stroke {
-                left: 100%;
+                left: 98%;
                 right: unset;
             }
         }
@@ -85,6 +85,7 @@
                 }
             }
         }
+
         &:nth-child(even) {
             background-color: #F8F8FB;
             padding: em(250) 0;
@@ -121,6 +122,41 @@
                 }
                 &__stroke {
                     left: 96%;
+                }
+            }
+        }
+
+        &:first-child  {
+            .stroke-figure__panel {
+                &::before {
+                    content: "";
+                    position: absolute;
+                    width: 30.813em;
+                    height: 30.813em;
+                    border: 1.5px solid $red-color-light;
+                    border-radius: 50%;
+                    left: -7%;
+                    top: -32%;
+                    @media #{$ipadpro} {
+                        display: none;
+                    }
+                }
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: em(794);
+                    height: em(794);
+                    border-radius: 50%;
+                    left: -53%;
+                    top: -48%;
+                    border: 1.5px solid $grey-color-light;
+                    @media #{$ipadpro} {
+                        display: none;
+                    }
+                }
+                &__img {
+                    position: relative;
+                    z-index: 1;
                 }
             }
         }
@@ -173,11 +209,14 @@
 
     .bottom-area {
         padding: 6.25em 0 2.8125em;
+        @media #{$ipadpro} {
+            padding: 1.25em 0 2.8125em;
+        }
     }
 }
 
 .dishes-table {
-    padding: 3.125em 0 5em;
+    padding: 3.125em 0 4em;
     @media #{$mob} {
         padding: 3.125em 0;
     }

@@ -153,4 +153,15 @@
     .twocol-row {
         align-items: center;
     }
+
+    .img-wrapper {
+        height: em(600);
+        @media #{$mob} {
+            height: auto;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
 }

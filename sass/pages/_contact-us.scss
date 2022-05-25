@@ -86,6 +86,9 @@
             .col-50,
             .col-100 {
                 padding: 0 em(30);
+                @media #{$ipad} {
+                    padding: 0 1em;
+                }
             }
         }
     }
@@ -143,6 +146,7 @@
                 transition: $transition-ease;
                 &:hover {
                     color: $blue-color;
+                    text-decoration: underline;
                 }
             }
         }

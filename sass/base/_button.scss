@@ -22,6 +22,9 @@
     display: flex;
     align-items: center;
     position: relative;
+    @media #{$mob} {
+        width: 10em;
+    }
     &__text {
         background: $red-color;
         border: 1px solid $red-color;
@@ -31,16 +34,21 @@
         transition: $transition-ease;
         box-shadow: 0 0 0 1px $red-color;
         @media #{$mob} {
-            padding: 0.4em 0;
+            padding: 0.5em 0;
         }
     }
     &__icon {
         position: absolute;
         z-index: 1;
         right: 7%;
+        top: 52%;
+        transform: translateY(-50%);
         transition: $transition-ease;
         svg {
             width: em(26);
+            @media #{$mob} {
+                width: 1.4em;
+            }
         }
         path {
             transition: $transition-ease;

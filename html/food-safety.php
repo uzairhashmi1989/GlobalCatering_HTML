@@ -35,10 +35,10 @@
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-100">
-                        <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">How Global Catering Takes Your Food Safety Very Seriously</h3>
+                        <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200"> Food is our business and safety is our number one priority</h3>
                     </div>
                     <div class="col-40">
-                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300">Global Catering has some of the highest food safety production standards in the industry and we are proud that consumers trust our products. We go beyond simply complying with national and international standards, and every part of our manufacturing process is subject to rigorous auditing and oversight.</p>
+                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> As a food-related company that operates at scale, we understand the importance of food safety throughout the food supply chain. From food sourcing, storage, and handling to processing and distribution, we conform to all government regulations and industry-leading standards. Everyone in our company has a collective responsibility for food safety and we are obligated to safeguard each other and our customers. A positive food safety culture has been nurtured within the organization and we are committed to taking all responsible steps and precautions.</p>
                     </div>
                 </div>
             </div>

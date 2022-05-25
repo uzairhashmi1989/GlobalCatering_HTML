@@ -74,7 +74,7 @@ $(document).ready(function () {
             slidesPerView: 1,
             spaceBetween: 30,
             loop: true,
-            speed: 1000,
+            speed: 2000,
             autoplay: {
                 delay: 2500,
                 disableOnInteraction: false,
