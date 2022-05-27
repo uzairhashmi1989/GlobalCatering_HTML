@@ -59,14 +59,18 @@
                                 <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Contact Us</p>
                                 <ul class="qlinks-menu">
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200">
-                                        <span>Abu Dhabi</span>
-                                        <i class="icon">
-                                            <img src="/assets/svg/location-icon.svg" alt="location">
-                                        </i>
-                                        <a href="">
-                                            Barthelsmühlring 24
-                                            76870 Kandel
-                                            Deutschland</a>
+                                        <span class="qlinks-menu__acc__title">Abu Dhabi</span>
+                                        <div class="qlinks-menu__accordion hide ">
+                                            <div class="qlinks-menu__accordion__wrapper">
+                                                <i class="icon">
+                                                    <img src="/assets/svg/location-icon.svg" alt="location">
+                                                </i>
+                                                <a href="">
+                                                    Barthelsmühlring 24
+                                                    76870 Kandel
+                                                    Deutschland</a>
+                                            </div>
+                                        </div>
                                     </li>
 
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300">
@@ -75,8 +79,19 @@
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <a href="tel:+971 26446678 " class="uline">f: +971 26446678</a>
                                     </li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500">
-                                        <a href="/contact-us.php" class="uline">Dubai</a>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500">                               
+                                        <span class="qlinks-menu__acc__title">Dubai</span>
+                                        <div class="qlinks-menu__accordion hide ">
+                                            <div class="qlinks-menu__accordion__wrapper">
+                                                <i class="icon">
+                                                    <img src="/assets/svg/location-icon.svg" alt="location">
+                                                </i>
+                                                <a href="">
+                                                    Barthelsmühlring 24
+                                                    76870 Kandel
+                                                    Deutschland</a>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>

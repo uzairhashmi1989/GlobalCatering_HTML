@@ -194,6 +194,23 @@
         color: $white-color;
     }
 
+    &.blue--white-bg {
+       .h3 {
+           color: $black-color;
+        }
+
+        p {
+            color: $primary-color;
+        }
+
+        .stroke-figure__panel {
+            &__stroke {
+                -webkit-text-stroke-color: $black-color;
+            }
+        }
+
+    }
+
     .twocol-row {
         align-items: center;
     }
@@ -271,6 +288,7 @@
         }
     }
 
+    
     .twocol-row {
         flex-direction: row-reverse;
     }
@@ -288,6 +306,23 @@
         }
 
 
+    }
+
+    &.red--white-bg {
+        .h3 {
+            color: $black-color;
+         }
+ 
+         p {
+             color: $primary-color;
+         }
+ 
+         .stroke-figure__panel {
+             &__stroke {
+                 -webkit-text-stroke-color: $black-color;
+             }
+         }
+ 
     }
 
     &--with--blue-bg {

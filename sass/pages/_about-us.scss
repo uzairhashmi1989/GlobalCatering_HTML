@@ -17,6 +17,7 @@
             margin: 0;
             strong {
                 display: block;
+                font-weight: normal;
             }
         }
         .simple-red-bg {
@@ -34,6 +35,7 @@
             max-width: 75em;
         }
     }
+
     &--red--btn {
         .h3 {
             color: $white-color;
@@ -45,5 +47,15 @@
             margin: 0 auto;
             width: 12em;
         }
+    }
+
+    &.white--text--bg {
+        .h3 {
+            color: $black-color;
+        }
+        p {
+            color: $primary-color;
+        }
+
     }
 }

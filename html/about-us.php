@@ -114,7 +114,7 @@
         </section>
 
         <!-- with title and btn -->
-        <section class="simple-center simple-center--red simple-center--red--btn thm-py-100 ">
+        <section class="simple-center thm-py-100 ">
             <div class="container">
                 <div class="simple-center__wrapper">
                     <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Vision</h3>
@@ -124,9 +124,9 @@
                     
                 </div>
             </div>
-            <div class="simple-red-bg">
+            <!-- <div class="simple-red-bg">
                 <img src="/assets/images/about-us/red-bg.jpg" alt="GCS figure">
-            </div>
+            </div> -->
         </section>
 
 

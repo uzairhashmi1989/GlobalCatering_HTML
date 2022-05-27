@@ -245,12 +245,23 @@ $(document).ready(function () {
         }
     });
 
-
-
+    // counter
     $('.count-num').counterUp({
         delay: 10,
         time: 1500
-    });    
+    }); 
+    
+    $('.qlinks-menu__acc__title').on('click', function(e) {
+        e.stopPropagation();
+        if( $(this).siblings('.qlinks-menu__accordion').hasClass("hide") ) {
+            $('.qlinks-menu__acc__title').siblings('.qlinks-menu__accordion').stop().slideUp('slow').addClass("hide");
+            $(this).siblings('.qlinks-menu__accordion').stop().slideDown('slow').removeClass("hide");
+        }
+        else {
+            $(this).siblings('.qlinks-menu__accordion').stop().slideUp('slow').addClass("hide");
+        }
+
+    });
 
 });
 

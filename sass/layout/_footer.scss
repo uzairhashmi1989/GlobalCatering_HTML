@@ -269,7 +269,7 @@
                             text-decoration: none;
                             transition: all .3s ease-in-out;
                             width: 100%;
-                            margin-bottom: 1em;
+                            margin-bottom: 0;
                         }
                         .icon {
                             width: 12px;
@@ -293,7 +293,7 @@
                                 opacity: .5;
                                 left: 0;
                                 @media #{$mob} {
-                                    top: -9px;
+                                    top: -5px;
                                 }
                             }
                         }
@@ -319,6 +319,10 @@
         @media #{$ipad} {
             margin-bottom: 1.5em;
         }
+        @media #{$mob} {
+            margin-bottom: 0.5em;
+        }
+
         .uline {
             position: relative;
             &::before {
@@ -338,14 +342,42 @@
                 left: 130%;
             }
         }
-        @media #{$mob} {
-            margin-bottom: 1em;
-        }
+        
         .days {
             display: block;
         }
     }
+
+    & &__accordion {
+        &.hide {
+            display: none;
+        }
+        &.show {
+            display: block;
+        }
+        &__wrapper {
+            display: flex;
+            margin-top: 1em;
+        }
+    }
+    &__acc__title {
+        position: relative;
+        flex: 0 0 37%;
+        @media #{$mob} {
+            flex-basis: 40%;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            background: url('../svg/chevron-down.svg');
+            width: 16px;
+            height: 16px;
+            right: 0;
+        }
+    }
 }
+
+
 
 .footer__bottom {
     position: relative;

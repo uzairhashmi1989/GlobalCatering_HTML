@@ -108,7 +108,7 @@
         </section>
 
         <!-- blue section -->
-        <section class="blue-section blue-bg thm-py-120" id="Catering">
+        <section class="blue-section  thm-py-120 blue--white-bg " id="Catering">
             <div class="stroke-figure">
                 <div class="container">
                     <div class="twocol-row">
@@ -144,7 +144,7 @@
         </section>
 
         <!-- red section -->
-        <section class="red-section red-bg" id="Wholesale">
+        <section class="red-section red--white-bg " id="Wholesale">
             <div class="stroke-figure thm-py-175 ">
                 <div class="container">
                     <div class="twocol-row">
@@ -153,7 +153,7 @@
                                 <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Wholesale / Distribution</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> Our food trading and distribution business is consolidated under the Golden Sands brand. Our reputation for quality and exceptional service has made us the preferred partner for large-scale food businesses in the UAE. Our roster of clients includes the biggest and best-known food-related companies in the UAE.</p>                           
-                                    <a href="/wholesale-details.php" class="thm-btn thm-btn--white animate" data-animation="animate__fadeInUp" data-duration="200">
+                                    <a href="/wholesale-details.php" class="thm-btn  animate" data-animation="animate__fadeInUp" data-duration="200">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
                                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
