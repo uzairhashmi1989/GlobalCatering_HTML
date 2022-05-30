@@ -20,9 +20,9 @@
         <section class="hero-home">
             <div class="container hero-home__container">
                 <div class="hero-home__text">
-                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Largest F&B inspired concepts in the region</h1>
-                    <p class=" animate" data-animation="animate__fadeInUp" data-duration="300">We operate in four distinct sectors – Restaurants, Wholesale, Retail, and Catering. Learn more about them.</p>
-                    <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
+                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">INSPIRED BY FOOD</h1>
+                    <p class=" animate" data-animation="animate__fadeInUp" data-duration="300">We operate market-leading businesses in four sectors - restaurants, catering, retail, and wholesale. Learn more about our diversified portfolio.</p>
+                    <a href="/about-us.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                         <span class="thm-btn__text">Read more</span>
                         <span class="thm-btn__icon">
                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -37,8 +37,9 @@
                 </picture>
             </div>
             <div class="hero-home__locations">
-
-                <div class="hero-home__locations__map">
+                
+                <!-- London, UK -->
+                <div class="hero-home__locations__map animate" data-animation="animate__zoomIn" data-duration="200">
                     <div class="hero-home__locations__pin">
                         <span>London, UK</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -142,7 +143,7 @@
                 </div>
                 
                 <!-- Abu Dhabi, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--abu-dhabi ">
+                <div class="hero-home__locations__map hero-home__locations__map--abu-dhabi animate" data-animation="animate__zoomIn" data-duration="300">
                     <div class="hero-home__locations__pin">
                         <span>Abu Dhabi, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -246,7 +247,7 @@
                 </div>
 
                 <!-- Cairo, Egypt -->
-                <div class="hero-home__locations__map hero-home__locations__map--cairo ">
+                <div class="hero-home__locations__map hero-home__locations__map--cairo animate" data-animation="animate__zoomIn" data-duration="400">
                     <div class="hero-home__locations__pin">
                         <span>Cairo, Egypt</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -350,7 +351,7 @@
                 </div>
 
                 <!-- Dubai, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--dubai ">
+                <div class="hero-home__locations__map hero-home__locations__map--dubai animate" data-animation="animate__zoomIn" data-duration="500">
                     <div class="hero-home__locations__pin">
                         <span>Dubai, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -455,7 +456,7 @@
 
 
                 <!-- Sharjah, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--sharjah ">
+                <div class="hero-home__locations__map hero-home__locations__map--sharjah animate" data-animation="animate__zoomIn" data-duration="600">
                     <div class="hero-home__locations__pin">
                         <span>Sharjah, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -560,7 +561,7 @@
 
 
                 <!-- Dammam, KSA -->
-                <div class="hero-home__locations__map hero-home__locations__map--dammam ">
+                <div class="hero-home__locations__map hero-home__locations__map--dammam animate" data-animation="animate__zoomIn" data-duration="700">
                     <div class="hero-home__locations__pin">
                         <span>Dammam, KSA</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -664,7 +665,7 @@
                 </div>
 
                 <!-- Al Ain, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--al-ain ">
+                <div class="hero-home__locations__map hero-home__locations__map--al-ain animate" data-animation="animate__zoomIn" data-duration="800">
                     <div class="hero-home__locations__pin">
                         <span>Al Ain, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -777,14 +778,14 @@
                 <div class="twocol-row">
                     <div class="col-60">
                         <div class="home-left-panel">
-                            <h2 class="food-bussiness__title h2 animate" data-animation="animate__fadeInUp" data-duration="200">Diversified Food Businesses</h2>           
+                            <h2 class="food-bussiness__title h2 animate" data-animation="animate__fadeInUp" data-duration="200">A Portfolio Of Diversified Businesses</h2>           
                             <div class="home-left-panel__para-btn animate" data-animation="animate__fadeInUp" data-duration="300">
                                 <p class="food-bussiness__para">We operate in four distinct sectors – Restaurants, Wholesale, Retail, and Catering. Learn more about them.</p>
                             </div>
                         </div>
                     </div>
                     <div class="col-20">
-                        <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
+                        <a href="/food-safety.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                             <span class="thm-btn__text">Read more</span>
                             <span class="thm-btn__icon">
                                 <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -809,8 +810,8 @@
                             </div>
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Restaurants</h5>
-                                <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <p class="facilities__box__para">Our deep understanding of food, cultures, consumers, and changing lifestyles has helped us create a portfolio of restaurants across the UAE, Middle East, Turkey, and the UK.</p>
+                                <a href="/business-sectors.php#Restaurant" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -828,9 +829,9 @@
                                 <span >Retail</span>
                             </div>
                             <div class="facilities__box__text">
-                                <h5 class="facilities__box__title h5">Restaurants</h5>
-                                <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <h5 class="facilities__box__title h5">Retail</h5>
+                                <p class="facilities__box__para">We have a growing portfolio of Levantine products, with a special focus on coffee and roasted nuts. Our 10 retail outlets are conveniently located across the UAE.</p>
+                                <a href="/business-sectors.php#Retail" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -848,9 +849,9 @@
                                 <span>Catering</span>
                             </div>
                             <div class="facilities__box__text">
-                                <h5 class="facilities__box__title h5">Restaurants</h5>
-                                <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <h5 class="facilities__box__title h5">Catering</h5>
+                                <p class="facilities__box__para">Food inspires us and we are known for bespoke catering. We have successfully catered to private and corporate events, high-profile celebrations, and small exclusive gatherings.</p>
+                                <a href="/business-sectors.php#Catering" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -862,15 +863,15 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="/assets/images/home/facilities-1.jpg" alt="facilities" class="observer__child">
+                                <img src="/assets/images/home/facilities-4.jpg" alt="facilities" class="observer__child">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Wholesale</span>
                             </div>
                             <div class="facilities__box__text">
-                                <h5 class="facilities__box__title h5">Restaurants</h5>
-                                <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <h5 class="facilities__box__title h5">Wholesale</h5>
+                                <p class="facilities__box__para">A focus on high-quality and responsive customer service has made us the preferred partner for large food-related businesses in the UAE and the wider region.</p>
+                                <a href="/business-sectors.php#Wholesale" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -889,8 +890,8 @@
                             </div>
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Restaurants</h5>
-                                <p class="facilities__box__para">We provide distinguished catering services irrespective of the size and type of event.</p>
-                                <a href="javascript:;" class="thm-btn thm-btn--white-border">
+                                <p class="facilities__box__para">Our deep understanding of food, cultures, consumers, and changing lifestyles has helped us create a portfolio of restaurants across the UAE, Middle East, Turkey, and the UK.</p>
+                                <a href="/business-sectors.php#Restaurant" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -910,9 +911,9 @@
                         <div class="home-left-panel">
                             <h2 class="h2 animate" data-animation="animate__fadeInUp" data-duration="200">Food Safety</h2>
                             <div class="home-left-panel__para-btn animate" data-animation="animate__fadeInUp" data-duration="200">
-                                <p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                                <p class=""> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                <a href="javascript:;" class="thm-btn">
+                                <p class="">We are a large and successful food-related business, and an important part of our business is ensuring the safety of the food we procure, cook, sell, and transport.</p>
+                                <p class=""> Our supply chain conforms to government regulations, and we have put in place food safety management procedures based on the principles of HACCP (Hazard Analysis and Critical Control Point).</p>
+                                <a href="/food-safety-details.php" class="thm-btn">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -952,7 +953,7 @@
                                     <div class="news__box__text-content">
                                         <span class="date">Jan 15, 2022</span>
                                         <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
-                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                        <a href="/news-listing.php" class="thm-btn thm-btn--transparant">
                                             <span class="thm-btn__text">Read more</span>
                                             <span class="thm-btn__icon">
                                                 <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -969,7 +970,7 @@
                                     <div class="news__box__text-content">
                                         <span class="date">Jan 15, 2022</span>
                                         <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
-                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                        <a href="/news-listing.php" class="thm-btn thm-btn--transparant">
                                             <span class="thm-btn__text">Read more</span>
                                             <span class="thm-btn__icon">
                                                 <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -986,7 +987,7 @@
                                     <div class="news__box__text-content">
                                         <span class="date">Jan 15, 2022</span>
                                         <h4 class="h4">A family business manufacturing catering equipment for 16 years.</h4>
-                                        <a href="javascript:;" class="thm-btn thm-btn--transparant">
+                                        <a href="/news-listing.php" class="thm-btn thm-btn--transparant">
                                             <span class="thm-btn__text">Read more</span>
                                             <span class="thm-btn__icon">
                                                 <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -998,7 +999,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
+                <a href="/news.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                     <span class="thm-btn__text">Read more</span>
                     <span class="thm-btn__icon">
                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -1016,28 +1017,37 @@
                 <div class="twocol-row">
                     <div class="col-50">
                         <div class="home-left-panel">
-                            <h2 class="h2 animate" data-animation="animate__fadeInUp" data-duration="200">A Leading Multi-Sector Business Group In The UAE</h2>
+                            <h2 class="h2 animate" data-animation="animate__fadeInUp" data-duration="200">A leading and diversified business group in the UAE</h2>
                             <div class="home-left-panel__para-btn">
-                                <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Established in 1980, the United Al Saqer Group (UASG) LLC is one of the leading multi-sector business groups in the United Arab Emirates. The UASG owns and operates a diverse yet complementary portfolio of UAE-based companies.</p>
+                                <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Established in 1980, the United Al Saqer Group owns and operates a complementary portfolio of UAE-based companies in key industry sectors - automotive, heavy equipment, property management, construction, joinery, food and beverages, hospitality, retail, travel, and more. The Group is well known for its quality ethos and customer-centric business philosophy. With a network of partners and sales teams across the Middle East and in important international markets, the United Al Saqer Group has carved a distinctive niche as a leading UAE-based business house.</p>
+                                <!-- <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">The Group is well known for its quality ethos and customer-centric business philosophy. With a network of partners and sales teams across the Middle East and in important international markets, the United Al Saqer Group has carved a distinctive niche as a leading UAE-based business house.</p> -->
                                 <ul class="home-left-panel__counter">
                                     <li>
-                                        <span class="home-left-panel__counter__value">4,000+</span>
+                                        <div class="count-num-wrapper">
+                                            <span class="home-left-panel__counter__value count-num ">4,000</span>
+                                        </div>
                                         <h6 class="home-left-panel__counter__title">Employees</h6>
                                     </li>
                                     <li>
-                                        <span class="home-left-panel__counter__value">16</span>
+                                        <div class="count-num-wrapper">
+                                            <span class="home-left-panel__counter__value count-num">16</span>
+                                        </div>
                                         <h6 class="home-left-panel__counter__title">Countries</h6>
                                     </li>
                                     <li>
-                                        <span class="home-left-panel__counter__value">42</span>
-                                        <h6 class="home-left-panel__counter__title">Years</h6>
+                                        <div class="count-num-wrapper">
+                                            <span class="home-left-panel__counter__value count-num ">450,000</span>
+                                        </div>
+                                        <h6 class="home-left-panel__counter__title">satisfied customers</h6>
                                     </li>
                                     <li>
-                                        <span class="home-left-panel__counter__value">55+</span>
+                                        <div class="count-num-wrapper">
+                                            <span class="home-left-panel__counter__value count-num ">55</span>
+                                        </div>
                                         <h6 class="home-left-panel__counter__title">Brands</h6>
                                     </li>
                                 </ul>
-                                <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="300">
+                                <a href="/business-sectors.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="300">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">

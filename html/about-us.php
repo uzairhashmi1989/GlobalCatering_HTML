@@ -32,14 +32,14 @@
         </section>
 
         
-        <section class="inner-first thm-py-85 thm-pb-175">
+        <section class="inner-first thm-py-85 thm-pb-70">
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-100">
-                        <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Global Catering Services or better known as GCS, founded in 2012, is one of the largest and fastest growing food inspired companies in the UAE.</h3>
+                        <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Global Catering Services (GCS) was founded in 2012 and today it is one of the largest and fastest-growing food-inspired companies in the UAE.</h3>
                     </div>
                     <div class="col-40">
-                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300">Global Catering Services or better known as GCS, founded in 2012, is one of the largest and fastest growing food inspired companies in the UAE. It serves as a significant F&B, retail. manufacturing and wholesale arm of the parent company. GCS started its celebrated journey with acquisition and introduction of renowned restaurants and eateries, which have since then become important culinary landmarks and an indispensable part of the food & beverage space in the UAE.</p>
+                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> A member of the United Al Saqer Group, GCS is active in four distinct areas - restaurants, catering, retail, and wholesale. In each one of these areas, GCS has built up a sizable presence in the UAE and internationally.</p>
                     </div>
                 </div>
             </div>
@@ -53,9 +53,9 @@
                         <div class="col-50">
                             <div class="home-left-panel">
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> This ambitious journey in establishing UAE as the world-class culinary destination, began with the acquisition and re-establishment of locally prominent restaurants and roasters in Abu Dhabi, who have been in the industry for more than three decades, like Zahrat Lebnan, Lebanese Roaster and Nasr Grill, to name a few.</p>                           
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> Apart from revamping restaurants and reintroducing them better than ever, GCS also has a talent for creating their own unique concept. The brands speak of the rich, hospitable and ever so innovative and unique culture of the UAE.</p>                           
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> Verdura, which is the newly opened Brand, is GCS’s very own concepts, which has been developed by carefully studying the market and catering to the needs of the consumers.</p>                           
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> The restaurant operations of GCS started with the acquisition and relaunch of well-known restaurants and eateries such as Zahrat Lebnan, Lebanese Roaster, and Nasr Grill. In addition to reimagining restaurants, GCS has also developed unique restaurant concepts. Verdura, a Mediterranean restaurant, is a good case in point; it is inspired by Greek, Italian and Levantine cuisines, and it offers a completely new take on Mediterranean food. The company’s restaurant portfolio now includes 11 brands that have contributed in no small measure to establishing UAE as a world-class culinary destination.</p>                           
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> The UAE is home to over 200 nationalities and is arguably one of the more challenging restaurant markets in the world. Customers in the UAE expect a distinctive experience every time they dine out or order food. We have succeeded because of a deep understanding of food, cultures, consumers, and changing lifestyles. It’s a skill set that will see GCS continuously expand its restaurant footprint.</p>                           
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> GCS also runs a successful and reputed catering business. Catering is an important aspect of any event, and we provide a full suite of services that help our customers create memorable events. We cater to private and corporate events, high-profile celebrations, and small exclusive gatherings. We also cater to industry segments with specialist needs, such as schools, hospitals, factories, hotels, and more.</p>                           
                                     
                                 </div>
                             </div>
@@ -74,10 +74,10 @@
         </section>
 
         <!-- simple center text section -->
-        <section class="simple-center thm-py-90 thm-pb-120 gray-bg">
+        <section class="simple-center thm-py-90  thm-pb-175 gray-bg">
             <div class="container">
                 <div class="simple-center__wrapper">
-                    <h3 class="animate" data-animation="animate__fadeInUp" data-duration="200">GCS aims at renovating many more brands in the future and reinstating them with a touch of their signature flair, in the hopes of providing vibrant and multi-cultural residents of the UAE a taste of the best. GCS strives to constantly reach the demands of the ever-growing F&B market of the UAE, while maintaining the quality of service.</h3>
+                    <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">GCS aims at renovating many more brands in the future and reinstating them with a touch of their signature flair, in the hopes of providing vibrant and multi-cultural residents of the UAE a taste of the best. GCS strives to constantly reach the demands of the ever-growing F&B market of the UAE, while maintaining the quality of service.</h3>
                 </div>
             </div>
         </section>
@@ -101,8 +101,10 @@
                         <div class="col-50">
                             <div class="home-left-panel">                           
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> Having an elegant style of catering, GCS’s catering arm is their most versatile division, with services that can be tailored for various types of events. Offering an extensive menu for corporate and private occasions, GCS has provided their catering services to numerous esteemed clients in the UAE.</p>                           
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> Since its inception, GCS has successfully positioned itself as a leader and an industry expert in the F&B, retail, manufacturing, wholesale and distribution sector with a total of 11 distinguished brands under one umbrella, from single owner-managed restaurants to national and international chains in the UAE and MENA region. The continued success of GCS is a product of high standards, hands-on personnel and consistent quality of the services offered.</p>                           
+                                    <!-- <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> GCS also runs a successful and reputed catering business. Catering is an important aspect of any event, and we provide a full suite of services that help our customers create memorable events. We cater to private and corporate events, high-profile celebrations, and small exclusive gatherings. We also cater to industry segments with specialist needs, such as schools, hospitals, factories, hotels, and more.</p>                            -->
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> The retail arm of GCS has a growing portfolio of Levantine products, and it specializes in coffee and nuts. The products are available through 10 outlets across the UAE.</p>                           
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> The wholesale business of GCS operates under the Golden Sands brand. A focus on high quality, competitive prices, and responsive customer service has made it the preferred partner for large food-related businesses in the UAE.</p>                           
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> GCS is a customer-centric organization and is focused on exceeding the expectation of its customers. A customer-centric philosophy coupled with a relentless focus on quality has made GCS one of the more successful businesses in the entire F&B industry.</p>                           
                                 </div>
                             </div>
                         </div>                   
@@ -111,37 +113,21 @@
             </div>         
         </section>
 
-        <section class="simple-center simple-center--red thm-py-190 ">
-            <div class="container">
-                <div class="simple-center__wrapper">
-                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> <strong>GCS provides an extraordinary experience to its customers, ensuring complete satisfaction.</strong> 
-                        The group also boasts of a manufacturing and wholesale wing under Meera Al Sham Global, consisting of brands such as Diwan Al Muhanna, Malaza and Lebanese Roaster, while Golden Sands is responsible for the distribution network under the group. Global Catering Services is working aggressively to expand their FMCG division, along with the introduction of new manufactured products.</p>
-                </div>
-            </div>
-            <div class="simple-red-bg">
-                <img src="/assets/images/about-us/red-bg.jpg" alt="GCS figure">
-            </div>
-        </section>
-
         <!-- with title and btn -->
-        <!-- <section class="simple-center simple-center--red simple-center--red--btn thm-py-190 ">
+        <section class="simple-center thm-py-100 ">
             <div class="container">
                 <div class="simple-center__wrapper">
-                    <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Contact Us</h3>
-                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> <strong>GCS provides an extraordinary experience to its customers, ensuring complete satisfaction.</strong> 
-                        The group also boasts of a manufacturing and wholesale wing under Meera Al Sham Global, consisting of brands such as Diwan Al Muhanna, Malaza and Lebanese Roaster, while Golden Sands is responsible for the distribution network under the group. Global Catering Services is working aggressively to expand their FMCG division, along with the introduction of new manufactured products.</p>
-                    <a href="javascript:;" class="thm-btn thm-btn--white animate" data-animation="animate__fadeInUp" data-duration="200">
-                        <span class="thm-btn__text">Read more</span>
-                        <span class="thm-btn__icon">
-                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
-                        </span>
-                    </a>
+                    <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Vision</h3>
+                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> Build a portfolio of reputed and innovative food-inspired brands within the UAE and across the Middle East.</p>
+                    <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Mission</h3>
+                    <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> Create distinctive food-related experiences by reimagining the culinary and hospitality traditions of the Middle East.</p>
+                    
                 </div>
             </div>
-            <div class="simple-red-bg">
+            <!-- <div class="simple-red-bg">
                 <img src="/assets/images/about-us/red-bg.jpg" alt="GCS figure">
-            </div>
-        </section> -->
+            </div> -->
+        </section>
 
 
 

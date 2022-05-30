@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Catering | Food Safety Details </title>
+    <title>Global Catering | Wholesale Details </title>
     <?php include 'includes/meta.php'; ?>
 </head>
 
@@ -50,7 +50,7 @@
                             <div class="home-left-panel">
                                 <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">Your Health is the first Priority</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300">Global Catering has some of the highest food safety production standards in the industry and we are proud that consumers trust our products. We go beyond simply complying with national and international standards, and every part of our manufacturing process is subject to rigorous auditing and oversight. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat ut ipsum ultrices at sagittis turpis facilisis est. Pulvinar id pulvinar nunc scelerisque. Pellentesque pretium arcu urna, purus, facilisis purus egestas. Felis scelerisque facilisis eu vitae elementum et eros sit.</p>
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> Our distribution and food trading business operates under the Golden Sands brand. A focus on high quality, competitive prices, and responsive customer service has made us the preferred partner for large food-related businesses in the UAE and the wider region. Our reputation means that we must constantly raise the bar and set new benchmarks for others to follow.</p>
                                 </div>
                             </div>
                         </div>

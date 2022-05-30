@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Catering | Food Safety Details </title>
+    <title>Global Catering | Restaurants Details </title>
     <?php include 'includes/meta.php'; ?>
 </head>
 
@@ -50,7 +50,7 @@
                             <div class="home-left-panel">
                                 <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">Your Health is the first Priority</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300">Global Catering has some of the highest food safety production standards in the industry and we are proud that consumers trust our products. We go beyond simply complying with national and international standards, and every part of our manufacturing process is subject to rigorous auditing and oversight. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas erat ut ipsum ultrices at sagittis turpis facilisis est. Pulvinar id pulvinar nunc scelerisque. Pellentesque pretium arcu urna, purus, facilisis purus egestas. Felis scelerisque facilisis eu vitae elementum et eros sit.</p>
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> We create and manage innovative restaurant concepts that celebrate cuisines, creativity, and hospitality. Some of the most successful restaurants in Abu Dhabi and Dubai are run by us. Our deep understanding of food, cultures, consumers, and changing lifestyles has helped us create an extensive portfolio of restaurants across the UAE, Middle East, Turkey, and the United Kingdom.</p>
                                 </div>
                             </div>
                         </div>

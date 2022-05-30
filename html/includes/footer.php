@@ -1,5 +1,5 @@
 <footer class="footer">
-    <div class="footer__top thm-py-65">
+    <div class="footer__top">
         <div class="container footer__container">
             <div class="twocol-row">
                 <div class="footer__top--qlinks-wrapper">
@@ -31,10 +31,10 @@
                                 <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Explore </p>
                                 <ul class="qlinks-menu">
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/" class="uline">Home.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/" class="uline">About.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/" class="uline">Food Safety.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/" class="uline">News.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="600"><a href="/" class="uline">Contact. </a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/about-us.php" class="uline">About.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/food-safety.php" class="uline">Food Safety.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/news.php" class="uline">News.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="600"><a href="/contact-us.php" class="uline">Contact. </a></li>
                                     
                                 </ul>
                             </div>
@@ -45,10 +45,10 @@
                             <div class="toggle-btn qlinks__col__item">
                                 <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Business Sectors</p>
                                 <ul class="qlinks-menu">
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/" class="uline">Restaurants.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/" class="uline">Retail.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/" class="uline">Catering.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/" class="uline">Wholesale / Distribution.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/business-sectors.php#Restaurant" class="uline">Restaurants.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/business-sectors.php#Retail" class="uline">Retail.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/business-sectors.php#Catering" class="uline">Catering.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/business-sectors.php#Wholesale" class="uline">Wholesale / Distribution.</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -59,24 +59,39 @@
                                 <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Contact Us</p>
                                 <ul class="qlinks-menu">
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200">
-                                        <span>Abu Dhabi</span>
-                                        <i class="icon">
-                                            <img src="/assets/svg/location-icon.svg" alt="location">
-                                        </i>
-                                        <a href="">
-                                            Barthelsmühlring 24
-                                            76870 Kandel
-                                            Deutschland</a>
+                                        <span class="qlinks-menu__acc__title">Abu Dhabi</span>
+                                        <div class="qlinks-menu__accordion hide ">
+                                            <div class="qlinks-menu__accordion__wrapper">
+                                                <i class="icon">
+                                                    <img src="/assets/svg/location-icon.svg" alt="location">
+                                                </i>
+                                                <a href="">
+                                                    Barthelsmühlring 24
+                                                    76870 Kandel
+                                                    Deutschland</a>
+                                            </div>
+                                        </div>
                                     </li>
 
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300">
-                                        <a href="/" class="uline">p: 07275404440</a>
+                                        <a href="tel:07275404440 " class="uline">p: 07275404440</a>
                                     </li>
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400">
-                                        <a href="/" class="uline">f: info@mh-service.de</a>
+                                        <a href="tel:+971 26446678 " class="uline">f: +971 26446678</a>
                                     </li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500">
-                                        <a href="/" class="uline">Dubai</a>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500">                               
+                                        <span class="qlinks-menu__acc__title">Dubai</span>
+                                        <div class="qlinks-menu__accordion hide ">
+                                            <div class="qlinks-menu__accordion__wrapper">
+                                                <i class="icon">
+                                                    <img src="/assets/svg/location-icon.svg" alt="location">
+                                                </i>
+                                                <a href="">
+                                                    Barthelsmühlring 24
+                                                    76870 Kandel
+                                                    Deutschland</a>
+                                            </div>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
@@ -94,11 +109,11 @@
                     <a href="https://www.digitalgravity.ae/" target="_blank" class="uline">Digital.Gravity.</a>
                 </p>
                 <p class="copy">
-                    <a class="uline" href="javascript:">Sitemap</a>
+                    <a class="uline" href="/sitemap.php">Sitemap</a>
                     <span class="vline"> | </span>
-                    <a class="uline" href="javascript:">Terms of use</a>
+                    <a class="uline" href="/terms.php">Terms of use</a>
                     <span class="vline"> | </span>
-                    <a class="uline" href="javascript:">Privacy policy</a>
+                    <a class="uline" href="/privacy-policy.php">Privacy policy</a>
                 </p>
             </div>
         </div>
