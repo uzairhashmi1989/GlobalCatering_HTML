@@ -109,11 +109,11 @@
                     <a href="https://www.digitalgravity.ae/" target="_blank" class="uline">Digital.Gravity.</a>
                 </p>
                 <p class="copy">
-                    <a class="uline" href="javascript:">Sitemap</a>
+                    <a class="uline" href="/sitemap.php">Sitemap</a>
                     <span class="vline"> | </span>
-                    <a class="uline" href="javascript:">Terms of use</a>
+                    <a class="uline" href="/terms.php">Terms of use</a>
                     <span class="vline"> | </span>
-                    <a class="uline" href="javascript:">Privacy policy</a>
+                    <a class="uline" href="/privacy-policy.php">Privacy policy</a>
                 </p>
             </div>
         </div>

@@ -114,6 +114,7 @@
                     &::before,
                     &::after {
                         content: '';
+                        opacity: 1;
                     }
                     &.opened {
                         &::before {
