@@ -55,23 +55,14 @@
                         <div class="hero-home__locations__popup__scroll malihu-scroll">
                             <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title active">
-                                    <h5 class="h5">Global Catering Services</h5>                             
+                                    <h5 class="h5">Bosporus</h5>                             
                                 </div>
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Leicester Square</span>
                                             <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>Abu Dhabi Mall</span>
-                                            <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/The+Bosporus/@51.5109251,-0.1323143,17z/data=!3m1!4b1!4m5!3m4!1s0x48760576336451f3:0x4502c24198c55e22!8m2!3d51.5109251!4d-0.1301203?authuser=0&hl=en" target="_blank" >
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -81,7 +72,7 @@
                                 </div>
                             </div>
 
-                            <div class="hero-home__locations__popup__card">
+                            <!-- <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title">
                                     <h5 class="h5">Bosporus</h5>                             
                                 </div>
@@ -98,46 +89,8 @@
                                         </li>
                                     </ul>                                             
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Zahrat Lebnan</h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
-
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Nasr Grill TCA </h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -164,18 +117,9 @@
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Fatima Bint Mubarak St.</span>
                                             <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>Abu Dhabi Mall</span>
-                                            <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Global+Catering+Services/@24.4932263,54.3668642,15z/data=!4m5!3m4!1s0x0:0xe1ed936de70ae237!8m2!3d24.4932263!4d54.3668642" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -194,7 +138,16 @@
                                         <li>
                                             <span>Yas Mall</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Bosporus+Turkish+Cuisine+-+Yas+Mall/@24.4862052,54.6076214,15z/data=!4m2!3m1!1s0x0:0x535b84d33a317a62?sa=X&ved=2ahUKEwjqhfugz8_2AhUM3IUKHc62BYoQ_BJ6BAgsEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Abu Dhabi Mall</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Bosporus+Turkish+Cuisine+-+Abu+Dhabi+Mall+-+%D9%85%D8%B7%D8%B9%D9%85+%D8%A8%D9%88%D8%B3%D8%A8%D9%88%D8%B1%D8%B3+%D8%A3%D8%A8%D9%88%D8%B8%D8%A8%D9%8A+%D9%85%D9%88%D9%84%E2%80%AD/@24.4956113,54.3839186,15z/data=!4m2!3m1!1s0x0:0x215d3575ab53d859?sa=X&ved=2ahUKEwjFz4eaz8_2AhWSxoUKHVQ0CUMQ_BJ6BAgoEAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -211,9 +164,54 @@
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Muroor</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Zahrat+Lebnan+%D8%B2%D9%87%D8%B1%D8%A9+%D9%84%D8%A8%D9%86%D8%A7%D9%86+%D8%A7%D9%84%D9%85%D8%B1%D9%88%D8%B1+-+Muroor%E2%80%AD/@24.4338235,54.4366651,15z/data=!4m2!3m1!1s0x0:0x73a766ebe0af4908?sa=X&ved=2ahUKEwj17vCizs_2AhXY_7sIHX5hBI8Q_BJ6BAgxEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Al Khalidiyah</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Zahrat+Lebnan+-+Al+Khalidya+%D8%B2%D9%87%D8%B1%D8%A9+%D9%84%D8%A8%D9%86%D8%A7%D9%86+%D8%A7%D9%84%D8%AE%D8%A7%D9%84%D8%AF%D9%8A%D8%A9%E2%80%AD/@24.4764414,54.353034,15z/data=!4m5!3m4!1s0x0:0xcf313cb104eb9108!8m2!3d24.4764414!4d54.353034" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Defence St.</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Zahrat+Lebnan+-+Defence+St+%D8%B2%D9%87%D8%B1%D8%A9+%D9%84%D8%A8%D9%86%D8%A7%D9%86+%D8%B4%D8%A7%D8%B1%D8%B9+%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9%E2%80%AD/@24.4757525,54.3775638,15z/data=!4m2!3m1!1s0x0:0x7dd2885996c1b126?sa=X&ved=2ahUKEwi56YvLzs_2AhWSxoUKHVQ0CUMQ_BJ6BAgvEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Al Shahama</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Zahrat+Lebnan+-+Al+Shahama+%D8%B2%D9%87%D8%B1%D8%A9+%D9%84%D8%A8%D9%86%D8%A7%D9%86+%D8%A7%D9%84%D8%B4%D9%87%D8%A7%D9%85%D8%A9%E2%80%AD/@24.5255769,54.6909607,15z/data=!4m2!3m1!1s0x0:0xc799ecbf955f2a12?sa=X&ved=2ahUKEwj3ko3ezs_2AhWRx4UKHamQDlgQ_BJ6BAgtEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Al Shamkha</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Zahrat+Lebnan+Al+Shamkha+-+%D8%B2%D9%87%D8%B1%D8%A9+%D9%84%D8%A8%D9%86%D8%A7%D9%86+%D8%A7%D9%84%D8%B4%D8%A7%D9%85%D8%AE%D8%A9%E2%80%AD/@24.3664517,54.7388461,15z/data=!4m2!3m1!1s0x0:0x8773da2479ff06be?sa=X&ved=2ahUKEwjpy5Tyzs_2AhWlyIUKHRzZBZQQ_BJ6BAgvEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Tourist Club</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Zahrat+Lebnan+%D8%B2%D9%87%D8%B1%D8%A9+%D9%84%D8%A8%D9%86%D8%A7%D9%86+%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%E2%80%8E+-+TCA%E2%80%AD/@24.489505,54.3817813,15z/data=!4m5!3m4!1s0x0:0xcb307a03c79b46f!8m2!3d24.489505!4d54.3817813" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -230,9 +228,155 @@
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Tourist Club</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Nasr+Restaurant+and+Grill+TCA+-+%D9%85%D8%B7%D8%B9%D9%85+%D9%88+%D9%85%D8%B4%D8%A7%D9%88%D9%8A+%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D9%86%D8%A7%D8%AF%D9%8A+%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%AD%D9%8A%E2%80%AD/@24.4924928,54.3796787,15z/data=!4m2!3m1!1s0x0:0x5221bfaffbd094d?sa=X&ved=2ahUKEwj7w_CBz8_2AhUH8BoKHW3GCq4Q_BJ6BAg3EAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Nasr Muroor </h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Muroor</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Nasr+Restaurant+and+Grill+Muroor+-+%D9%85%D8%B7%D8%B9%D9%85+%D9%88+%D9%85%D8%B4%D8%A7%D9%88%D9%8A+%D9%86%D8%B5%D8%B1+%D8%A7%D9%84%D9%85%D8%B1%D9%88%D8%B1%E2%80%AD/@24.4389588,54.4148685,15z/data=!4m2!3m1!1s0x0:0xd0418bfcd54773c9?sa=X&ved=2ahUKEwj5h9yIz8_2AhVOzRoKHbzBDaAQ_BJ6BAg8EAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Lebanese Roaster </h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>Al Najda</span>
+                                            <span>
+                                                <a href="https://www.google.com/search?rlz=1C5CHFA_enAE860AE860&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=APq-WBvVquMUmdgOy2KEAb8G131dfIsqlg:1647605387087&q=lebanese+roaster+al+najda&rflfq=1&num=10&rldimm=1064205714567745132#rlfi=hd:;si:1064205714567745132;mv:[[24.489642099999998,54.3735577],[24.4893341,54.3732079]];tbs:lrf:!1m4!1u2!2m2!2m1!1e1!2m1!1e2!3sIAE,lf:1,lf_ui:2" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Fresh Market</span>
+                                            <span>
+                                                <a href="https://www.google.com/search?rlz=1C5CHFA_enAE860AE860&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=APq-WBvVquMUmdgOy2KEAb8G131dfIsqlg:1647605387087&q=lebanese+roaster+al+najda&rflfq=1&num=10&rldimm=1064205714567745132#rlfi=hd:;si:2574172419030505253;mv:[[24.489642099999998,54.3735577],[24.4893341,54.3732079]]" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Al Khalidiyah</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+-+Abudhabi+-+Al+Khalidya/@24.4791421,54.3519692,15z/data=!4m2!3m1!1s0x0:0x2a503d0f8935fa21?sa=X&ved=2ahUKEwiIqKCT0M_2AhUX3IUKHS7pBY0Q_BJ6BAgyEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Muroor</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+-+Abudhabi+-+Muroor/@24.4394991,54.4099795,15z/data=!4m2!3m1!1s0x0:0x73859a7666248375?sa=X&ved=2ahUKEwiNmeaf0M_2AhUIxoUKHbgHD4UQ_BJ6BAguEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Al Nahyan Camp</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+-+Abudhabi+-+Al+Nahyan+Camp/@24.4744405,54.3788101,15z/data=!4m2!3m1!1s0x0:0x31d4d7af67b9e1e?sa=X&ved=2ahUKEwjlkJ_T0M_2AhVDUhoKHRc9BZwQ_BJ6BAgxEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Airport Road</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+-+Abudhabi+-+Airport+Road/@24.4876411,54.3539011,15z/data=!4m2!3m1!1s0x0:0x810919839c329b75?sa=X&ved=2ahUKEwjYs6Xm0M_2AhVoyoUKHTh3Ac0Q_BJ6BAgvEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Defence St.</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+Defense+-+%D8%A7%D9%84%D9%85%D8%AD%D9%85%D8%B5%D8%A9+%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9+%D8%A7%D9%84%D8%AF%D9%81%D8%A7%D8%B9%E2%80%AD/@24.4758155,54.3777938,15z/data=!4m2!3m1!1s0x0:0x7c2e36291344c19b?sa=X&ved=2ahUKEwiMqvH60M_2AhUuyIUKHZUlDdcQ_BJ6BAgvEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Bain Al Jessrain</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster/@24.407566,54.506266,15z/data=!4m5!3m4!1s0x0:0x867bbb1bd62ea24c!8m2!3d24.407566!4d54.506266" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Mohamed Bin Zayed City</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+-+Abudhabi+-+Mohamed+Bin+Zayed/@24.3403014,54.5366379,15z/data=!4m2!3m1!1s0x0:0xecaa0c2a5c80b538?sa=X&ved=2ahUKEwimxbWq0c_2AhXNx4UKHY9ICUMQ_BJ6BAgvEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Dalma Mall</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+-+Abudhabi+-+Dalma+Mall/@24.3320587,54.523827,15z/data=!4m2!3m1!1s0x0:0xd6bc03ef1c2ebc41?sa=X&ved=2ahUKEwjIw6zC0c_2AhWZ8LsIHdSSBhkQ_BJ6BAgrEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Khalifa A</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+Khalifa+A/@24.4024264,54.5861069,15z/data=!4m2!3m1!1s0x0:0x935eec1fde0a82b1?sa=X&ved=2ahUKEwib4ozQ0c_2AhXghP0HHU4mDIYQ_BJ6BAg1EAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Baniyas Center</span>
+                                            <span>
+                                                <a href="https://www.google.com/search?rlz=1C5CHFA_enAE860AE860&tbs=lf:1,lf_ui:2&tbm=lcl&sxsrf=APq-WBuoMEiGdB8FPZWbkYzb_ZtofOoBQw:1647605844209&q=baniyas+center+lebanese+roaster&rflfq=1&num=10&rldimm=314878347899604773#rlfi=hd:;si:16412010079915030879,l,Ch9iYW5peWFzIGNlbnRlciBsZWJhbmVzZSByb2FzdGVySMW_uLSctYCACForEAIQAxgAGAIYAyIfYmFuaXlhcyBjZW50ZXIgbGViYW5lc2Ugcm9hc3RlcpIBD2NvZmZlZV9yb2FzdGVyc6oBGBABKhQiEGxlYmFuZXNlIHJvYXN0ZXIoAA;mv:[[24.287541899999997,54.6410555],[24.2874163,54.640929799999995]]" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Al Shahama</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+Al+Shahama/@24.5268938,54.6911376,15z/data=!4m2!3m1!1s0x0:0x3f19c7108eb7837a?sa=X&ved=2ahUKEwjqiLT_z8_2AhUr4YUKHfVNCAMQ_BJ6BAgvEAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -263,42 +407,70 @@
                         <div class="hero-home__locations__popup__scroll malihu-scroll">
                             <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title active">
-                                    <h5 class="h5">Global Catering Services</h5>                             
+                                    <h5 class="h5">Bosporus</h5>                             
                                 </div>
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Citystars</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Bosporus+Citystars/@30.0738651,31.3447214,15z/data=!4m2!3m1!1s0x0:0x4929e0a1372e3743?sa=X&ved=2ahUKEwimzcTp0s_2AhXrxoUKHcyFDSsQ_BJ6BAgvEAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
                                             </span>
                                         </li>
                                         <li>
-                                            <span>Abu Dhabi Mall</span>
+                                            <span>Mall of Egypt</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Bosporus+Mall+Of+Egypt/@29.971464,31.0188825,15z/data=!4m2!3m1!1s0x0:0xa058cf5d69986466?sa=X&ved=2ahUKEwifjIb-0s_2AhWKzoUKHaQjArQQ_BJ6BAg3EAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
                                             </span>
                                         </li>
+                                        <li>
+                                            <span>Cairo Festival City</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Bosporus+Cairo+Festival+City/@30.0281211,31.4095049,15z/data=!4m2!3m1!1s0x0:0xe874b580e72e5b9d?sa=X&ved=2ahUKEwi61fyM08_2AhVwyoUKHSoUCaQQ_BJ6BAgmEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>City Centre Almaza</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Bosporus+City+Centre+Almaza/@30.0817068,31.3633951,15z/data=!4m12!1m6!3m5!1s0x0:0x6c696af0b15e9900!2sBosporus+City+Centre+Almaza!8m2!3d30.0817068!4d31.3633951!3m4!1s0x0:0x6c696af0b15e9900!8m2!3d30.0817068!4d31.3633951" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Open Air Mall</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Bosporus/@30.1073899,31.6260524,15z/data=!4m2!3m1!1s0x0:0xadb32e235d7aa288?sa=X&ved=2ahUKEwjFnobR08_2AhUNKBoKHbVHCx8Q_BJ6BAg_EAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        
                                     </ul>                                             
                                 </div>
                             </div>
 
                             <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Bosporus</h5>                             
+                                    <h5 class="h5">Zahrat Lebnan</h5>                             
                                 </div>
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Maadi</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Zahrat+Lebnan+Egypt/@29.9813371,31.316419,15z/data=!4m2!3m1!1s0x0:0x1b7ab80ef7edf634?sa=X&ved=2ahUKEwjijOKg1M_2AhWLzIUKHfLqBqIQ_BJ6BAg1EAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -308,7 +480,7 @@
                                 </div>
                             </div>
 
-                            <div class="hero-home__locations__popup__card">
+                            <!-- <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title">
                                     <h5 class="h5">Zahrat Lebnan</h5>                             
                                 </div>
@@ -325,27 +497,8 @@
                                         </li>
                                     </ul>                                             
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Nasr Grill TCA </h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
@@ -372,18 +525,9 @@
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>DIFC</span>
                                             <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>Abu Dhabi Mall</span>
-                                            <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Al+Kawakeb+Property+Management/@25.2088024,55.2747263,19.79z/data=!4m12!1m6!3m5!1s0x0:0x3405a75dbf0ea9d3!2sLebanese+Roaster+-+Dubai+-+DIFC!8m2!3d25.209008!4d55.2746424!3m4!1s0x3e5f428891d8fbeb:0xc2df2252ab69674f!8m2!3d25.2087618!4d55.2747188" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -400,9 +544,45 @@
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Mirdif</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Bosporus+Turkish+Cuisine+-+City+Centre+Mirdif+-+%D9%85%D8%B7%D8%B9%D9%85+%D8%A8%D9%88%D8%B3%D8%A8%D9%88%D8%B1%D8%B3+%D9%85%D8%B1%D8%AF%D9%81+%D8%B3%D9%8A%D8%AA%D9%8A+%D8%B3%D9%86%D8%AA%D8%B1%E2%80%AD/@25.2160892,55.4092363,15z/data=!4m2!3m1!1s0x0:0x988d3a6d1b6f84fb?sa=X&ved=2ahUKEwiqsdKXzc_2AhX7iv0HHasFCCkQ_BJ6BAhCEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Downtown</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Bosporus+Turkish+Cuisine+-+Boulevard+-+%D9%85%D8%B7%D8%B9%D9%85+%D8%A8%D8%B3%D8%A8%D9%88%D8%B1%D8%B3+%D8%A8%D9%88%D9%84%D9%8A%D9%81%D8%A7%D8%B1%D8%AF%E2%80%AD/@25.1920543,55.2717845,15z/data=!4m2!3m1!1s0x0:0xd1c5eae615432462?sa=X&ved=2ahUKEwj8gpm8zc_2AhWVi_0HHYxoDx0Q_BJ6BAgsEAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>The Dubai Mall</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Bosporus+Turkish+Cuisine+-+The+Dubai+Mall+-+%D9%85%D8%B7%D8%B9%D9%85+%D8%A8%D8%B3%D8%A8%D9%88%D8%B1%D8%B3+%D8%AF%D8%A8%D9%8A+%D9%85%D9%88%D9%84%E2%80%AD/@25.1954469,55.2790383,15z/data=!4m5!3m4!1s0x0:0xd7f7ca2d08a23825!8m2!3d25.1954469!4d55.2790383" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Jumeirah</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Bosporus+Turkish+Cuisine+-+Jumeirah/@25.1715661,55.2169438,15z/data=!4m2!3m1!1s0x0:0xdb950fd0c2da9777?sa=X&ved=2ahUKEwjdpIjUzc_2AhWY7rsIHVwIDqUQ_BJ6BAg-EAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                        <li>
+                                            <span>Jumeirah Beach Residence</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Bosporus+Turkish+Cuisine+-+The+Beach+(JBR)+-+%D9%85%D8%B7%D8%B9%D9%85+%D8%A8%D9%88%D8%B3%D8%A8%D9%88%D8%B1%D8%B3+%D8%A7%D9%84%D8%B4%D8%A7%D8%B7%D8%A6+(%D8%AC%D9%8A+%D8%A8%D9%8A+%D8%A2%D8%B1)%E2%80%AD/@25.0778827,55.1327781,15z/data=!4m2!3m1!1s0x0:0x473f0bc8f772f87f?sa=X&ved=2ahUKEwiv1LLezc_2AhUrgP0HHajiAyIQ_BJ6BAgxEAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -414,14 +594,14 @@
 
                             <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Zahrat Lebnan</h5>                             
+                                    <h5 class="h5">Verdura</h5>                             
                                 </div>
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Ibn Batutta Mall</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Verdura+Mediterranean+Restaurant/@25.045707,55.1196366,15z/data=!4m2!3m1!1s0x0:0x43d06571532a3531?sa=X&ved=2ahUKEwiLpb2Gzs_2AhUNh_0HHf4lD1MQ_BJ6BAgmEAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -433,14 +613,33 @@
 
                             <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Nasr Grill TCA </h5>                             
+                                    <h5 class="h5">Bab Al Mansour </h5>                             
                                 </div>
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Downtown</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Bab+Al-Mansour/@25.1972967,55.2700315,15z/data=!4m2!3m1!1s0x0:0xbb368f948c92a0d9?sa=X&ved=2ahUKEwj9jsmOzs_2AhXL_rsIHV3ACIQQ_BJ6BAg4EAU" target="_blank">
+                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
+                                                    View Location
+                                                </a>
+                                            </span>
+                                        </li>
+                                    </ul>                                             
+                                </div>
+                            </div>
+
+                            <div class="hero-home__locations__popup__card">
+                                <div class="hero-home__locations__popup__card__title">
+                                    <h5 class="h5">Lebanese Roaster </h5>                             
+                                </div>
+                                <div class="hero-home__locations__popup__card__panel">
+                                    <ul>
+                                        <li>
+                                            <span>DIFC</span>
+                                            <span>
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+-+Dubai+-+DIFC/@25.209008,55.2746424,15z/data=!4m2!3m1!1s0x0:0x3405a75dbf0ea9d3?sa=X&ved=2ahUKEwiyh7-Wzs_2AhX48LsIHZYzA8UQ_BJ6BAgcEAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -472,23 +671,14 @@
                         <div class="hero-home__locations__popup__scroll malihu-scroll">
                             <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title active">
-                                    <h5 class="h5">Global Catering Services</h5>                             
+                                    <h5 class="h5">Lebanese Roaster</h5>                             
                                 </div>
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Jamal Abdul Naser</span>
                                             <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>Abu Dhabi Mall</span>
-                                            <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+-+Sharjah/@25.3287259,55.3933203,15z/data=!4m5!3m4!1s0x0:0xb991e315ced2e29c!8m2!3d25.3287243!4d55.3933449" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -498,7 +688,7 @@
                                 </div>
                             </div>
 
-                            <div class="hero-home__locations__popup__card">
+                            <!-- <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title">
                                     <h5 class="h5">Bosporus</h5>                             
                                 </div>
@@ -515,45 +705,7 @@
                                         </li>
                                     </ul>                                             
                                 </div>
-                            </div>
-
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Zahrat Lebnan</h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
-
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Nasr Grill TCA </h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
+                            </div> -->
                             
                         </div>
                     </div>
@@ -577,23 +729,14 @@
                         <div class="hero-home__locations__popup__scroll malihu-scroll">
                             <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title active">
-                                    <h5 class="h5">Global Catering Services</h5>                             
+                                    <h5 class="h5">Bosporus</h5>                             
                                 </div>
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Awan Gallery</span>
                                             <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                        <li>
-                                            <span>Abu Dhabi Mall</span>
-                                            <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Awan+Gallery/@26.4511952,50.1299946,15z/data=!4m5!3m4!1s0x0:0x73224342365634b3!8m2!3d26.4511952!4d50.1299946?shorturl=1" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
@@ -603,7 +746,7 @@
                                 </div>
                             </div>
 
-                            <div class="hero-home__locations__popup__card">
+                            <!-- <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title">
                                     <h5 class="h5">Bosporus</h5>                             
                                 </div>
@@ -620,45 +763,7 @@
                                         </li>
                                     </ul>                                             
                                 </div>
-                            </div>
-
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Zahrat Lebnan</h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
-
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Nasr Grill TCA </h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
+                            </div> -->
                             
                         </div>
                     </div>
@@ -681,33 +786,25 @@
                         <div class="hero-home__locations__popup__scroll malihu-scroll">
                             <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title active">
-                                    <h5 class="h5">Global Catering Services</h5>                             
+                                    <h5 class="h5">Lebanese Roaster</h5>                             
                                 </div>
                                 <div class="hero-home__locations__popup__card__panel">
                                     <ul>
                                         <li>
-                                            <span>Yas Mall</span>
+                                            <span>Khalifa Bin Zayed St.</span>
                                             <span>
-                                                <a href="/">
+                                                <a href="https://www.google.com/maps/place/Lebanese+Roaster+Al+Ain+-+%D8%A7%D9%84%D9%85%D8%AD%D9%85%D8%B5%D8%A9+%D8%A7%D9%84%D9%84%D8%A8%D9%86%D8%A7%D9%86%D9%8A%D8%A9+%D8%A7%D9%84%D8%B9%D9%8A%D9%86%E2%80%AD/@24.2239522,55.7651458,15z/data=!4m2!3m1!1s0x0:0xf83ffd7a653f39d7?sa=X&ved=2ahUKEwiR8dHR0s_2AhUjzIUKHThhBlQQ_BJ6BAgsEAU" target="_blank">
                                                     <img src="/assets/svg/location-pin.svg" alt="pin">
                                                     View Location
                                                 </a>
                                             </span>
                                         </li>
-                                        <li>
-                                            <span>Abu Dhabi Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
+
                                     </ul>                                             
                                 </div>
                             </div>
 
-                            <div class="hero-home__locations__popup__card">
+                            <!-- <div class="hero-home__locations__popup__card">
                                 <div class="hero-home__locations__popup__card__title">
                                     <h5 class="h5">Bosporus</h5>                             
                                 </div>
@@ -724,46 +821,8 @@
                                         </li>
                                     </ul>                                             
                                 </div>
-                            </div>
+                            </div> -->
 
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Zahrat Lebnan</h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
-
-                            <div class="hero-home__locations__popup__card">
-                                <div class="hero-home__locations__popup__card__title">
-                                    <h5 class="h5">Nasr Grill TCA </h5>                             
-                                </div>
-                                <div class="hero-home__locations__popup__card__panel">
-                                    <ul>
-                                        <li>
-                                            <span>Yas Mall</span>
-                                            <span>
-                                                <a href="/">
-                                                    <img src="/assets/svg/location-pin.svg" alt="pin">
-                                                    View Location
-                                                </a>
-                                            </span>
-                                        </li>
-                                    </ul>                                             
-                                </div>
-                            </div>
-                            
                         </div>
                     </div>
                 </div>
