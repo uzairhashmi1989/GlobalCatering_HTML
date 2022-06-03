@@ -36,7 +36,7 @@
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-100">
-                        <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Food Handling Lorem ipsum de para</h3>
+                        <!-- <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Food Handling Lorem ipsum de para</h3> -->
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@
                     <div class="twocol-row">
                         <div class="col-40">
                             <div class="home-left-panel">
-                                <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">Your Health is the first Priority</h3>
+                                <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">INNOVATIVE RESTAURANT CONCEPTS</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> We create and manage innovative restaurant concepts that celebrate cuisines, creativity, and hospitality. Some of the most successful restaurants in Abu Dhabi and Dubai are run by us. Our deep understanding of food, cultures, consumers, and changing lifestyles has helped us create an extensive portfolio of restaurants across the UAE, Middle East, Turkey, and the United Kingdom.</p>
                                 </div>
@@ -65,12 +65,12 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <!-- <div class="container">
                 <div class="bottom-area">
                     <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Catering equipment for 16 years.</h3>
                     <p class="animate" data-animation="animate__fadeInUp" data-duration="300">Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timed. Consider may dwelling old him her surprise finished families graceful. Gave led past poor met fine was new.Prepared do an dissuade be so whatever steepest. Yet her beyond looked either day wished nay. By doubtful disposed do juvenile an. Now curiosity you explained immediate why behaviour. An dispatched impossible of of melancholy favourable. Our quiet not heart along scale sense timed. Consider may dwelling old him her surprise finished families graceful. Gave led past poor met fine was new.</p>
                 </div>
-            </div>
+            </div> -->
         </section>
 
         <section class="dishes-table">
@@ -106,7 +106,7 @@
                             <img src="/assets/images/food-safety-details/6.jpg" alt="">
                         </div>
                     </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="800">
+                    <!-- <li class=" animate" data-animation="animate__fadeInUp" data-duration="800">
                         <div class="img-wrapper">
                             <img src="/assets/images/food-safety-details/7.jpg" alt="">
                         </div>
@@ -125,12 +125,12 @@
                         <div class="img-wrapper">
                             <img src="/assets/images/food-safety-details/10.jpg" alt="">
                         </div>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </section>
 
-        <section class="preparations blue-bg">
+        <!-- <section class="preparations blue-bg">
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-50">
@@ -154,7 +154,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
 
 
