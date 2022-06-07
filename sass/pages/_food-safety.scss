@@ -33,7 +33,7 @@
             bottom: unset;
             transform: translateY(-50%);
             right: 10em;
-            
+
             &__stroke {
                 left: 97%;
                 right: unset;
@@ -44,21 +44,27 @@
             background-color: transparent;
             padding: em(200) 0;
             margin-top: em(-110);
+
             @media #{$ipadpro} {
                 padding: 6.625em 0;
                 margin-top: 0;
             }
+
             @media #{$tab} {
                 padding: 2em 0;
             }
+
             .twocol-row {
                 flex-direction: row-reverse;
             }
+
             .home-left-panel {
                 margin-left: 12em;
+
                 @media #{$ipadpro} {
                     margin-left: 6em;
                 }
+
                 @media #{$tab} {
                     margin-left: 0;
                 }
@@ -68,10 +74,12 @@
                 }
 
             }
+
             .stroke-figure__panel {
                 right: unset;
                 left: 3.5em;
                 width: 44%;
+
                 @media #{$tab} {
                     right: unset;
                     left: unset;
@@ -79,7 +87,7 @@
                     transform: none;
                     top: unset;
                 }
-                
+
                 &__img {
                     width: auto;
                 }
@@ -90,26 +98,33 @@
             background-color: #F8F8FB;
             padding: em(250) 0;
             margin-top: em(-110);
+
             @media #{$ipadpro} {
                 padding: 6.625em 0;
                 margin-top: 0;
             }
+
             @media #{$tab} {
                 padding: 2em 0;
             }
+
             .twocol-row {
                 flex-direction: row;
+
                 .home-left-panel {
                     margin-left: 0;
                 }
             }
+
             .stroke-figure__panel {
                 left: unset;
                 right: 7.5em;
                 width: 44%;
+
                 @media #{$ipad} {
                     width: 38%;
                 }
+
                 @media #{$tab} {
                     right: unset;
                     left: unset;
@@ -117,16 +132,18 @@
                     transform: none;
                     top: unset;
                 }
+
                 &__img {
                     width: auto;
                 }
+
                 &__stroke {
                     left: 96%;
                 }
             }
         }
 
-        &:first-child  {
+        &:first-child {
             .stroke-figure__panel {
                 &::before {
                     content: "";
@@ -137,10 +154,12 @@
                     border-radius: 50%;
                     left: -7%;
                     top: -32%;
+
                     @media #{$ipadpro} {
                         display: none;
                     }
                 }
+
                 &::after {
                     content: "";
                     position: absolute;
@@ -150,10 +169,12 @@
                     left: -53%;
                     top: -48%;
                     border: 1.5px solid $grey-color-light;
+
                     @media #{$ipadpro} {
                         display: none;
                     }
                 }
+
                 &__img {
                     position: relative;
                     z-index: 1;
@@ -209,6 +230,7 @@
 
     .bottom-area {
         padding: 6.25em 0 2.8125em;
+
         @media #{$ipadpro} {
             padding: 1.25em 0 2.8125em;
         }
@@ -217,6 +239,7 @@
 
 .dishes-table {
     padding: 3.125em 0 4em;
+
     @media #{$mob} {
         padding: 3.125em 0;
     }
@@ -229,20 +252,35 @@
         margin-left: -0.8em;
         margin-right: -0.8em;
         padding: 0 2em;
+        justify-content: center;
+
         @media #{$mob} {
             padding: 0;
         }
 
         li {
-            width: 20%;
+            width: 30%;
             padding: 0.8em;
+
+            .img-wrapper {
+                display: flex;
+                justify-content: center;
+            }
+
+            a {
+                display: flex;
+                justify-content: center;
+            }
 
             @media #{$tab} {
                 width: 50%;
             }
 
             img {
-                width: 100%;
+                width: 80%;
+                @media #{$tab}{
+                    width: 100%;
+                }
             }
         }
     }
