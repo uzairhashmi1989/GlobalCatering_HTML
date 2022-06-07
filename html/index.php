@@ -862,7 +862,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="/assets/images/home/facilities-1.jpg" alt="facilities" class="observer__child">
+                                <img src="assets\images\final-imgs\hompage\restaurant-1" alt="facilities" class="observer__child">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span >Restaurants</span>
@@ -882,7 +882,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="/assets/images/home/facilities-2.jpg" alt="facilities" class="observer__child">
+                                <img src="assets\images\final-imgs\hompage\retail" alt="facilities" class="observer__child">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span >Retail</span>
@@ -902,7 +902,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one ">
-                                <img src="/assets/images/home/facilities-3.jpg" alt="facilities" class="observer__child">
+                                <img src="assets\images\final-imgs\hompage\catering" alt="facilities" class="observer__child">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Catering</span>
@@ -942,7 +942,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="/assets/images/home/facilities-3.jpg" alt="facilities" class="observer__child">
+                                <img src="assets\images\final-imgs\hompage\restaurant-2" alt="facilities" class="observer__child">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span >Restaurants</span>
