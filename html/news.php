@@ -37,9 +37,7 @@
                     <div class="col-100">
                         <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Get The Latest Updates</h3>
                     </div>
-                    <div class="col-40">
-                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
-                    </div>
+                    
                 </div>
             </div>
         </section>
@@ -476,12 +474,6 @@
                         </div>
                     </div>
                 </div>
-                <a href="javascript:;" target="_blank" class="thm-btn">
-                    <span class="thm-btn__text">Read more</span>
-                    <span class="thm-btn__icon">
-                        <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
-                    </span>
-                </a>
             </div>
         </section>
 

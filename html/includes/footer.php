@@ -14,13 +14,13 @@
                                 <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="400">
                                     <img class="svg-convert" src="/assets/svg/social/c-instagram.svg" alt="instagram" target="_blank" title="instagram" width="19" height="19">
                                 </a>
-                                
+
                                 <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="300">
                                     <img class="svg-convert" src="/assets/svg/social/c-facebook.svg" alt="facebook" target="_blank" title="facebook" width="10" height="19">
                                 </a>
-                                
+
                                 <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="500">
-                                    <img class="svg-convert" src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin" width="19" height="19" > 
+                                    <img class="svg-convert" src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin" width="19" height="19">
                                 </a>
                             </div>
                         </div>
@@ -35,7 +35,7 @@
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/food-safety.php" class="uline">Food Safety.</a></li>
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/news.php" class="uline">News.</a></li>
                                     <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="600"><a href="/contact-us.php" class="uline">Contact. </a></li>
-                                    
+
                                 </ul>
                             </div>
                         </div>
@@ -65,34 +65,25 @@
                                                 <i class="icon">
                                                     <img src="/assets/svg/location-icon.svg" alt="location">
                                                 </i>
-                                                <a href="">
-                                                    Barthelsmühlring 24
-                                                    76870 Kandel
-                                                    Deutschland</a>
+                                                <a href="#">Global Tower, Electra Street</a>
                                             </div>
                                         </div>
                                     </li>
 
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300">
-                                        <a href="tel:07275404440 " class="uline">p: 07275404440</a>
-                                    </li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400">
-                                        <a href="tel:+971 26446678 " class="uline">f: +971 26446678</a>
-                                    </li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500">                               
+
+
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500">
                                         <span class="qlinks-menu__acc__title">Dubai</span>
                                         <div class="qlinks-menu__accordion hide ">
                                             <div class="qlinks-menu__accordion__wrapper">
                                                 <i class="icon">
                                                     <img src="/assets/svg/location-icon.svg" alt="location">
                                                 </i>
-                                                <a href="">
-                                                    Barthelsmühlring 24
-                                                    76870 Kandel
-                                                    Deutschland</a>
+                                                <a href="#">Al Kawakeb Building, E Block, Financial Center Area, Sheikh Zayed Road Dubai, United Arab Emirates</a>
                                             </div>
                                         </div>
                                     </li>
+
                                 </ul>
                             </div>
                         </div>
@@ -105,7 +96,7 @@
     <div class="footer__bottom">
         <div class="container footer__container">
             <div class="bottom-wrap">
-                <p class="copy">© 2022 Global Catering Services. Designed & developed by 
+                <p class="copy">© 2022 Global Catering Services. Designed & developed by
                     <a href="https://www.digitalgravity.ae/" target="_blank" class="uline">Digital.Gravity.</a>
                 </p>
                 <p class="copy">

@@ -13,9 +13,9 @@
     <?php include('includes/loader.php'); ?>
     <?php include 'includes/header.php'; ?>
 
-    
+
     <main>
-        
+
         <!-- hero -->
         <section class="hero-home inner--hero">
             <div class="container hero-home__container">
@@ -38,7 +38,7 @@
                         <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Reach Out to us</h3>
                     </div>
                     <div class="col-40">
-                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                        <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> In order to learn more regarding Global Catering, you may contact us through the below information or visit us!</p>
                     </div>
                 </div>
             </div>
@@ -86,13 +86,13 @@
                                     <div class="col-100">
                                         <div class="lets-connect__form__field lets-connect__form__field--checkbox ">
                                             <label for="">
-                                                I agree to all <a href="">Terms</a> ,  and <a href="">Privacy Policy</a>  
+                                                I agree to all <a href="">Terms</a> , and <a href="">Privacy Policy</a>
                                             </label>
                                             <input type="checkbox">
                                         </div>
                                     </div>
                                     <div class="col-100">
-                                        <div class="lets-connect__form__field">                                        
+                                        <div class="lets-connect__form__field">
                                             <button type="submit" class="thm-btn">
                                                 <span class="thm-btn__text">submit</span>
                                                 <span class="thm-btn__icon">
@@ -101,7 +101,7 @@
                                             </button>
                                         </div>
                                     </div>
-                                </div>       
+                                </div>
                             </form>
                         </div>
 
@@ -162,10 +162,10 @@
             </div>
         </section>
 
-        
+
         <!-- cta -->
         <?php include 'includes/follow-us.php'; ?>
-        
+
 
     </main>
 
@@ -175,4 +175,3 @@
 </body>
 
 </html>
-
