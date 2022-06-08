@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
-                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/restaurants/banner" alt="banner image">
+                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/restaurants/banner.jpg" alt="banner image">
                 </picture>
             </div>
         </section>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/restaurants/inner" alt="restaurant" class="observer__child">
+                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/restaurants/inner.jpg" alt="restaurant" class="observer__child">
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>our priorities</span>
@@ -79,7 +79,7 @@
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="200">
                         <div class="img-wrapper">
                             <a href="https://babalmansour.ae" target="_blank">
-                                <img src="assets/images/food-safety-details/bab-al-mansour-1" alt="babalmansour">
+                                <img src="assets/images/food-safety-details/bab-al-mansour-1.jpg" alt="babalmansour">
                             </a>
                         </div>
                     </li>
@@ -87,21 +87,21 @@
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="300">
                         <div class="img-wrapper">
                             <a href="https://thebosporus.com" target="_blank">
-                                <img src="assets/images/food-safety-details/bosporus-1" alt="thebosporus">
+                                <img src="assets/images/food-safety-details/bosporus-1.jpg" alt="thebosporus">
                             </a>
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="400">
                         <div class="img-wrapper">
                             <a href="https://www.facebook.com/chopsandshrimps/" target="_blank">
-                                <img src="assets/images/food-safety-details/chops-1" alt="chops">
+                                <img src="assets/images/food-safety-details/chops-1.jpg" alt="chops">
                             </a>
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="500">
                         <div class="img-wrapper">
                             <a href="https://www.talabat.com/uae/nasr-grill" target="_blank">
-                                <img src="assets/images/food-safety-details/nasrgrill-1" alt="nasrgrill">
+                                <img src="assets/images/food-safety-details/nasrgrill-1.jpg" alt="nasrgrill">
                             </a>
                         </div>
                     </li>
@@ -115,7 +115,7 @@
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="700">
                         <div class="img-wrapper">
                             <a href="https://zahratlebnan.com/" target="_blank">
-                                <img src="assets/images/food-safety-details/zahrat-lebnan-1" alt="">
+                                <img src="assets/images/food-safety-details/zahrat-lebnan-1.jpg" alt="">
                             </a>
                         </div>
                     </li>

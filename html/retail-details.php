@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
-                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/retail/banner" alt="banner image">
+                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/retail/banner.jpg" alt="banner image">
                 </picture>
             </div>
         </section>
@@ -79,7 +79,7 @@
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="200">
                         <div class="img-wrapper">
                             <a href="#">
-                                <img src="/assets/images/food-safety-details/retail" alt="safety">
+                                <img src="/assets/images/food-safety-details/retail.jpg" alt="safety">
                             </a>
                         </div>
                     </li>

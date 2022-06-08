@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/food-safety/mob-banner.jpg">
-                    <img src="/assets/images/food-safety/banner.jpg" alt="banner image">
+                    <img src="/assets/images/food-safety/banner.jpg" alt="banner image" />
                 </picture>
             </div>
         </section>
@@ -90,7 +90,7 @@
                                     <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                         </span>
                                     </a>
                                 </div>
@@ -100,7 +100,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="/assets/images/food-safety/meat-shop.jpg" alt="restaurant" class="observer__child">
+                        <img src="/assets/images/food-safety/meat-shop.jpg" alt="restaurant" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Handling</span>
@@ -119,7 +119,7 @@
                                     <a href="javascript:;" class="thm-btn thm-btn--blue animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                         </span>
                                     </a>
                                 </div>
@@ -129,7 +129,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="/assets/images/food-safety/seff.jpg" alt="restaurant" class="observer__child">
+                        <img src="/assets/images/food-safety/seff.jpg" alt="restaurant" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Preparation</span>
@@ -148,7 +148,7 @@
                                     <a href="javascript:;" class="thm-btn thm-btn--gray animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                         </span>
                                     </a>
                                 </div>
@@ -158,7 +158,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="/assets/images/food-safety/cooking.jpg" alt="restaurant" class="observer__child">
+                        <img src="/assets/images/food-safety/cooking.jpg" alt="restaurant" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Hygiene</span>
@@ -177,7 +177,7 @@
                                     <a href="javascript:;" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                         </span>
                                     </a>
                                 </div>
@@ -187,7 +187,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="/assets/images/food-safety/cutting.jpg" alt="restaurant" class="observer__child">
+                        <img src="/assets/images/food-safety/cutting.jpg" alt="restaurant" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Storage</span>
@@ -268,7 +268,7 @@
                     <a href="javascript:;" class="thm-btn  animate" data-animation="animate__fadeInUp" data-duration="200">
                         <span class="thm-btn__text">Get A Qoute</span>
                         <span class="thm-btn__icon">
-                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                         </span>
                     </a>
                 </div>
