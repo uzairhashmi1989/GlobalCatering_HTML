@@ -68,7 +68,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="assets\images\final-imgs\business-sectors\restaurant" alt="restaurant" class="observer__child">
+                        <img src="assets/images/final-imgs/business-sectors/restaurant.jpg" alt="restaurant" class="observer__child">
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Restaurants</span>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets\images\final-imgs\business-sectors\retail" class="observer__child">
+                        <img src="assets/images/final-imgs/business-sectors/retail" class="observer__child">
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Retail</span>
@@ -129,7 +129,7 @@
                         <div class="col-50">
                             <div class="stroke-figure__panel">
                                 <div class="stroke-figure__panel__img img__observer__one">
-                                    <img src="assets\images\final-imgs\business-sectors\catering" alt="restaurant" class="observer__child">
+                                    <img src="assets/images/final-imgs/business-sectors/catering" alt="restaurant" class="observer__child">
                                 </div>
                                 <div class="stroke-figure__panel__stroke">
                                     <span> Catering</span>
