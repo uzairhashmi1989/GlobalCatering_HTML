@@ -4,9 +4,10 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.css" />
 <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet" type="text/css" />
-<link rel="stylesheet" href="/assets/css/jquery.jqplot.min.css">
 
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
+<!-- <link rel="stylesheet" href="/assets/css/jquery.jqplot.min.css"> -->
+
+<link rel="icon" type="image/x-icon" href="/favicon.png">
 
 <!-- normal Custom CSS -->
 <link rel="stylesheet" href="/assets/css/custom.min.css">
@@ -48,7 +49,7 @@
     .lds-ellipsis div:nth-child(1) {
         left: 8px;
         animation: lds-ellipsis1 0.6s infinite;
-        background: #2368d0;
+        background: #931E5A;
     }
     .lds-ellipsis div:nth-child(2) {
         left: 8px;
@@ -57,12 +58,12 @@
     .lds-ellipsis div:nth-child(3) {
         left: 32px;
         animation: lds-ellipsis2 0.6s infinite;
-        background: #2368d0;
+        background: #931E5A;
     }
     .lds-ellipsis div:nth-child(4) {
         left: 56px;
         animation: lds-ellipsis3 0.6s infinite;
-        background: #2368d0;
+        background: #931E5A;
     }
     
     @keyframes lds-ellipsis1 {

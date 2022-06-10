@@ -5,6 +5,7 @@ $black-color:      #000000;
 $white-color:      #ffffff;
 $grey-color:       #5A5A5A;
 $grey-color-light:       #ccceef;
+$grey-color-light2:       #e6e4e5;
 $blue-color:       #2E3191;
 $yellow-color:     #FFCA1D;
 $purple-color:     #7670B3;
@@ -18,11 +19,12 @@ $transition-ease: all 0.3s ease-in-out;
 
 
 // Media Sizes
+$desktop: '(max-width:1680px)'; 
 $ipadproL: '(max-width:1399px)'; // Ipad Pro Landscape
 $ipadpro: '(max-width:1199px)'; // Ipad pro
 $ipad: '(max-width:991px)'; // Ipad
 $tab: '(max-width:767px)'; // Tablet
-$mob: '(max-width:576px)'; // Base Mobile
+$mob: '(max-width:575px)'; // Base Mobile
 $smallmob: '(max-width:375px)'; // Small Mobile
 
 

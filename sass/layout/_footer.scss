@@ -12,12 +12,18 @@
         @media (min-width: 1200px) {
             padding: 0 10.25%;
         }
+        @media #{$mob} {
+            padding: 0 16px;
+        }
     }
     &__top {
-        padding: 8.25em 0 6.875em 0;
         background: $blue-color;
+        padding: em(65) 0 em(20);
         @media #{$ipad} {
-            padding: 4em 0 2em;
+            padding: 3em 0 2em;
+        }
+        @media #{$mob} {
+            padding-top: 1em;
         }
         &--qlinks-wrapper {
             width: 100%;
@@ -26,7 +32,13 @@
             @media #{$ipad} {
                 display: block;
             }
+            .qlinks__col__wrapper {
+                @media #{$ipad} {
+                    margin-bottom: 1em;
+                }
+            }
         }
+
     }
 }
 
@@ -56,12 +68,15 @@
                 &::after {
                     content: '';
                     position: absolute;
-                    width: 15.136em;
+                    width: 13.136em;
                     height: 1px;
                     background: $white-color;
                     bottom: -0.5em;
                     opacity: 0.5;
                     left: 0;
+                    @media #{$ipadpro} {
+                        width: 11.136em;
+                    }
                 }
                 @media #{$ipad} {
                     &::before,
@@ -99,6 +114,7 @@
                     &::before,
                     &::after {
                         content: '';
+                        opacity: 1;
                     }
                     &.opened {
                         &::before {
@@ -148,6 +164,7 @@
             }
             .brand-logo {
                 position: relative;
+                margin: 0;
                 a {
                     display: inline-block;
                     width: 11.875em;
@@ -163,6 +180,10 @@
             .social {
                 display: flex;
                 flex-direction: column;
+                @media #{$ipad} {
+                    align-items: center;
+                    margin-bottom: 3em;
+                }
             }
             .social__links {
                 display: flex;
@@ -210,6 +231,7 @@
                 .cta__social__icons {
                     margin: 0;
                     justify-content: flex-start;
+                    padding-left: 4em;
                     &__single {
                         border-color: $white-color;
                         svg {
@@ -240,6 +262,7 @@
                     &__item {
                         display: flex;
                         flex-wrap: wrap;
+                        position: relative;
                         span {
                             font-size: em(22);
                             color: $white-color;
@@ -248,7 +271,7 @@
                             text-decoration: none;
                             transition: all .3s ease-in-out;
                             width: 100%;
-                            margin-bottom: 1em;
+                            margin-bottom: 0;
                         }
                         .icon {
                             width: 12px;
@@ -257,6 +280,24 @@
                         a {
                             flex: 0 1 73%;
                             text-transform: uppercase;
+                            @media #{$mob} {
+                                flex-basis: 91%;
+                            }
+                        }
+                        &:last-child {
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                width: 79%;
+                                height: 1px;
+                                background: $white-color;
+                                top: em(-12);
+                                opacity: .5;
+                                left: 0;
+                                @media #{$mob} {
+                                    top: -5px;
+                                }
+                            }
                         }
                     }
                 }
@@ -276,7 +317,14 @@
         font-size: 1em;
         font-weight: 400;
         padding: 0 1em 0 0;
-        margin-bottom: 2.5em;
+        margin-bottom: 1.5em;
+        @media #{$ipad} {
+            margin-bottom: 1.5em;
+        }
+        @media #{$mob} {
+            margin-bottom: 0.5em;
+        }
+
         .uline {
             position: relative;
             &::before {
@@ -296,14 +344,43 @@
                 left: 130%;
             }
         }
-        @media #{$mob} {
-            margin-bottom: 1em;
-        }
+        
         .days {
             display: block;
         }
     }
+
+    & &__accordion {
+        &.hide {
+            display: none;
+        }
+        &.show {
+            display: block;
+        }
+        &__wrapper {
+            display: flex;
+            margin-top: 1em;
+        }
+    }
+    &__acc__title {
+        position: relative;
+        flex: 0 0 37%;
+        cursor: pointer;
+        @media #{$mob} {
+            flex-basis: 40%;
+        }
+        &::before {
+            content: "";
+            position: absolute;
+            background: url('../svg/chevron-down.svg');
+            width: 16px;
+            height: 16px;
+            right: 0;
+        }
+    }
 }
+
+
 
 .footer__bottom {
     position: relative;
@@ -355,6 +432,17 @@
         .social {
             justify-content: center;
             margin-bottom: 1em;
+        }
+    }
+    .copy {
+        &:last-child {
+            flex: 0 1 28%;
+            display: flex;
+            justify-content: space-between;
+            @media #{$ipad} {
+                flex-basis: auto;
+                justify-content: center;
+            }
         }
     }
 }

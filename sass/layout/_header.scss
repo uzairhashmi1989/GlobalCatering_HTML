@@ -3,11 +3,14 @@
     top: 0;
     left: 0;
     width: 100%;
-    padding: 1em 0;
+    padding: 3.7em 0;
     z-index: 9;
     transition: 0.5s;
+    @media #{$desktop} {
+        padding: 3.5em 0;
+    }
     @media #{$tab} {
-        padding: 1.5em 0;
+        padding: 2em 0;
     }
     &__container {
         padding: 0 3.5%;
@@ -36,17 +39,26 @@
             display: flex;
             align-items: center;
             justify-content: flex-end;
+            z-index: 1;
             .header-languages {
                 display: flex;
                 align-items: baseline;
                 position: relative;
                 margin-right: 2em;
+                @media #{$mob} {
+                    margin-right: 0.5em;
+                }
                 a {
                     text-decoration: none;
-                    color: $primary-color;
+                    color: $black-color;
                     font-size: em(20);
                     padding: 0 em(20);
                     font-weight: 400;
+                    transition: $transition-ease;
+                    @media #{$mob} {
+                        padding: 0 1em;
+                        font-size: 1em;
+                    }
                     &:last-child {
                         &::before {
                             content: "";
@@ -64,19 +76,120 @@
                     &.active {
                         color: $black-color;
                     }
+                    &:hover {
+                        color: $red-color;
+                    }
                 }
             }
             .header-searh-icon {
                 cursor: pointer;
+                position: relative;
+                svg {
+                    width: em(20);
+                    path {
+                        // transition: $transition-ease;
+                        fill: $black-color;
+                    }
+                }
+                &:hover {
+                    path {
+                        fill: $red-color;
+                    }
+                }
+
+                .search-bar {
+                    position: absolute;
+                    top: 4em;
+                    z-index: 999;
+                    min-width: 18.75em;
+                    right: 0;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: all .3s linear;
+                    &__form {
+                        border: 2px solid $yellow-color;
+                        position: relative;
+                        form {
+                            width: 100%;
+                            input {
+                                padding: 1em 3.5em 1em 1em;
+                                width: 100%;
+                                border: none;
+                                &:focus,
+                                &:focus-visible {
+                                    outline: 0;
+                                }
+                            }
+                        }
+
+                        &__btn {
+                            position: absolute;
+                            right: 1em;
+                            top: 50%;
+                            transform: translateY(-50%);
+                            cursor: pointer;
+                            z-index: 2;
+                            background: 0 0;
+                            border: none;
+                        } 
+                    }
+
+                    &.search-bar--open {
+                        opacity: 1;
+                        visibility: visible;
+                        top: 4em;
+                    }
+                }
+
+                .search-icon-2 {
+                    position: absolute;
+                    width: 18px;
+                    height: 18px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    right: 0;
+                    visibility: hidden;
+                }
+
+                .search-icon-1 {
+                    visibility: hidden;
+                }
+
+                .icon-show {
+                    visibility: visible;
+                }
+
+
             }
+
+
         }
     }
 
 }
 
-.brand-logo {
-    position: relative;
-    width: em(263);
+header .brand-logo {
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: em(260);
+    @media #{$ipadpro} {
+        width: 11.25em;
+    }
+    @media #{$ipad} {
+        left: 1.5em;
+        right: auto;
+    }
+
+    @media #{$mob} {
+        width: 10em;
+    }
+    
+    svg {
+        max-width: 100%;
+    }
+    
     &__anchor {
         display: inline-block;
     }
@@ -84,20 +197,3 @@
 
 
 
-.no-home {
-    .sticky {
-        background-color: $white-color;
-        padding: 1.5em 0;
-    }
-
-    .header {
-        position: relative;
-        // padding: 2em 0 1.2em;
-        // background: linear-gradient(166.52deg, #2368D0 9.16%, #0E337B 98.25%);
-        // background: linear-gradient(166.52deg,#010102 9.16%,#0e4dc8 98.25%);
-        background: linear-gradient(93.63deg, #FFFFFF 0.82%, #14326C 66.78%);
-        @media #{$mob} {
-            background: linear-gradient(93.63deg,#fff .82%,#1a58c2 66.78%);
-        }
-    }
-}
