@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/contact-us/mob-banner.jpg">
-                    <img src="/assets/images/contact-us/banner.jpg" alt="banner image">
+                    <img src="/assets/images/contact-us/banner.jpg" alt="banner image" />
                 </picture>
             </div>
         </section>
@@ -96,7 +96,7 @@
                                             <button type="submit" class="thm-btn">
                                                 <span class="thm-btn__text">submit</span>
                                                 <span class="thm-btn__icon">
-                                                    <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                                    <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                                 </span>
                                             </button>
                                         </div>
@@ -119,7 +119,7 @@
                         <div class="col-50">
                             <h5 class="h5">Abu Dhabi</h5>
                             <address>
-                                <p>Global Tower, Electra Street</p>
+                                <p>Fatima Bint Mubarak Street, Abu Dhabi Plaza Tower</p>
                                 <ul>
                                     <li>
                                         <span>P.O BOX:</span>

@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/bussiness-sectors/mob-banner.jpg">
-                    <img src="/assets/images/bussiness-sectors/banner.jpg" alt="banner image">
+                    <img src="/assets/images/bussiness-sectors/banner.jpg" alt="banner image" />
                 </picture>
             </div>
         </section>
@@ -58,7 +58,7 @@
                                     <a href="/restaurants-details.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                         </span>
                                     </a>
                                 </div>
@@ -68,7 +68,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="assets/images/final-imgs/business-sectors/restaurant.jpg" alt="restaurant" class="observer__child">
+                        <img src="assets/images/final-imgs/business-sectors/restaurant.jpg" alt="restaurant" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Restaurants</span>
@@ -87,7 +87,7 @@
                                     <a href="/retail-details.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                         </span>
                                     </a>
                                 </div>
@@ -97,7 +97,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets/images/final-imgs/business-sectors/retail" class="observer__child">
+                        <img src="assets/images/final-imgs/business-sectors/retail.jpg" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Retail</span>
@@ -120,7 +120,7 @@
                                     <a href="/catering-details.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                         </span>
                                     </a>
                                 </div>
@@ -129,7 +129,7 @@
                         <div class="col-50">
                             <div class="stroke-figure__panel">
                                 <div class="stroke-figure__panel__img img__observer__one">
-                                    <img src="assets/images/final-imgs/business-sectors/catering" alt="restaurant" class="observer__child">
+                                    <img src="assets/images/final-imgs/business-sectors/catering.jpg" alt="restaurant" class="observer__child" />
                                 </div>
                                 <div class="stroke-figure__panel__stroke">
                                     <span> Catering</span>
@@ -156,7 +156,7 @@
                                     <a href="/wholesale-details.php" class="thm-btn  animate" data-animation="animate__fadeInUp" data-duration="200">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
-                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                                            <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                                         </span>
                                     </a>
                                 </div>
@@ -166,7 +166,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="/assets/images/bussiness-sectors/red-wholesale.jpg" alt="wholesale" class="observer__child">
+                        <img src="/assets/images/bussiness-sectors/red-wholesale.jpg" alt="wholesale" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Wholesale</span>

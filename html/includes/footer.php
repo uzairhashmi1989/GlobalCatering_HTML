@@ -11,15 +11,15 @@
                         </div>
                         <div class="social">
                             <div class="cta__social__icons">
-                                <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="400">
+                                <!-- <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="400">
                                     <img class="svg-convert" src="/assets/svg/social/c-instagram.svg" alt="instagram" target="_blank" title="instagram" width="19" height="19">
                                 </a>
 
                                 <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="300">
                                     <img class="svg-convert" src="/assets/svg/social/c-facebook.svg" alt="facebook" target="_blank" title="facebook" width="10" height="19">
-                                </a>
+                                </a> -->
 
-                                <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="500">
+                                <a href="https://www.linkedin.com/company/global-catering-services" target="_blank" title="linkedin" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="500">
                                     <img class="svg-convert" src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin" width="19" height="19">
                                 </a>
                             </div>
@@ -65,7 +65,7 @@
                                                 <i class="icon">
                                                     <img src="/assets/svg/location-icon.svg" alt="location">
                                                 </i>
-                                                <a href="#">Global Tower, Electra Street</a>
+                                                <a target="_blank" href="https://www.google.com/maps/place/Global+Catering+Services/@24.4932263,54.3668642,15z/data=!4m2!3m1!1s0x0:0xe1ed936de70ae237?sa=X&ved=2ahUKEwi79qmemZ74AhUURfEDHTJhDN4Q_BJ6BAhQEAU">Fatima Bint Mubarak Street, Abu Dhabi Plaza Tower</a>
                                             </div>
                                         </div>
                                     </li>
@@ -79,7 +79,7 @@
                                                 <i class="icon">
                                                     <img src="/assets/svg/location-icon.svg" alt="location">
                                                 </i>
-                                                <a href="#">Al Kawakeb Building, E Block, Financial Center Area, Sheikh Zayed Road Dubai, United Arab Emirates</a>
+                                                <a href="https://www.google.com/maps/place/Al+Kawakeb+Property+Management/@25.2087694,55.2747052,15z/data=!4m5!3m4!1s0x0:0xc2df2252ab69674f!8m2!3d25.2087618!4d55.2747188">Al Kawakeb Building, E Block, Financial Center Area, Sheikh Zayed Road Dubai, United Arab Emirates</a>
                                             </div>
                                         </div>
                                     </li>

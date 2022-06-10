@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/about-us/mob-banner.jpg">
-                    <img src="/assets/images/about-us/banner.jpg" alt="banner image">
+                    <img src="/assets/images/about-us/banner.jpg" alt="banner image" />
                 </picture>
             </div>
         </section>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="/assets/images/about-us/ambitous.jpg" alt="wholesale" class="observer__child">
+                        <img src="/assets/images/about-us/about-us-banner.jpg" alt="wholesale" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Wholesale</span>
@@ -91,7 +91,7 @@
                         <div class="col-50">
                             <div class="stroke-figure__panel">
                                 <div class="stroke-figure__panel__img img__observer__two">
-                                    <img src="/assets/images/about-us/handshake.jpg" alt="restaurant" class="observer__child">
+                                    <img src="/assets/images/about-us/handshake.jpg" alt="restaurant" class="observer__child" />
                                 </div>
                                 <div class="stroke-figure__panel__stroke">
                                     <span> Catering</span>

@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
-                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/wholesale/banner" alt="banner image">
+                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/wholesale/banner.jpg" alt="banner image">
                 </picture>
             </div>
         </section>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/wholesale/inner" alt="restaurant" class="observer__child">
+                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/wholesale/inner.jpg" alt="restaurant" class="observer__child">
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>our priorities</span>
@@ -73,13 +73,15 @@
             </div> -->
         </section>
 
-        <section class="dishes-table">
+        <section class="dishes-table section">
             <div class="container">
                 <ul>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="200">
                         <div class="img-wrapper">
-                          <a href="https://lebaneseroaster.com/">  <img src="assets/images/food-safety-details/wholesale" alt="">
-                        </div></a>
+                            <a href="#">
+                                <img src="/assets/images/food-safety-details/retail.jpg" alt="safety">
+                            </a>
+                        </div>
                     </li>
                     <!-- <li class=" animate" data-animation="animate__fadeInUp" data-duration="300">
                         <div class="img-wrapper">

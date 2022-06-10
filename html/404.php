@@ -21,7 +21,7 @@
             <a href="/" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="10">
                 <span class="thm-btn__text">Home</span>
                 <span class="thm-btn__icon">
-                    <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
+                    <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
                 </span>
             </a>
         </div>

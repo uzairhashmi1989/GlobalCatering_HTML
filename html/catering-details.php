@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
-                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/catering/banner" alt="banner image">
+                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/catering/banner.jpg" alt="banner image" />
                 </picture>
             </div>
         </section>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/catering/inner" alt="restaurant" class="observer__child">
+                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/catering/inner.jpg" alt="restaurant" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>our priorities</span>

@@ -26,7 +26,7 @@
             <div class="hero-home__bg">
                 <picture>
                     <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
-                    <img src="/assets/images/food-safety-details/banner.jpg" alt="banner image">
+                    <img src="/assets/images/food-safety-details/banner.jpg" alt="banner image" />
                 </picture>
             </div>
         </section>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="/assets/images/food-safety-details/health.jpg" alt="restaurant" class="observer__child">
+                        <img src="/assets/images/food-safety-details/health.jpg" alt="restaurant" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>our priorities</span>
@@ -73,57 +73,57 @@
             </div>
         </section>
 
-        <section class="dishes-table">
+        <section class="dishes-table section">
             <div class="container">
                 <ul>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="200">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/1.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/1.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="300">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/2.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/2.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="400">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/3.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/3.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="500">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/4.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/4.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="600">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/5.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/5.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="700">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/6.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/6.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="800">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/7.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/7.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="900">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/8.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/8.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="1000">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/9.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/9.jpg" alt="" />
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="1100">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/10.jpg" alt="">
+                            <img src="/assets/images/food-safety-details/10.jpg" alt="" /> 
                         </div>
                     </li>
                 </ul>
@@ -135,10 +135,10 @@
                 <div class="twocol-row">
                     <div class="col-50">
                         <div class="img-wrapper before-bg animate" data-animation="animate__fadeIn" data-duration="200">
-                            <img src="/assets/images/news-listing/video-banner.jpg" alt="">
+                            <img src="/assets/images/news-listing/video-banner.jpg" alt="" />
                             <div class="video-icon">
                                 <a href="#">
-                                    <img src="/assets/svg/youtube.svg" class="svg-convert" alt="">
+                                    <img src="/assets/svg/youtube.svg" class="svg-convert" alt="" />
                                 </a>
                             </div>
                             <div class="stroke-figure__panel__stroke">
