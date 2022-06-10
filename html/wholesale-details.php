@@ -73,13 +73,15 @@
             </div> -->
         </section>
 
-        <section class="dishes-table">
+        <section class="dishes-table section">
             <div class="container">
                 <ul>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="200">
                         <div class="img-wrapper">
-                          <a href="https://lebaneseroaster.com/">  <img src="assets/images/food-safety-details/wholesale.jpg" alt="">
-                        </div></a>
+                            <a href="#">
+                                <img src="/assets/images/food-safety-details/retail.jpg" alt="safety">
+                            </a>
+                        </div>
                     </li>
                     <!-- <li class=" animate" data-animation="animate__fadeInUp" data-duration="300">
                         <div class="img-wrapper">

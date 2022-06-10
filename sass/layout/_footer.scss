@@ -231,6 +231,7 @@
                 .cta__social__icons {
                     margin: 0;
                     justify-content: flex-start;
+                    padding-left: 4em;
                     &__single {
                         border-color: $white-color;
                         svg {
@@ -364,6 +365,7 @@
     &__acc__title {
         position: relative;
         flex: 0 0 37%;
+        cursor: pointer;
         @media #{$mob} {
             flex-basis: 40%;
         }

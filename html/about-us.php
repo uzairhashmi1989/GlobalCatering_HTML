@@ -64,7 +64,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="/assets/images/about-us/ambitous.jpg" alt="wholesale" class="observer__child" />
+                        <img src="/assets/images/about-us/about-us-banner.jpg" alt="wholesale" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Wholesale</span>

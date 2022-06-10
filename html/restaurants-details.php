@@ -73,7 +73,7 @@
             </div> -->
         </section>
 
-        <section class="dishes-table">
+        <section class="dishes-table section">
             <div class="container">
                 <ul>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="200">
@@ -119,26 +119,6 @@
                             </a>
                         </div>
                     </li>
-                    <!-- <li class=" animate" data-animation="animate__fadeInUp" data-duration="800">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/7.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="900">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/8.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="1000">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/9.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="1100">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/10.jpg" alt="">
-                        </div>
-                    </li> -->
                 </ul>
             </div>
         </section>

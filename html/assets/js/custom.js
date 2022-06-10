@@ -326,6 +326,8 @@ $(function() {
 });
 
 // hero map popup
+
+
 $(function() {
     $(".hero-home__locations__pin").on('click', function(e) {
         e.stopPropagation();

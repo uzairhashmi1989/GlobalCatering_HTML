@@ -119,7 +119,7 @@
                         <div class="col-50">
                             <h5 class="h5">Abu Dhabi</h5>
                             <address>
-                                <p>Global Tower, Electra Street</p>
+                                <p>Fatima Bint Mubarak Street, Abu Dhabi Plaza Tower</p>
                                 <ul>
                                     <li>
                                         <span>P.O BOX:</span>
