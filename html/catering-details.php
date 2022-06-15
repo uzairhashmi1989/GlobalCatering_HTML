@@ -25,7 +25,7 @@
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
+                    <source media="(max-width: 767px)" srcset="assets/images/final-imgs/business-sectors-inner-pagers/catering/banner-mob.jpg">
                     <img src="assets/images/final-imgs/business-sectors-inner-pagers/catering/banner.jpg" alt="banner image" />
                 </picture>
             </div>

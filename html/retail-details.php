@@ -25,7 +25,7 @@
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
+                    <source media="(max-width: 767px)" srcset="assets/images/final-imgs/business-sectors-inner-pagers/retail/banner-mob.jpg">
                     <img src="assets/images/final-imgs/business-sectors-inner-pagers/retail/banner.jpg" alt="banner image">
                 </picture>
             </div>
@@ -42,7 +42,7 @@
             </div>
         </section>
 
-        <section class="food-safety-details flex-reverse  gray-bg">
+        <section class="food-safety-details flex-reverse  gray-bg ">
             <div class="stroke-figure">
                 <div class="container">
                     <div class="twocol-row">
@@ -58,7 +58,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/retail/inner" alt="restaurant" class="observer__child">
+                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/retail/inner.jpg" alt="restaurant" class="observer__child">
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>our priorities</span>

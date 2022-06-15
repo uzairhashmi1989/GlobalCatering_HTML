@@ -972,7 +972,7 @@
                             <div class="home-left-panel__para-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                                 <p class="">We are a large and successful food-related business, and an important part of our business is ensuring the safety of the food we procure, cook, sell, and transport.</p>
                                 <p class=""> Our supply chain conforms to government regulations, and we have put in place food safety management procedures based on the principles of HACCP (Hazard Analysis and Critical Control Point).</p>
-                                <a href="/food-safety-details.php" class="thm-btn">
+                                <a href="/food-safety.php" class="thm-btn">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
