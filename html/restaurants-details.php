@@ -25,7 +25,7 @@
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/food-safety-details/mob-banner.jpg">
+                    <source media="(max-width: 767px)" srcset="assets/images/final-imgs/business-sectors-inner-pagers/restaurants/banner-mob.jpg">
                     <img src="assets/images/final-imgs/business-sectors-inner-pagers/restaurants/banner.jpg" alt="banner image">
                 </picture>
             </div>
@@ -83,7 +83,7 @@
                             </a>
                         </div>
                     </li>
-                    </a>
+
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="300">
                         <div class="img-wrapper">
                             <a href="https://thebosporus.com" target="_blank">
@@ -91,24 +91,24 @@
                             </a>
                         </div>
                     </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="400">
+                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="600">
                         <div class="img-wrapper">
-                            <a href="https://www.facebook.com/chopsandshrimps/" target="_blank">
-                                <img src="assets/images/food-safety-details/chops-1.jpg" alt="chops">
+                            <a href="https://www.verdura.ae/" target="_blank">
+                                <img src="assets/images/food-safety-details/verdura-1.jpg" alt="verdura">
                             </a>
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="500">
                         <div class="img-wrapper">
-                            <a href="https://www.talabat.com/uae/nasr-grill" target="_blank">
+                            <a href="https://www.facebook.com/nasrgrill" target="_blank">
                                 <img src="assets/images/food-safety-details/nasrgrill-1.jpg" alt="nasrgrill">
                             </a>
                         </div>
                     </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="600">
+                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="400">
                         <div class="img-wrapper">
-                            <a href="https://www.facebook.com/verdura.uae/" target="_blank">
-                                <img src="assets/images/food-safety-details/verdura-1.jpg" alt="verdura">
+                            <a href="https://www.facebook.com/chopsandshrimps/" target="_blank">
+                                <img src="assets/images/food-safety-details/chops-1.jpg" alt="chops">
                             </a>
                         </div>
                     </li>
