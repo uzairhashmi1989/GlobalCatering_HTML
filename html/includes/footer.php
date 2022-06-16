@@ -45,10 +45,10 @@
                             <div class="toggle-btn qlinks__col__item">
                                 <p class=" animate" data-animation="animate__fadeInUp" data-duration="200">Business Sectors</p>
                                 <ul class="qlinks-menu">
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/business-sectors.php#Restaurant" class="uline">Restaurants.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/business-sectors.php#Retail" class="uline">Retail.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/business-sectors.php#Catering" class="uline">Catering.</a></li>
-                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/business-sectors.php#Wholesale" class="uline">Wholesale / Distribution.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="200"><a href="/business-sectors/#Restaurant" class="uline">Restaurants.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="300"><a href="/business-sectors/#Retail" class="uline">Retail.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="400"><a href="/business-sectors/#Catering" class="uline">Catering.</a></li>
+                                    <li class="qlinks-menu__item animate" data-animation="animate__fadeInUp" data-duration="500"><a href="/business-sectors/#Wholesale" class="uline">Wholesale / Distribution.</a></li>
                                 </ul>
                             </div>
                         </div>

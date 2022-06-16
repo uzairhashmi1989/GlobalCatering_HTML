@@ -528,7 +528,8 @@
                         }
 
                         &::before {
-                            background-color: $blue-color;
+                            border-color: $blue-color;
+                            transform: rotate(225deg) translate(-5px,-5px);
                         }
                     }
 
@@ -537,19 +538,20 @@
                             color: $blue-color;
                         }
                         &::before {
-                            background: $blue-color;
+                            // background: $blue-color;
                         }
                     }
 
                     &::before {
                         content: "";
                         position: absolute;
-                        width: em(16);
-                        height: em(16);
-                        background: var(--grey-color);
-                        border-radius: 50%;
                         right: 0;
-                        transition: $transition-ease;
+                        padding: 4px;
+                        border-width: 0 2px 2px 0;
+                        border-style: solid;
+                        border-color: #000;
+                        transform: rotate(45deg) translateY(3px);
+                        transition: all .1s linear;
                     }
                 }
 
@@ -580,8 +582,11 @@
                                 font-size: 13px;
                                 display: flex;
                                 align-items: center;
-                                color: var(--blue-color);
                                 text-transform: capitalize;
+                                color: $grey-color;
+                                &:hover {
+                                    color: var(--blue-color);
+                                }
 
                                 img {
                                     margin-right: 6px;

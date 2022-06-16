@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Catering | Wholesale Details </title>
-    <?php include 'includes/meta.php'; ?>
+    <title>Global Catering | Retail Details </title>
+    <?php include '../includes/meta.php'; ?>
 </head>
 
 <body class="no-home">
-    <?php include('includes/loader.php'); ?>
-    <?php include 'includes/header.php'; ?>
+    <?php include('../includes/loader.php'); ?>
+    <?php include '../includes/header.php'; ?>
 
 
     <main>
@@ -20,37 +20,26 @@
         <section class="hero-home inner--hero">
             <div class="container hero-home__container">
                 <div class="hero-home__text">
-                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Wholesale</h1>
+                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Retail</h1>
                 </div>
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="assets/images/final-imgs/business-sectors-inner-pagers/wholesale/banner-mob.jpg">
-                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/wholesale/banner.jpg" alt="banner image">
+                    <source media="(max-width: 767px)" srcset="/assets/images/final-imgs/business-sectors-inner-pagers/retail/banner-mob.jpg">
+                    <img src="/assets/images/final-imgs/business-sectors-inner-pagers/retail/banner.jpg" alt="banner image">
                 </picture>
             </div>
         </section>
 
-
-        <section class="thm-py-85 thm-pb-175">
-            <div class="container">
-                <div class="twocol-row">
-                    <div class="col-100">
-                        <!-- <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Food Handling Lorem ipsum de para</h3> -->
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="food-safety-details flex-reverse  gray-bg">
+        <section class="food-safety-details flex-reverse  gray-bg business-sectors-details ">
             <div class="stroke-figure">
                 <div class="container">
                     <div class="twocol-row">
                         <div class="col-40">
                             <div class="home-left-panel">
-                                <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">PARTNERING WITH LARGE FOOD-RELATED BUSINESSES</h3>
+                                <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200"> A GROWING SPECIALTY RETAIL NETWORK</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> Our distribution and food trading business operates under the Golden Sands brand. A focus on high quality, competitive prices, and responsive customer service has made us the preferred partner for large food-related businesses in the UAE and the wider region. Our reputation means that we must constantly raise the bar and set new benchmarks for others to follow.</p>
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> We have a growing portfolio of Levantine products, and we specialize in coffee and nuts. Coffee lovers will find a range of unique blends from around the world, a selection that delights the senses and elevates the mood. Our premium roasted nuts are a perfect complement to our coffee blends. We have 10 conveniently located retail outlets across the UAE and more are planned.</p>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +47,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/wholesale/inner.jpg" alt="restaurant" class="observer__child">
+                        <img src="/assets/images/final-imgs/business-sectors-inner-pagers/retail/inner.jpg" alt="restaurant" class="observer__child">
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>our priorities</span>
@@ -78,10 +67,8 @@
                 <ul>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="200">
                         <div class="img-wrapper">
-                            <a href="#">
-                                <img src="/assets/images/food-safety-details/retail.jpg" alt="safety">
-                            </a>
-                        </div>
+                          <a href="https://lebaneseroaster.com/">  <img src="/assets/images/food-safety-details/wholesale.jpg" alt="">
+                        </div></a>
                     </li>
                     <!-- <li class=" animate" data-animation="animate__fadeInUp" data-duration="300">
                         <div class="img-wrapper">
@@ -161,14 +148,14 @@
 
 
         <!-- cta -->
-        <?php include 'includes/follow-us.php'; ?>
+        <?php include '../includes/follow-us.php'; ?>
 
 
     </main>
 
 
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/scripts.php'; ?>
+    <?php include '../includes/footer.php'; ?>
+    <?php include '../includes/scripts.php'; ?>
 </body>
 
 </html>

@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Global Catering | Catering Details </title>
-    <?php include 'includes/meta.php'; ?>
+    <title>Global Catering | Restaurants Details </title>
+    <?php include '../includes/meta.php'; ?>
 </head>
 
 <body class="no-home">
-    <?php include('includes/loader.php'); ?>
-    <?php include 'includes/header.php'; ?>
+    <?php include('../includes/loader.php'); ?>
+    <?php include '../includes/header.php'; ?>
 
 
     <main>
@@ -20,37 +20,37 @@
         <section class="hero-home inner--hero">
             <div class="container hero-home__container">
                 <div class="hero-home__text">
-                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Catering</h1>
+                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">Restaurants</h1>
                 </div>
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="assets/images/final-imgs/business-sectors-inner-pagers/catering/banner-mob.jpg">
-                    <img src="assets/images/final-imgs/business-sectors-inner-pagers/catering/banner.jpg" alt="banner image" />
+                    <source media="(max-width: 767px)" srcset="/assets/images/final-imgs/business-sectors-inner-pagers/restaurants/banner-mob.jpg">
+                    <img src="/assets/images/final-imgs/business-sectors-inner-pagers/restaurants/banner.jpg" alt="banner image">
                 </picture>
             </div>
         </section>
 
 
-        <section class="thm-py-85 thm-pb-175">
+        <!-- <section class="thm-py-85 thm-pb-175">
             <div class="container">
                 <div class="twocol-row">
                     <div class="col-100">
-                        <!-- <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Food Handling Lorem ipsum de para</h3> -->
+                        <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Food Handling Lorem ipsum de para</h3>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
-        <section class="food-safety-details flex-reverse  gray-bg">
+        <section class="food-safety-details flex-reverse  gray-bg business-sectors-details ">
             <div class="stroke-figure">
                 <div class="container">
                     <div class="twocol-row">
                         <div class="col-40">
                             <div class="home-left-panel">
-                                <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">BESPOKE AND HIGH-QUALITY CATERING</h3>
+                                <h3 class="h3 head-number animate" data-animation="animate__fadeInUp" data-duration="200">INNOVATIVE RESTAURANT CONCEPTS</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
-                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> Food inspires us and it was natural for us to create a high-quality and bespoke catering business. We have successfully catered to private and corporate events, high-profile celebrations, and small exclusive gatherings. Catering is an important aspect of any event, and we provide a full suite of services to ensure that your event is memorable and successful. </p>
+                                    <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> We create and manage innovative restaurant concepts that celebrate cuisines, creativity, and hospitality. Some of the most successful restaurants in Abu Dhabi and Dubai are run by us. Our deep understanding of food, cultures, consumers, and changing lifestyles has helped us create an extensive portfolio of restaurants across the UAE, Middle East, Turkey, and the United Kingdom.</p>
                                 </div>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets/images/final-imgs/business-sectors-inner-pagers/catering/inner.jpg" alt="restaurant" class="observer__child" />
+                        <img src="/assets/images/final-imgs/business-sectors-inner-pagers/restaurants/inner.jpg" alt="restaurant" class="observer__child">
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>our priorities</span>
@@ -73,62 +73,55 @@
             </div> -->
         </section>
 
-        <!-- <section class="dishes-table">
+        <section class="dishes-table section">
             <div class="container">
                 <ul>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="200">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/1.jpg" alt="">
+                            <a href="https://babalmansour.ae" target="_blank">
+                                <img src="/assets/images/food-safety-details/bab-al-mansour-1.jpg" alt="babalmansour">
+                            </a>
                         </div>
                     </li>
+
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="300">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/2.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="400">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/3.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="500">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/4.jpg" alt="">
+                            <a href="https://thebosporus.com" target="_blank">
+                                <img src="/assets/images/food-safety-details/bosporus-1.jpg" alt="thebosporus">
+                            </a>
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="600">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/5.jpg" alt="">
+                            <a href="https://www.verdura.ae/" target="_blank">
+                                <img src="/assets/images/food-safety-details/verdura-1.jpg" alt="verdura">
+                            </a>
+                        </div>
+                    </li>
+                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="500">
+                        <div class="img-wrapper">
+                            <a href="https://www.facebook.com/nasrgrill" target="_blank">
+                                <img src="/assets/images/food-safety-details/nasrgrill-1.jpg" alt="nasrgrill">
+                            </a>
+                        </div>
+                    </li>
+                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="400">
+                        <div class="img-wrapper">
+                            <a href="https://www.facebook.com/chopsandshrimps/" target="_blank">
+                                <img src="/assets/images/food-safety-details/chops-1.jpg" alt="chops">
+                            </a>
                         </div>
                     </li>
                     <li class=" animate" data-animation="animate__fadeInUp" data-duration="700">
                         <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/6.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="800">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/7.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="900">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/8.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="1000">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/9.jpg" alt="">
-                        </div>
-                    </li>
-                    <li class=" animate" data-animation="animate__fadeInUp" data-duration="1100">
-                        <div class="img-wrapper">
-                            <img src="/assets/images/food-safety-details/10.jpg" alt="">
+                            <a href="https://zahratlebnan.com/" target="_blank">
+                                <img src="/assets/images/food-safety-details/zahrat-lebnan-1.jpg" alt="">
+                            </a>
                         </div>
                     </li>
                 </ul>
             </div>
-        </section> -->
+        </section>
 
         <!-- <section class="preparations blue-bg">
             <div class="container">
@@ -159,14 +152,14 @@
 
 
         <!-- cta -->
-        <?php include 'includes/follow-us.php'; ?>
+        <?php include '../includes/follow-us.php'; ?>
 
 
     </main>
 
 
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/scripts.php'; ?>
+    <?php include '../includes/footer.php'; ?>
+    <?php include '../includes/scripts.php'; ?>
 </body>
 
 </html>
