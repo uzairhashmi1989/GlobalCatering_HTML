@@ -14,7 +14,7 @@
                 </a>
                  -->
                 <a href="https://www.linkedin.com/company/global-catering-services" target="_blank" title="linkedin" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="400">
-                    <img src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin">
+                    <img class="svg-convert"  src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin" width="19" height="19">
                 </a>
             </div>
         </div>

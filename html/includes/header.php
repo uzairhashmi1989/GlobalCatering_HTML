@@ -13,10 +13,24 @@
                             About
                         </a>
                     </li>
-                    <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="400">
+                    <li class="menu__menuitem menu__menuitem--dropdown-wrapper  animate" data-animation="animate__fadeInUp" data-duration="400">
                         <a href="/business-sectors.php" class="menu__menuitem--menulink">
                             Business Sectors
                         </a>
+                        <ul class="menu__menuitem__dropdown">
+                            <li>
+                                <a href="#">restaurants</a>
+                            </li>
+                            <li>
+                                <a href="#">Retail</a>
+                            </li>
+                            <li>
+                                <a href="#">Catering</a>
+                            </li>
+                            <li>
+                                <a href="#">Wholesale / Distribution</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="500">
                         <a href="/food-safety.php" class="menu__menuitem--menulink">
@@ -41,7 +55,8 @@
             <div class="header__wrapper__language__search">
                 <div class="header-languages animate" data-animation="animate__fadeInUp" data-duration="900"> 
                     <a href="/">En</a>
-                    <a href="/">Ar</a>
+                    <a href="javascript:;">Ar</a>
+                    <div class="header-languages__popup">Comming Soon</div>
                 </div>
                 <div class="header-searh-icon animate" data-animation="animate__fadeInUp" data-duration="1000">
                     <a class="menu-item header--right__cta__search" href="javacript:;" role="button">

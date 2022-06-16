@@ -51,7 +51,7 @@
             .count-num-wrapper {
                 position: relative;
                 display: inline-block;
-                min-width: em(170);
+                min-width: em(152);
                 @media #{$mob} {
                     min-width: 7em;
                 }
@@ -95,7 +95,7 @@
 
             }
             &:last-child .count-num-wrapper {
-                min-width: em(96);
+                min-width: em(88);
                 @media #{$mob} {
                     min-width: 4em;
                 }

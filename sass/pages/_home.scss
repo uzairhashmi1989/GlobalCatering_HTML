@@ -7,12 +7,15 @@
         text-align: center;
         margin: 0 auto;
         padding-top: em(56);
+        @media #{$mob} {
+            padding-top: 1.5em;
+        }
 
         p {
             padding: 0 5em;
             margin-bottom: 1.4347em;
 
-            @media #{$mob} {
+            @media #{$tab} {
                 padding: 0;
             }
         }
@@ -125,9 +128,13 @@
             left: 50%;
             transform: translateX(-120%);
             top: 16%;
+            @media #{$ipad} {
+                top: 22%;
+            }
 
             @media #{$tab} {
                 left: 20%;
+                top: 13%;
             }
 
             &--abu-dhabi {
@@ -135,9 +142,12 @@
 
                 .hero-home__locations__pin {
                     background-color: $yellow-color;
-
+                    transition: $transition-ease;
                     @media #{$tab} {
                         left: 50px;
+                    }
+                    &:hover {
+                        background-color: #e0ac03;
                     }
                 }
 
@@ -164,17 +174,22 @@
             &--cairo {
                 left: 60.5%;
                 top: 29%;
-
                 @media #{$ipad} {
+                    top: 34%;
                     left: 53.5%;
                 }
-
+                @media #{$tab} {
+                    top: 30%;
+                }
                 .hero-home__locations__pin {
                     background-color: $purple-color;
-
+                    transition: $transition-ease;
                     @media #{$tab} {
                         left: -14px;
                         top: -20px;
+                    }
+                    &:hover {
+                        background-color: #655eb1;
                     }
                 }
 
@@ -182,6 +197,9 @@
                     +.hero-home__locations__popup {
                         .hero-home__locations__popup__title {
                             background-color: $purple-color;
+                            .h4 {
+                                color: $white-color;
+                            }
                         }
                     }
 
@@ -201,12 +219,21 @@
             &--dubai {
                 left: 67.6%;
                 top: 29%;
+                @media #{$ipad} {
+                    top: 33%;
+                }
+                @media #{$tab} {
+                    top: 30%;
+                }
 
                 .hero-home__locations__pin {
                     background-color: $red-color;
-
+                    transition: $transition-ease;
                     @media #{$tab} {
                         top: 15px;
+                    }
+                    &:hover {
+                        background-color: #801b4f;
                     }
                 }
 
@@ -214,6 +241,9 @@
                     +.hero-home__locations__popup {
                         .hero-home__locations__popup__title {
                             background-color: $red-color;
+                            .h4 {
+                                color: $white-color;
+                            }
                         }
                     }
 
@@ -233,12 +263,18 @@
             &--sharjah {
                 left: 69%;
                 top: 43%;
+                @media #{$tab} {
+                    top: 35%;
+                }
 
                 .hero-home__locations__pin {
                     background-color: $purple-color;
-
+                    transition: $transition-ease;
                     @media #{$tab} {
                         left: -150px;
+                    }
+                    &:hover {
+                        background-color: #655eb1;
                     }
                 }
 
@@ -246,6 +282,9 @@
                     +.hero-home__locations__popup {
                         .hero-home__locations__popup__title {
                             background-color: $purple-color;
+                            .h4 {
+                                color: $white-color;
+                            }
                         }
                     }
 
@@ -265,13 +304,19 @@
             &--dammam {
                 left: 63.9%;
                 top: 52.5%;
+                @media #{$tab} {
+                    top: 38.5%;
+                }
 
                 .hero-home__locations__pin {
                     background-color: $red-color;
-
+                    transition: $transition-ease;
                     @media #{$tab} {
                         top: 60px;
                         left: -60px;
+                    }
+                    &:hover {
+                        background-color: #801b4f;
                     }
                 }
 
@@ -279,6 +324,9 @@
                     +.hero-home__locations__popup {
                         .hero-home__locations__popup__title {
                             background-color: $red-color;
+                            .h4 {
+                                color: $white-color;
+                            }
                         }
                     }
 
@@ -298,13 +346,20 @@
             &--al-ain {
                 left: 69.4%;
                 top: 63%;
+                @media #{$tab} {
+                    top: 27%;
+                }
+                
 
                 .hero-home__locations__pin {
                     background-color: $green-color;
-
+                    transition: $transition-ease;
                     @media #{$tab} {
                         top: 60px;
                         left: -160px;
+                    }
+                    &:hover {
+                        background-color: #81ad3e;
                     }
                 }
 
@@ -353,6 +408,7 @@
             min-width: 8em;
             text-align: center;
             cursor: pointer;
+            transition: $transition-ease;
 
             &.active & {
                 &__pool {
@@ -364,6 +420,10 @@
 
             &.active {
                 color: #000;
+            }
+
+            &:hover {
+                background-color: #81ad3e;
             }
 
             &__pool {
@@ -439,13 +499,22 @@
                 height: calc(100% - em(50));
                 overflow: hidden;
                 padding: em(20);
+                padding-right: .5em;
+                padding-left: 2em;
+                .mCSB_inside  {
+                    > .mCSB_container {
+                        margin-right: 0;
+                    }
+                }
             }
 
             &__card {
+                padding-right: 2em;
                 &__title {
                     position: relative;
                     border-bottom: 1px solid #5a5a5a40;
                     padding: 10px 0;
+                    cursor: pointer;
 
                     .h5 {
                         font-size: em(18);
@@ -463,6 +532,15 @@
                         }
                     }
 
+                    &:hover {
+                        .h5 {
+                            color: $blue-color;
+                        }
+                        &::before {
+                            background: $blue-color;
+                        }
+                    }
+
                     &::before {
                         content: "";
                         position: absolute;
@@ -471,6 +549,7 @@
                         background: var(--grey-color);
                         border-radius: 50%;
                         right: 0;
+                        transition: $transition-ease;
                     }
                 }
 
@@ -674,7 +753,7 @@
         &__text {
             position: absolute;
             bottom: 0;
-            padding: 2em 13em 2em 2em;
+            padding: 2em 22em 2em 2em;
             z-index: 2;
             transition: all 0.5s ease-in-out;
 
@@ -848,10 +927,11 @@
     &__box {
         &__figure {
             height: em(338);
-
+            overflow: hidden;
             img {
                 width: 100%;
                 height: 100%;
+                transition: $transition-ease;
             }
         }
 
@@ -868,6 +948,14 @@
 
             .h4 {
                 margin-bottom: 0.7em;
+            }
+        }
+
+        &:hover & {
+            &__figure {
+                img {
+                    transform: scale(1.2);
+                }
             }
         }
     }
@@ -944,15 +1032,14 @@
 
     &__figure {
         position: absolute;
-        bottom: 0;
         right: 0;
         width: em(783);
+        top: 50%;
+        transform: translateY(-50%);
 
         @media #{$ipadpro} {
             width: 47%;
             bottom: unset;
-            top: 50%;
-            transform: translateY(-50%);
         }
 
         @media #{$ipad} {
@@ -998,6 +1085,7 @@
             margin: 0 em(10);
             position: relative;
             overflow: hidden;
+            transition: $transition-ease;
 
             @media #{$ipadpro} {
                 width: 4em;
@@ -1016,14 +1104,15 @@
                 height: auto;
                 position: relative;
                 transition: $transition-ease;
+                
             }
 
             &:hover {
-
-                img,
+                background: $purple-color;
                 svg {
-                    transform: translateY(-8px);
-                    box-shadow: 0 3px 2px -2px rgb(0, 0, 0);
+                    path {
+                        fill: $white-color;
+                    }
                 }
             }
 
