@@ -266,7 +266,7 @@
         }
         @media #{$ipad} {
             width: 100%;
-            padding: 0.5em 2em 0.5em 0;
+            padding: 1em 2em 1em 0;
             border-right: none;
         }
         &--menulink {
@@ -285,10 +285,11 @@
                 font-size: 2em;
             }
 
-            
-
             &:hover {
                 color: $red-color;
+                @media #{$ipad} {
+                    color: $white-color;
+                }
             }
             &::before {
                 content: "";
@@ -322,32 +323,101 @@
                 content: "";
                 position: absolute;
                 right: 0;
-                padding: 5px;
+                padding: 4px;
                 border-width: 0px 2px 2px 0px;
                 border-style: solid;
                 border-color: #000;
-                transform: rotate(45deg) translateY(0px);
+                transform: rotate(45deg) translateY(3px);
                 transition: all 0.1s linear;
+                @media #{$ipadproL} {
+                    padding: 3px;
+                }
+                @media #{$ipadpro} {
+                    right: -5px;
+                }
+                @media #{$ipad} {
+                    border-color: #fff;
+                    display: none;
+                }
             }
             &:hover::before {
                 transform: rotate(225deg) translate(-5px, -5px);
+            }
+
+            .mobile-icon {
+                @media (min-width: 992px) {
+                    display: none;
+                }
+                @media #{$ipad} {
+                    position: absolute;
+                    right: 0;
+                    width: 30px;
+                    height: 30px;
+                    background: var(--purple-color);
+                    display: flex;
+                    align-items: center;
+                    top: 13px;
+                    justify-content: center;
+                    cursor: pointer;
+                    border-radius: 5px;
+                }
+                &.rotate {
+                    transform: rotate(180deg);
+                }
             }
             .menu__menuitem__dropdown {
                 list-style: none;
                 padding: 0;
                 position: absolute;
-                min-width: 300px;
+                min-width: em(300);
                 background: var(--blue-color);
                 top: 200%;
                 border-radius: 10px;
                 visibility: hidden;
                 opacity: 0;
+                transition: all 0.5s linear 0.4s;
+                box-shadow: 0 16px 11px -14px rgba(0,0,0,0.7);
+                @media #{$ipad} {
+                    position: relative;
+                    visibility: visible;
+                    opacity: 1;
+                    display: none;
+                    transition: none;
+                    background-color: transparent;
+                    box-shadow: none;
+                }
+
+                li:first-child {
+                    a {
+                        border-radius: 10px 10px 0 0;
+                    }
+                }
+
+                li:last-child {
+                    a {
+                        border: 0;
+                        border-radius: 0 0 10px 10px;
+                    }
+                }
+
                 a {
                     color: var(--white-color);
                     padding: 1em;
                     display: block;
                     font-size: 1em;
                     text-transform: capitalize;
+                    border-bottom: 1px solid #fff;
+                    transition: all 0.3s linear;
+                    @media #{$ipad} {
+                        font-size: 1.5em;
+                        padding: 0.5em;
+                    }
+                    &:hover {
+                        @media (min-width: 992px) {
+                            background: var(--purple-color);
+                        }
+                        
+                    }
                 }
                 &::before {
                     content: "";
@@ -358,13 +428,18 @@
                     top: -20px;
                     left: 2em;
                     transform: translateX(-50%);
+                    @media #{$ipad} {
+                        display: none;
+                    }
                 }
             }
             &:hover {
                 .menu__menuitem__dropdown {
-                    visibility: visible;
-                    opacity: 1;
-                    transition: all 0.5s linear;
+                    @media (min-width: 992px) {
+                        visibility: visible;
+                        opacity: 1;
+                    }
+                    
                 }
             }
         }

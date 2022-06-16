@@ -862,7 +862,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="assets/images/final-imgs/hompage/restaurant-1.jpg" alt="facilities" class="observer__child"/>
+                                <img src="/assets/images/final-imgs/hompage/restaurant-1.jpg" alt="facilities" class="observer__child"/>
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Restaurants</span>
@@ -870,7 +870,7 @@
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Restaurants</h5>
                                 <p class="facilities__box__para">Our deep understanding of food, cultures, consumers, and changing lifestyles has helped us create a portfolio of restaurants across the UAE, Middle East, Turkey, and the UK.</p>
-                                <a href="/business-sectors.php#Restaurant" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors/#Restaurant" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -882,7 +882,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="assets/images/final-imgs/hompage/retail.jpg" alt="facilities" class="observer__child">
+                                <img src="/assets/images/final-imgs/hompage/retail.jpg" alt="facilities" class="observer__child">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Retail</span>
@@ -890,7 +890,7 @@
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Retail</h5>
                                 <p class="facilities__box__para">We have a growing portfolio of Levantine products, with a special focus on coffee and roasted nuts. Our 10 retail outlets are conveniently located across the UAE.</p>
-                                <a href="/business-sectors.php#Retail" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors/#Retail" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -902,7 +902,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one ">
-                                <img src="assets/images/final-imgs/hompage/catering.jpg" alt="facilities" class="observer__child">
+                                <img src="/assets/images/final-imgs/hompage/catering.jpg" alt="facilities" class="observer__child">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Catering</span>
@@ -910,7 +910,7 @@
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Catering</h5>
                                 <p class="facilities__box__para">Food inspires us and we are known for bespoke catering. We have successfully catered to private and corporate events, high-profile celebrations, and small exclusive gatherings.</p>
-                                <a href="/business-sectors.php#Catering" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors/#Catering" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
@@ -930,7 +930,7 @@
                             <div class="facilities__box__text">
                                 <h5 class="facilities__box__title h5">Wholesale</h5>
                                 <p class="facilities__box__para">A focus on high-quality and responsive customer service has made us the preferred partner for large food-related businesses in the UAE and the wider region.</p>
-                                <a href="/business-sectors.php#Wholesale" class="thm-btn thm-btn--white-border">
+                                <a href="/business-sectors/#Wholesale" class="thm-btn thm-btn--white-border">
                                     <span class="thm-btn__text">Read more</span>
                                     <span class="thm-btn__icon">
                                         <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">

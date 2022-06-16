@@ -60,15 +60,15 @@
                         <div class="cta__social__icons">
                             <p class="animate" data-animation="animate__fadeInUp" data-duration="500">Share:</p>
                             <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="600">
-                                <img src="/assets/svg/social/details-pages-icons/c-instagram.svg" alt="instagram" target="_blank" title="instagram">
+                                <img class="svg-convert" width="14" height="14" src="/assets/svg/social/details-pages-icons/c-instagram.svg" alt="instagram" target="_blank" title="instagram">
                             </a>
 
                             <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="700">
-                                <img src="/assets/svg/social/details-pages-icons/c-facebook.svg" alt="facebook" target="_blank" title="facebook">
-                            </a>
+                                <img class="svg-convert" width="7" height="14" src="/assets/svg/social/details-pages-icons/c-facebook.svg" alt="facebook" target="_blank" title="facebook">
+                            </a> 
 
                             <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="800">
-                                <img src="/assets/svg/social/details-pages-icons/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin">
+                                <img class="svg-convert" width="14" height="14" src="/assets/svg/social/details-pages-icons/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin">
                             </a>
                         </div>
                     </div>

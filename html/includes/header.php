@@ -14,21 +14,24 @@
                         </a>
                     </li>
                     <li class="menu__menuitem menu__menuitem--dropdown-wrapper  animate" data-animation="animate__fadeInUp" data-duration="400">
-                        <a href="/business-sectors.php" class="menu__menuitem--menulink">
+                        <a href="/business-sectors/" class="menu__menuitem--menulink">
                             Business Sectors
                         </a>
+                        <span class="mobile-icon">
+                            <img src="/assets/svg/chevron-down.svg" alt="icon">
+                        </span>
                         <ul class="menu__menuitem__dropdown">
                             <li>
-                                <a href="#">restaurants</a>
+                                <a href="/business-sectors/restaurants.php">restaurants</a>
                             </li>
                             <li>
-                                <a href="#">Retail</a>
+                                <a href="/business-sectors/retail.php">Retail</a>
                             </li>
                             <li>
-                                <a href="#">Catering</a>
+                                <a href="/business-sectors/catering.php">Catering</a>
                             </li>
                             <li>
-                                <a href="#">Wholesale / Distribution</a>
+                                <a href="/business-sectors/wholesale.php">Wholesale / Distribution</a>
                             </li>
                         </ul>
                     </li>
@@ -56,7 +59,7 @@
                 <div class="header-languages animate" data-animation="animate__fadeInUp" data-duration="900"> 
                     <a href="/">En</a>
                     <a href="javascript:;">Ar</a>
-                    <div class="header-languages__popup">Comming Soon</div>
+                    <div class="header-languages__popup">Coming Soon</div>
                 </div>
                 <div class="header-searh-icon animate" data-animation="animate__fadeInUp" data-duration="1000">
                     <a class="menu-item header--right__cta__search" href="javacript:;" role="button">

@@ -65,6 +65,13 @@ $(document).ready(function () {
   });
   /* Navigation Active */
 
+  $('.mobile-icon').on('click', function(e) {
+    e.stopPropagation();
+    let currentEl = $(this);
+    currentEl.toggleClass('rotate');
+    currentEl.siblings('.menu__menuitem__dropdown').slideToggle('slow');
+  });
+
   //Home Hero Slider--------------
   if ($(document).find("div").hasClass("news__slider")) {
     var news_slider = new Swiper(".news__slider .swiper", {
@@ -179,20 +186,18 @@ $(document).ready(function () {
   });
 
   // tabs active
-  var path = window.location.pathname.split("/").pop();
+    //   var path = window.location.pathname.split("/").pop();
   // var target = $('.newsroom-tabs__row > a[href="/' + path + '"]');
   // target.addClass('tab-active');
 
-  var target2 = $('.menu__menuitem--menulink[href="/' + path + '"]');
+  var path = window.location.pathname;
+
+  var target2 = $('.menu__menuitem--menulink[href="' + path + '"]');
   target2.addClass("active");
 
-  if (
-    path == "close-deals-detail.php" ||
-    path == "public-active-deals.php" ||
-    path == "public-active-deal-detail.php"
-  ) {
-    var target3 = $(".newsroom-tabs__row > a:nth-child(1)");
-    target3.addClass("tab-active");
+  let nestedPath = window.location.pathname.split('/')
+  if(nestedPath[2]) {
+    $("a[href='/business-sectors/']").addClass('active')
   }
 
   // logout dropdown

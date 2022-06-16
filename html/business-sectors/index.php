@@ -6,12 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Global Catering | Business Sectors </title>
-    <?php include 'includes/meta.php'; ?>
+    <?php include '../includes/meta.php'; ?>
 </head>
 
 <body class="no-home">
-    <?php include('includes/loader.php'); ?>
-    <?php include 'includes/header.php'; ?>
+    <?php include('../includes/loader.php'); ?>
+    <?php include '../includes/header.php'; ?>
 
     
     <main>
@@ -55,7 +55,7 @@
                                 <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Restaurant</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> We acquire well-known restaurants and reimagine them to strengthen their appeal to customers. We also create innovative restaurant concepts. A deep understanding of food, cultures, consumers and changing lifestyles has made us one of the more successful restaurant operators in the UAE and the Middle East region</p>                           
-                                    <a href="/restaurants-details.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
+                                    <a href="restaurants.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
                                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
@@ -68,7 +68,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__one">
-                        <img src="assets/images/final-imgs/business-sectors/restaurant.jpg" alt="restaurant" class="observer__child" />
+                        <img src="/assets/images/final-imgs/business-sectors/restaurant.jpg" alt="restaurant" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Restaurants</span>
@@ -84,7 +84,7 @@
                                 <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Retail</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> We have a growing portfolio of Levantine products, and we specialize in coffee and nuts for every taste and budget. Our 10 retail outlets are conveniently located across the UAE, and more are planned. The outlets offer a variety of exclusively sourced products and delicatessen items.</p>                           
-                                    <a href="/retail-details.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
+                                    <a href="retail.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
                                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
@@ -97,7 +97,7 @@
                 </div>
                 <div class="stroke-figure__panel">
                     <div class="stroke-figure__panel__img img__observer__two">
-                        <img src="assets/images/final-imgs/business-sectors/retail.jpg" class="observer__child" />
+                        <img src="/assets/images/final-imgs/business-sectors/retail.jpg" class="observer__child" />
                     </div>
                     <div class="stroke-figure__panel__stroke">
                         <span>Retail</span>
@@ -117,7 +117,7 @@
                                 <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Catering</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> We are known for bespoke and quality catering services. From corporate and private events to large-scale celebrations and private gatherings, we provide a full suite of catering services. We also cater to the specialist requirements of different industries including schools, hospitals, factories, hotels, and more.</p>                           
-                                    <a href="/catering-details.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
+                                    <a href="catering.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="400">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
                                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
@@ -129,7 +129,7 @@
                         <div class="col-50">
                             <div class="stroke-figure__panel">
                                 <div class="stroke-figure__panel__img img__observer__one">
-                                    <img src="assets/images/final-imgs/business-sectors/catering.jpg" alt="restaurant" class="observer__child" />
+                                    <img src="/assets/images/final-imgs/business-sectors/catering.jpg" alt="restaurant" class="observer__child" />
                                 </div>
                                 <div class="stroke-figure__panel__stroke">
                                     <span> Catering</span>
@@ -153,7 +153,7 @@
                                 <h3 class="h3 animate" data-animation="animate__fadeInUp" data-duration="200">Wholesale / Distribution</h3>
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <p class="animate" data-animation="animate__fadeInUp" data-duration="200"> Our food trading and distribution business is consolidated under the Golden Sands brand. Our reputation for quality and exceptional service has made us the preferred partner for large-scale food businesses in the UAE. Our roster of clients includes the biggest and best-known food-related companies in the UAE.</p>                           
-                                    <a href="/wholesale-details.php" class="thm-btn  animate" data-animation="animate__fadeInUp" data-duration="200">
+                                    <a href="wholesale.php" class="thm-btn  animate" data-animation="animate__fadeInUp" data-duration="200">
                                         <span class="thm-btn__text">Read more</span>
                                         <span class="thm-btn__icon">
                                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
@@ -177,14 +177,14 @@
 
         
         <!-- cta -->
-        <?php include 'includes/follow-us.php'; ?>
+        <?php include '../includes/follow-us.php'; ?>
         
 
     </main>
 
 
-    <?php include 'includes/footer.php'; ?>
-    <?php include 'includes/scripts.php'; ?>
+    <?php include '../includes/footer.php'; ?>
+    <?php include '../includes/scripts.php'; ?>
 </body>
 
 </html>
