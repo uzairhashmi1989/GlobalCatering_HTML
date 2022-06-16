@@ -180,8 +180,10 @@
             .social {
                 display: flex;
                 flex-direction: column;
+                width: em(188);
+                align-items: center;
                 @media #{$ipad} {
-                    align-items: center;
+                    margin: 0 auto;
                     margin-bottom: 3em;
                 }
             }
@@ -231,7 +233,6 @@
                 .cta__social__icons {
                     margin: 0;
                     justify-content: flex-start;
-                    padding-left: 4em;
                     &__single {
                         border-color: $white-color;
                         svg {
@@ -251,6 +252,8 @@
                     font-family: var(--el-messeri);
                     text-decoration: none;
                     transition: $transition-ease;
+                    display: flex;
+                    align-items: center;
                     &:hover {
                         color: $yellow-color;
                     }
@@ -263,6 +266,9 @@
                         display: flex;
                         flex-wrap: wrap;
                         position: relative;
+                        @media #{$mob} {
+                            margin-bottom: 1.5em;
+                        }
                         span {
                             font-size: em(22);
                             color: $white-color;
@@ -272,6 +278,10 @@
                             transition: all .3s ease-in-out;
                             width: 100%;
                             margin-bottom: 0;
+                            display: flex;
+                            align-items: center;
+                            justify-content: space-between;
+                            flex: 0 1 65%;
                         }
                         .icon {
                             width: 12px;
@@ -295,7 +305,7 @@
                                 opacity: .5;
                                 left: 0;
                                 @media #{$mob} {
-                                    top: -5px;
+                                    // top: -5px;
                                 }
                             }
                         }
@@ -327,21 +337,20 @@
 
         .uline {
             position: relative;
-            &::before {
+            &::after {
                 content: "";
-                position: absolute;
+                position: relative;
                 background: url('/assets/svg/white-right-long-arrow.svg');
                 width: 20px;
                 height: 12px;
-                left: 135%;
-                transform: translate(-50%,-50%);
-                top: 50%;
+                left: 0.7em;
                 opacity: 0;
                 transition: $transition-ease;
+                display: block;
             }
-            &:hover::before {
+            &:hover::after {
                 opacity: 1;
-                left: 130%;
+                left: 0.5em;
             }
         }
         
@@ -369,13 +378,15 @@
         @media #{$mob} {
             flex-basis: 40%;
         }
-        &::before {
+        &::after {
             content: "";
-            position: absolute;
-            background: url('../svg/chevron-down.svg');
+            position: relative;
+            background: url('../svg/chevron-down.svg') center center/contain no-repeat;
             width: 16px;
             height: 16px;
             right: 0;
+            display: block;
+            flex: 0 0 16px;
         }
     }
 }
