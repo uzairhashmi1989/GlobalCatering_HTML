@@ -42,19 +42,19 @@
                         <a href="/about-us.php">about us</a>
                     </li>
                     <li>
-                        <a href="/business-sectors.php">business sectors</a>
+                        <a href="/business-sectors/">business sectors</a>
                         <ul>
                             <li>
-                                <a href="/business-sectors.php#Restaurant">Restaurant</a>
+                                <a href="/business-sectors/restaurants.php">Restaurant</a>
                             </li>
                             <li>
-                                <a href="/business-sectors.php#Retail">Retail</a>
+                                <a href="/business-sectors/retail.php">Retail</a>
                             </li>
                             <li>
-                                <a href="/business-sectors.php#Catering">Catering</a>
+                                <a href="/business-sectors/catering.php">Catering</a>
                             </li>
                             <li>
-                                <a href="/business-sectors.php#Wholesale">Wholesale</a>
+                                <a href="/business-sectors/wholesale.php">Wholesale</a>
                             </li>
 
                         </ul>

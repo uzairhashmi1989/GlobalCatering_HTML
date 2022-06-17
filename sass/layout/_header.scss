@@ -101,6 +101,9 @@
                     position: absolute;
                     min-width: 11em;
                     pointer-events: none;
+                    @media #{$mob} {
+                        top: 2em;
+                    }
                     &::before {
                         content: "";
                         position: absolute;
@@ -168,6 +171,10 @@
                                 padding: 1em 3.5em 1em 1em;
                                 width: 100%;
                                 border: none;
+                                @media #{$mob} {
+                                    padding-top: 0.5em;
+                                    padding-bottom: 0.5em;
+                                }
                                 &:focus,
                                 &:focus-visible {
                                     outline: 0;
