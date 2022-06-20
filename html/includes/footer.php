@@ -10,19 +10,13 @@
                             </a>
                         </div>
                         <div class="social">
-                            <div class="cta__social__icons">
-                                <!-- <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="400">
-                                    <img class="svg-convert" src="/assets/svg/social/c-instagram.svg" alt="instagram" target="_blank" title="instagram" width="19" height="19">
-                                </a>
-
-                                <a href="javascript:;" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="300">
-                                    <img class="svg-convert" src="/assets/svg/social/c-facebook.svg" alt="facebook" target="_blank" title="facebook" width="10" height="19">
-                                </a> -->
-
-                                <a href="https://www.linkedin.com/company/global-catering-services" target="_blank" title="linkedin" class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="500">
-                                    <img class="svg-convert" src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin" width="19" height="19">
-                                </a>
-                            </div>
+                            <ul class="cta__social__icons">
+                                <li class="cta__social__icons__single animate" data-animation="animate__zoomIn" data-duration="400">
+                                    <a href="https://www.linkedin.com/company/global-catering-services" target="_blank" title="linkedin" >
+                                        <img class="svg-convert"  src="/assets/svg/social/c-linkedin.svg" alt="linkedin" target="_blank" title="linkedin" width="19" height="19">
+                                    </a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                     <div class="footer__top--qlinks-col">

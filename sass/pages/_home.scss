@@ -1090,6 +1090,7 @@
         justify-content: center;
         max-width: em(735);
         margin: 0 auto;
+        padding: 0;
 
         &__single {
             width: em(50);
@@ -1103,18 +1104,22 @@
             position: relative;
             overflow: hidden;
             transition: $transition-ease;
-
             @media #{$ipadpro} {
                 width: 4em;
                 height: 4em;
             }
-
             @media #{$ipadpro} {
                 width: 3em;
                 height: 3em;
             }
-
-
+            a {
+                width: 100%;
+                height: 100%;
+                flex: 0 0 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             img,
             svg {
                 width: auto;

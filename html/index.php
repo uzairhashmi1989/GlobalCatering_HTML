@@ -32,8 +32,8 @@
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/home/mob-banner.jpg">
-                    <img src="/assets/images/home/banner.jpg" alt="banner image" />
+                    <source media="(max-width: 767px)" srcset="/assets/images/home/converted/mob-banner.webp">
+                    <img src="/assets/images/home/converted/banner.webp" alt="banner image" />
                 </picture>
             </div>
             <div class="hero-home__locations">
@@ -862,7 +862,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="/assets/images/final-imgs/hompage/restaurant-1.jpg" alt="facilities" class="observer__child"/>
+                                <img data-src="/assets/images/final-imgs/hompage/converted/restaurant-1.webp" alt="facilities" class="observer__child lazy-img"/>
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Restaurants</span>
@@ -882,7 +882,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="/assets/images/final-imgs/hompage/retail.jpg" alt="facilities" class="observer__child">
+                                <img data-src="/assets/images/final-imgs/hompage/converted/retail.webp" alt="facilities" class="observer__child lazy-img ">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Retail</span>
@@ -902,7 +902,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one ">
-                                <img src="/assets/images/final-imgs/hompage/catering.jpg" alt="facilities" class="observer__child">
+                                <img data-src="/assets/images/final-imgs/hompage/converted/catering.webp" alt="facilities" class="observer__child lazy-img ">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Catering</span>
@@ -922,7 +922,7 @@
                     <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="/assets/images/home/facilities-4.jpg" alt="facilities" class="observer__child">
+                                <img data-src="/assets/images/home/converted/facilities-4.webp" alt="facilities" class="observer__child lazy-img ">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Wholesale</span>
@@ -942,7 +942,7 @@
                     <!-- <div class="swiper-slide">
                         <div class="facilities__box">
                             <div class="facilities__box__figure img__observer__one">
-                                <img src="assets/images/final-imgs/hompage/restaurant-2.jpg" alt="facilities" class="observer__child">
+                                <img src="assets/images/final-imgs/hompage/converted/restaurant-2.webp" alt="facilities" class="observer__child">
                             </div>
                             <div class="facilities__box__stroke-title">
                                 <span>Restaurants</span>
@@ -984,10 +984,10 @@
                     <div class="col-40">
                         <div class="foods-safety__figures">
                             <div class="foods-safety__figures__small animate" data-animation="animate__zoomIn" data-duration="400">
-                                <img src="/assets/images/home/foods-safety-small.jpg" alt="foods">
-                            </div>
+                                <img class="lazy-img" data-src="/assets/images/home/converted/foods-safety-small.webp" alt="foods">
+                            </div> 
                             <div class="foods-safety__figures__large animate" data-animation="animate__zoomIn" data-duration="200">
-                                <img src="/assets/images/home/foods-safety-large.jpg" alt="">
+                                <img class="lazy-img" data-src="/assets/images/home/converted/foods-safety-large.webp" alt="">
                             </div>
                         </div>
                     </div>
@@ -1007,7 +1007,7 @@
                             <div class="swiper-slide">
                                 <a href="https://whatson.ae/2021/12/nye-2021-where-to-spend-new-years-eve-in-dubai/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-1.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-1.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">dec 26, 2021</span>
@@ -1024,7 +1024,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/lifestyle/festive-season-where-to-go-1.1640348330292" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-2.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-2.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">dec 24, 2021</span>
@@ -1042,7 +1042,7 @@
                             <div class="swiper-slide">
                                 <a href="https://whatson.ae/2022/01/heading-to-dubai-opera-here-are-5-restaurants-to-dine-at-before-the-show/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-3.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-3.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">Jan 6, 2022</span>
@@ -1060,7 +1060,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/food/moroccan-cuisine-in-the-uae-more-than-just-your-tagine-and-couscous-1.1643637531859" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-4.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-4.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">Feb 04, 2022</span>
@@ -1077,7 +1077,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/food/guide-cooking/make-moroccan-harira-soup-at-home-from-scratch-with-this-recipe-1.1643034208068" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-5.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-5.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">Feb 04, 2022</span>
@@ -1094,7 +1094,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/food/guide-cooking/guide-to-make-moroccan-chicken-and-almond-bastilla-or-savoury-pie-recipe-1.1643037718741" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-6.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-6.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">Jan 15, 2022</span>
@@ -1111,7 +1111,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/food/cooking-cuisines/moroccan-chicken-tagine-1.1643292977682" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-7.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-7.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">feb 04, 2022</span>
@@ -1128,7 +1128,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/food/cooking-cuisines/moroccan-sable-or-biscuits-1.1643284247587" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-8.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-8.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">feb 04, 2022</span>
@@ -1145,7 +1145,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/food/cooking-cuisines/moroccan-recipe-for-lamb-shank-with-couscous-and-vegetables-1.1643283159880" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-9.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-9.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">feb 04, 2022</span>
@@ -1162,7 +1162,7 @@
                             <div class="swiper-slide">
                                 <a href="https://graziamagazine.com/me/articles/restaurants-best-valentines-spots/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-10.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-10.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">Feb 14, 2022</span>
@@ -1179,7 +1179,7 @@
                             <div class="swiper-slide">
                                 <a href="https://whatson.ae/2022/02/where-to-celebrate-valentines-day-in-dubai-2022/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-11.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-11.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">Feb 04, 2022</span>
@@ -1196,7 +1196,7 @@
                             <div class="swiper-slide">
                                 <a href="https://emirateswoman.com/complete-guide-valentines-day-dubai/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-12.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-12.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">feb 14, 2022</span>
@@ -1213,7 +1213,7 @@
                             <div class="swiper-slide">
                                 <a href="https://whatson.ae/2021/09/breakfast-in-dubai/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-13.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-13.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">sept 22, 2021</span>
@@ -1230,7 +1230,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/going-out/dubai-sharjah-10-incredible-things-to-do-this-weekend-1.1632994532256?slide=1" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-14.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-14.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">sept 30, 2021</span>
@@ -1247,7 +1247,7 @@
                             <div class="swiper-slide">
                                 <a href="https://whatson.ae/2022/01/heading-to-dubai-opera-here-are-5-restaurants-to-dine-at-before-the-show/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-15.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-15.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">oct 3, 2021</span>
@@ -1264,7 +1264,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/food/moroccan-cuisine-in-the-uae-more-than-just-your-tagine-and-couscous-1.1643637531859" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-16.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-16.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">oct 10, 2021</span>
@@ -1281,7 +1281,7 @@
                             <div class="swiper-slide">
                                 <a href="https://gulfnews.com/going-out/7-amazing-things-to-do-this-weekend-in-dubai-1.1634213410351" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-17.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-17.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">oct 14, 2021</span>
@@ -1298,7 +1298,7 @@
                             <div class="swiper-slide">
                                 <a href="https://www.mydubainews.com/bosporus-restaurant-launches-flames/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-18.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-18.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">sept 29, 2022</span>
@@ -1315,7 +1315,7 @@
                             <div class="swiper-slide">
                                 <a href="http://hashtagdubai.org/index.php/2021/09/29/bosporus-restaurant-launches-flames/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-19.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-19.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">sept 29, 2021</span>
@@ -1332,7 +1332,7 @@
                             <div class="swiper-slide">
                                 <a href="https://uaenews247.com/2021/09/29/bosporus-restaurant-launches-flames/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-20.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-20.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">sept 29, 2021</span>
@@ -1349,7 +1349,7 @@
                             <div class="swiper-slide">
                                 <a href="https://www.khaleejtimes.com/uae-holidays/new-years-eve-in-dubai-restaurant-bookings-reach-dh5500-per-person-ahead-of-celebrations" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-21.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-21.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">dec 30, 2021</span>
@@ -1366,7 +1366,7 @@
                             <div class="swiper-slide">
                                 <a href="https://menafn.com/1103691242/Enjoy-Complimentary-Dessert-and-a-Sketch-with-your-Date-this-Valentines&source=29" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-22.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-22.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">Feb 14, 2022</span>
@@ -1383,7 +1383,7 @@
                             <div class="swiper-slide">
                                 <a href="https://www.motherbabychild.com/2022/celebrate-ramadan/our-picks-for-the-best-family-iftars-in-dubai/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-23.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-23.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">april 14, 2022</span>
@@ -1400,7 +1400,7 @@
                             <div class="swiper-slide">
                                 <a href="https://www.motherbabychild.com/2022/celebrate-ramadan/our-picks-for-the-best-family-iftars-in-dubai/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-24.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-24.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">mar 25, 2022</span>
@@ -1417,7 +1417,7 @@
                             <div class="swiper-slide">
                                 <a href="https://iconicepisode.com/iftar-roundup-things-to-do-and-exclusive-offers-for-ramadan/" target="_blank" class="news__box " >
                                     <div class="news__box__figure">
-                                        <img src="/assets/images/home/news-25.jpg" alt="news">
+                                        <img  class="lazy-img"  data-src="/assets/images/home/converted/news-25.webp" alt="news">
                                     </div>
                                     <div class="news__box__text-content">
                                         <span class="date">mar 30, 2022</span>
@@ -1448,7 +1448,7 @@
         <section class="multi-sectors">
             <div class="container">
                 <div class="multi-sectors__logo animate" data-animation="animate__zoomIn" data-duration="200">
-                    <img src="/assets/images/home/sector-logo.png" alt="logo" width="270" height="175">
+                    <img data-src="/assets/images/home/converted/sector-logo.webp" alt="logo" width="270" height="175" class="lazy-img">
                 </div>
                 <div class="twocol-row">
                     <div class="col-50">
@@ -1495,7 +1495,7 @@
                 </div>
             </div>
             <div class="multi-sectors__figure img__observer__one">
-                <img src="/assets/images/home/sector-figure.jpg" alt="multi sectors" width="783" height="666" class="observer__child">
+                <img data-src="/assets/images/home/converted/sector-figure.webp" alt="multi sectors" width="783" height="666" class="observer__child lazy-img">
             </div>
         </section>
 

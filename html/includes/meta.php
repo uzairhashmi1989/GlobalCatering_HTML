@@ -1,13 +1,21 @@
+
 <!-- Vendors CSS -->
 <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" type="text/css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" type="text/css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" type="text/css"> -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" type="text/css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.css" />
-<link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet" type="text/css" />
+<!-- <link href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" rel="stylesheet" type="text/css" /> -->
 
 <!-- <link rel="stylesheet" href="/assets/css/jquery.jqplot.min.css"> -->
 
 <link rel="icon" type="image/x-icon" href="/favicon.png">
+
+
+
+
+<!-- preload css and js -->
+<link rel="preload" href="/assets/css/custom.min.css" as="style">
+
 
 <!-- normal Custom CSS -->
 <link rel="stylesheet" href="/assets/css/custom.min.css">

@@ -1,16 +1,17 @@
 var sw = $(window).width();
 var sh = $(window).height();
 
-// Font Resizer-------------------Start
-function fontResizer() {
-  var perc = parseInt(sw) / 120;
-  $("body").css("font-size", perc);
-}
-// Font Resizer-------------------End
+  // Font Resizer-------------------Start
+  function fontResizer() {
+    var perc = parseInt(sw) / 120;
+    $("body").css("font-size", perc);
+  }
 
-$(window).on("load", function () {
-  if (sw > 1025) {
-    fontResizer();
+
+
+  $(window).on("load", function () {
+    if (sw > 1025) {
+      fontResizer();
   }
 
   setTimeout(function () {
@@ -54,6 +55,7 @@ $(window).on("load", function () {
   //     $(".body-overlay").fadeIn("slow");
 
   // });
+
 });
 
 $(document).ready(function () {
@@ -77,7 +79,7 @@ $(document).ready(function () {
     var news_slider = new Swiper(".news__slider .swiper", {
       slidesPerView: 1,
       spaceBetween: 30,
-      loop: true,
+      loop: false,
       speed: 2000,
       // autoplay: {
       //     delay: 2500,
@@ -160,11 +162,11 @@ $(document).ready(function () {
     });
   }
 
-  $(".single-select").select2({
-    minimumResultsForSearch: -1,
-    dropdownCssClass: "custom-dropdown",
-    width: "100%",
-  });
+  // $(".single-select").select2({
+  //   minimumResultsForSearch: -1,
+  //   dropdownCssClass: "custom-dropdown",
+  //   width: "100%",
+  // });
 
   function scrollFix(scrollbar) {
     const draggerRail = $(scrollbar).find(".mCSB_draggerRail");
@@ -304,120 +306,143 @@ if ($(document).find("ul").hasClass("countAnimate")) {
   });
 }
 
-// Landscape Mode off----------------Start
-$(window).on("resize orientation", function () {
-  sw = $(window).width();
-  sh = $(window).height();
-  if (sh < 450) {
-    $("#portrait-warnning").css("display", "flex");
-  } else {
-    $("#portrait-warnning").css("display", "none");
-  }
+  // Landscape Mode off----------------Start
+  $(window).on("resize orientation", function () {
+    sw = $(window).width();
+    sh = $(window).height();
+    if (sh < 450) {
+      $("#portrait-warnning").css("display", "flex");
+    } else {
+      $("#portrait-warnning").css("display", "none");
+    }
 
-  setTimeout(function () {
-    if (sw > 1025) {
-      if (sw < 1400 && sw > 1300 && sh > 900) {
-      } else {
-        fontResizer();
+    setTimeout(function () {
+      if (sw > 1025) {
+        if (sw < 1400 && sw > 1300 && sh > 900) {
+        } else {
+          fontResizer();
+        }
       }
-    }
-  }, 1000);
-});
-// Landscape Mode off----------------End
+    }, 1000);
+  });
+  // Landscape Mode off----------------End
 
-// Sticky Header----------------Start
-$(window).scroll(function () {
-  var header1 = $(".header");
-  var sticky1 = 0;
-  if (sw < 767) {
-    if (window.pageYOffset > sticky1) {
-      header1.addClass("sticky");
-      console.log("added");
-    } else {
-      header1.removeClass("sticky");
-    }
-  }
-});
-// Sticky Header----------------End
+  // Sticky Header----------------Start
+  // $(window).scroll(function () {
+  //   var header1 = $(".header");
+  //   var sticky1 = 0;
+  //   if (sw < 767) {
+  //     if (window.pageYOffset > sticky1) {
+  //       header1.addClass("sticky");
+  //       console.log("added");
+  //     } else {
+  //       header1.removeClass("sticky");
+  //     }
+  //   }
+  // });
 
-// hero accordion
-$(function () {
-  $(".hero-home__locations__popup__card__title").on("click", function (j) {
-    var dropDown = $(this)
-      .closest(".hero-home__locations__popup__card")
-      .find(".hero-home__locations__popup__card__panel");
-    $(this)
-      .closest(".hero-home__locations__popup__scroll")
-      .find(".hero-home__locations__popup__card__panel")
-      .not(dropDown)
-      .slideUp();
 
-    if ($(this).hasClass("active")) {
-      $(this).removeClass("active");
-    } else {
+
+  // hero accordion
+  $(function () {
+    $(".hero-home__locations__popup__card__title").on("click", function (j) {
+      var dropDown = $(this)
+        .closest(".hero-home__locations__popup__card")
+        .find(".hero-home__locations__popup__card__panel");
       $(this)
         .closest(".hero-home__locations__popup__scroll")
-        .find(".hero-home__locations__popup__card__title.active")
-        .removeClass("active");
+        .find(".hero-home__locations__popup__card__panel")
+        .not(dropDown)
+        .slideUp();
+
+      if ($(this).hasClass("active")) {
+        $(this).removeClass("active");
+      } else {
+        $(this)
+          .closest(".hero-home__locations__popup__scroll")
+          .find(".hero-home__locations__popup__card__title.active")
+          .removeClass("active");
+        $(this).addClass("active");
+      }
+
+      dropDown.stop(false, true).slideToggle();
+      j.preventDefault();
+    });
+  });
+
+
+  // hero map popup
+
+  $(function () {
+    $(".hero-home__locations__pin").on("click", function (e) {
+      e.stopPropagation();
+      $(".hero-home__locations__popup").addClass("hide");
+      $(this).siblings(".hide").removeClass("hide");
+      $(".hero-home__locations__pin").removeClass("active");
       $(this).addClass("active");
-    }
+      $(".hero-home__locations__map").removeClass("width-imp");
+      $(this).parents(".hero-home__locations__map").addClass("width-imp");
+    });
 
-    dropDown.stop(false, true).slideToggle();
-    j.preventDefault();
-  });
-});
-
-// hero map popup
-
-$(function () {
-  $(".hero-home__locations__pin").on("click", function (e) {
-    e.stopPropagation();
-    $(".hero-home__locations__popup").addClass("hide");
-    $(this).siblings(".hide").removeClass("hide");
-    $(".hero-home__locations__pin").removeClass("active");
-    $(this).addClass("active");
-    $(".hero-home__locations__map").removeClass("width-imp");
-    $(this).parents(".hero-home__locations__map").addClass("width-imp");
+    $(".icon").on("click", function (e) {
+      e.stopPropagation();
+      $(this).parents(".hero-home__locations__popup").addClass("hide");
+      $(this)
+        .parents(".hero-home__locations__map")
+        .find(".hero-home__locations__pin")
+        .removeClass("active");
+      $(this).parents(".hero-home__locations__map").removeClass("width-imp");
+    });
   });
 
-  $(".icon").on("click", function (e) {
-    e.stopPropagation();
-    $(this).parents(".hero-home__locations__popup").addClass("hide");
-    $(this)
-      .parents(".hero-home__locations__map")
-      .find(".hero-home__locations__pin")
-      .removeClass("active");
-    $(this).parents(".hero-home__locations__map").removeClass("width-imp");
+  // Fancybox.bind("[data-fancybox]", {
+  //   dragToClose: false,
+  // });
+
+  //Image Observer Start
+  let imageObserver1 = [...document.querySelectorAll(".img__observer__one")];
+  let imageObserver2 = [...document.querySelectorAll(".img__observer__two")];
+
+  let options = {
+    rootMargin: "0px",
+    threshold: 0.2,
+  };
+
+  let setItemActive = (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("active");
+      }
+    });
+  };
+
+  let observer = new IntersectionObserver(setItemActive, options);
+
+  imageObserver1.forEach((item1, idx) => {
+    observer.observe(item1);
   });
-});
 
-Fancybox.bind("[data-fancybox]", {
-  dragToClose: false,
-});
+  imageObserver2.forEach((item2, idx) => {
+    observer.observe(item2);
+  });
 
-//Image Observer Start
-let imageObserver1 = [...document.querySelectorAll(".img__observer__one")];
-let imageObserver2 = [...document.querySelectorAll(".img__observer__two")];
 
-let options = {
-  rootMargin: "0px",
-  threshold: 0.2,
-};
 
-let setItemActive = (entries) => {
+
+const imgElements = document.querySelectorAll("img[data-src]");
+
+const lazyLoadingImage = (entries, observer2) => {
   entries.forEach((entry) => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add("active");
-    }
+    if (!entry.isIntersecting) return;
+    entry.target.src = entry.target.dataset.src;
+    entry.target.addEventListener("load", () => {
+      entry.target.classList.remove("lazy-img");
+      observer2.unobserve(entry.target);
+    });
   });
 };
-
-let observer = new IntersectionObserver(setItemActive, options);
-
-imageObserver1.forEach((item1, idx) => {
-  observer.observe(item1);
+const lazyLoadingObserver = new IntersectionObserver(lazyLoadingImage, {
+  threshold: 0,
+  rootMargin: "0px 0px 150px 0px",
 });
-
-imageObserver2.forEach((item2, idx) => {
-  observer.observe(item2);
-});
+imgElements.forEach((img) => lazyLoadingObserver.observe(img));

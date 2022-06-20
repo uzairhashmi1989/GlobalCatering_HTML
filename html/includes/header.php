@@ -57,8 +57,8 @@
             </div>
             <div class="header__wrapper__language__search">
                 <div class="header-languages animate" data-animation="animate__fadeInUp" data-duration="900"> 
-                    <a href="/">En</a>
-                    <a href="javascript:;">Ar</a>
+                    <a href="/" class="english-lang active">En</a>
+                    <a href="javascript:;" class="arabic-lang">Ar</a>
                     <div class="header-languages__popup">Coming Soon</div>
                 </div>
                 <div class="header-searh-icon animate" data-animation="animate__fadeInUp" data-duration="1000">
