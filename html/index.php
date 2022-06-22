@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="We operate market-leading businesses in four sectors - restaurants, catering, retail, and wholesale. Learn more about our diversified portfolio.">
     <title>Global Catering</title>
     <?php include 'includes/meta.php'; ?>
 </head>
@@ -20,9 +21,9 @@
         <section class="hero-home">
             <div class="container hero-home__container">
                 <div class="hero-home__text">
-                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="200">INSPIRED BY FOOD</h1>
-                    <p class=" animate" data-animation="animate__fadeInUp" data-duration="300">We operate market-leading businesses in four sectors - restaurants, catering, retail, and wholesale. Learn more about our diversified portfolio.</p>
-                    <a href="/about-us.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
+                    <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="10">INSPIRED BY FOOD</h1>
+                    <p class=" animate" data-animation="animate__fadeInUp" data-duration="20">We operate market-leading businesses in four sectors - restaurants, catering, retail, and wholesale. Learn more about our diversified portfolio.</p>
+                    <a href="/about-us.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="30">
                         <span class="thm-btn__text">Read more</span>
                         <span class="thm-btn__icon">
                             <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert" />
@@ -39,7 +40,7 @@
             <div class="hero-home__locations">
 
                 <!-- London, UK -->
-                <div class="hero-home__locations__map animate" data-animation="animate__zoomIn" data-duration="200">
+                <div class="hero-home__locations__map animate" data-animation="animate__zoomIn" data-duration="10">
                     <div class="hero-home__locations__pin">
                         <span>London, UK</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -96,7 +97,7 @@
                 </div>
 
                 <!-- Abu Dhabi, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--abu-dhabi animate" data-animation="animate__zoomIn" data-duration="300">
+                <div class="hero-home__locations__map hero-home__locations__map--abu-dhabi animate" data-animation="animate__zoomIn" data-duration="20">
                     <div class="hero-home__locations__pin">
                         <span>Abu Dhabi, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -391,7 +392,7 @@
                 </div>
 
                 <!-- Cairo, Egypt -->
-                <div class="hero-home__locations__map hero-home__locations__map--cairo animate" data-animation="animate__zoomIn" data-duration="400">
+                <div class="hero-home__locations__map hero-home__locations__map--cairo animate" data-animation="animate__zoomIn" data-duration="30">
                     <div class="hero-home__locations__pin">
                         <span>Cairo, Egypt</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -504,7 +505,7 @@
                 </div>
 
                 <!-- Dubai, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--dubai animate" data-animation="animate__zoomIn" data-duration="500">
+                <div class="hero-home__locations__map hero-home__locations__map--dubai animate" data-animation="animate__zoomIn" data-duration="40">
                     <div class="hero-home__locations__pin">
                         <span>Dubai, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -655,7 +656,7 @@
 
 
                 <!-- Sharjah, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--sharjah animate" data-animation="animate__zoomIn" data-duration="600">
+                <div class="hero-home__locations__map hero-home__locations__map--sharjah animate" data-animation="animate__zoomIn" data-duration="50">
                     <div class="hero-home__locations__pin">
                         <span>Sharjah, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -713,7 +714,7 @@
 
 
                 <!-- Dammam, KSA -->
-                <div class="hero-home__locations__map hero-home__locations__map--dammam animate" data-animation="animate__zoomIn" data-duration="700">
+                <div class="hero-home__locations__map hero-home__locations__map--dammam animate" data-animation="animate__zoomIn" data-duration="60">
                     <div class="hero-home__locations__pin">
                         <span>Dammam, KSA</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -770,7 +771,7 @@
                 </div>
 
                 <!-- Al Ain, UAE -->
-                <div class="hero-home__locations__map hero-home__locations__map--al-ain animate" data-animation="animate__zoomIn" data-duration="800">
+                <div class="hero-home__locations__map hero-home__locations__map--al-ain animate" data-animation="animate__zoomIn" data-duration="70">
                     <div class="hero-home__locations__pin">
                         <span>Al Ain, UAE</span>
                         <span class="hero-home__locations__pin__pool"></span>
@@ -984,10 +985,10 @@
                     <div class="col-40">
                         <div class="foods-safety__figures">
                             <div class="foods-safety__figures__small animate" data-animation="animate__zoomIn" data-duration="400">
-                                <img class="lazy-img" data-src="/assets/images/home/converted/foods-safety-small.webp" alt="foods">
+                                <img class="lazy-img" data-src="/assets/images/home/converted/foods-safety-small.webp" alt="foods" width="319" height="214">
                             </div> 
                             <div class="foods-safety__figures__large animate" data-animation="animate__zoomIn" data-duration="200">
-                                <img class="lazy-img" data-src="/assets/images/home/converted/foods-safety-large.webp" alt="">
+                                <img class="lazy-img" data-src="/assets/images/home/converted/foods-safety-large.webp" alt="foods" width="932" height="715">
                             </div>
                         </div>
                     </div>

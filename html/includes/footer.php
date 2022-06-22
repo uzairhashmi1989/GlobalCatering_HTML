@@ -6,7 +6,7 @@
                     <div class="footer__top--qlinks-col footer__top--qlinks-col--logo-panel">
                         <div class="brand-logo animate" data-animation="animate__zoomIn" data-duration="200">
                             <a href="/">
-                                <img src="/assets/svg/white-logo.svg" alt="logo" />
+                                <img data-src="/assets/svg/white-logo.svg" alt="logo" class="lazy-img" width="142" height="164" />
                             </a>
                         </div>
                         <div class="social">

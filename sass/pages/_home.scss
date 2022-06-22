@@ -497,10 +497,23 @@
 
             &__scroll {
                 height: calc(100% - em(50));
-                overflow: hidden;
+                overflow-y: auto;
                 padding: em(20);
-                padding-right: .5em;
-                padding-left: 2em;
+                // padding-right: .5em;
+                // padding-left: 2em;
+                scrollbar-width: thin;
+                scrollbar-color: $purple-color transparent;
+                &::-webkit-scrollbar {
+                    width: 5px;
+                }
+                &::-webkit-scrollbar-track {
+                    background: transparent;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: $purple-color;
+                    border-radius: 10px;
+                    border: 0px;
+                }
                 .mCSB_inside  {
                     > .mCSB_container {
                         margin-right: 0;
@@ -509,7 +522,7 @@
             }
 
             &__card {
-                padding-right: 2em;
+                // padding-right: 2em;
                 &__title {
                     position: relative;
                     border-bottom: 1px solid #5a5a5a40;
@@ -1126,6 +1139,9 @@
                 height: auto;
                 position: relative;
                 transition: $transition-ease;
+                path {
+                    transition: $transition-ease;
+                }
                 
             }
 
