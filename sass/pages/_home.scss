@@ -8,7 +8,7 @@
         margin: 0 auto;
         padding-top: em(56);
         @media #{$mob} {
-            padding-top: 1.5em;
+            padding-top: 3.5em;
         }
 
         p {
@@ -135,6 +135,33 @@
             @media #{$tab} {
                 left: 20%;
                 top: 13%;
+            }
+
+            &--london {
+                .hero-home__locations__pin {
+                    background-color: $green-color;
+                    transition: $transition-ease;
+                    &:hover {
+                        background-color: #81ad3e;
+                    }
+                }
+
+                .hero-home__locations__pin {
+                    +.hero-home__locations__popup {
+                        .hero-home__locations__popup__title {
+                            background-color: $green-color;
+                        }
+                    }
+
+                    .hero-home__locations__pin__pool::before {
+                        background-color: $green-color;
+                    }
+
+                    .hero-home__locations__pin__pool::after {
+                        animation: heartbeat 1s ease-in-out 0s infinite alternate;
+                    }
+
+                }
             }
 
             &--abu-dhabi {
@@ -497,10 +524,23 @@
 
             &__scroll {
                 height: calc(100% - em(50));
-                overflow: hidden;
+                overflow-y: auto;
                 padding: em(20);
-                padding-right: .5em;
-                padding-left: 2em;
+                // padding-right: .5em;
+                // padding-left: 2em;
+                scrollbar-width: thin;
+                scrollbar-color: $purple-color transparent;
+                &::-webkit-scrollbar {
+                    width: 5px;
+                }
+                &::-webkit-scrollbar-track {
+                    background: transparent;
+                }
+                &::-webkit-scrollbar-thumb {
+                    background-color: $purple-color;
+                    border-radius: 10px;
+                    border: 0px;
+                }
                 .mCSB_inside  {
                     > .mCSB_container {
                         margin-right: 0;
@@ -509,7 +549,7 @@
             }
 
             &__card {
-                padding-right: 2em;
+                // padding-right: 2em;
                 &__title {
                     position: relative;
                     border-bottom: 1px solid #5a5a5a40;
@@ -761,9 +801,11 @@
             padding: 2em 22em 2em 2em;
             z-index: 2;
             transition: all 0.5s ease-in-out;
-
             @media (min-width: 768px) {
                 bottom: -33%;
+            }
+            @media #{$mob} {
+                padding: 2em;
             }
         }
 
@@ -953,6 +995,13 @@
 
             .h4 {
                 margin-bottom: 0.7em;
+                text-overflow: ellipsis;
+                overflow: hidden;
+                display: -webkit-box !important;
+                -webkit-line-clamp: 2;
+                -webkit-box-orient: vertical;
+                white-space: normal;
+
             }
         }
 
@@ -969,6 +1018,9 @@
         > {
             .thm-btn {
                 margin: 2em auto 0;
+                @media #{$mob} {
+                    margin-top: 0;
+                }
             }
         }
     }
@@ -1078,6 +1130,7 @@
         justify-content: center;
         max-width: em(735);
         margin: 0 auto;
+        padding: 0;
 
         &__single {
             width: em(50);
@@ -1091,24 +1144,31 @@
             position: relative;
             overflow: hidden;
             transition: $transition-ease;
-
             @media #{$ipadpro} {
                 width: 4em;
                 height: 4em;
             }
-
             @media #{$ipadpro} {
                 width: 3em;
                 height: 3em;
             }
-
-
+            a {
+                width: 100%;
+                height: 100%;
+                flex: 0 0 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
             img,
             svg {
                 width: auto;
                 height: auto;
                 position: relative;
                 transition: $transition-ease;
+                path {
+                    transition: $transition-ease;
+                }
                 
             }
 

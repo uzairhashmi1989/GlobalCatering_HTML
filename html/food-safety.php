@@ -346,11 +346,10 @@
                 <img src="/assets/images/about-us/red-bg.jpg" alt="GCS figure">
             </div> -->
                 </section>
+        </section>
 
-
-
-                <!-- cta -->
-                <?php include 'includes/follow-us.php'; ?>
+        <!-- cta -->
+        <?php include 'includes/follow-us.php'; ?>
 
 
     </main>

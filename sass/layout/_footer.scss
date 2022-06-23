@@ -282,6 +282,9 @@
                             align-items: center;
                             justify-content: space-between;
                             flex: 0 1 65%;
+                            &:hover {
+                                color: $yellow-color;
+                            }
                         }
                         .icon {
                             width: 12px;

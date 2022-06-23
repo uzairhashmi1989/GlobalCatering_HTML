@@ -7,6 +7,9 @@
         @media #{$ipadpro} {
             margin-left: 3.5em;
         }
+        @media #{$mob} {
+            margin-left: 1.5em;
+        }
         &--inner {
             margin-left: 0;
             max-width: 40em;

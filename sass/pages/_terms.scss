@@ -7,6 +7,7 @@
         margin-bottom: 0.5em;
         font-weight: 400;
         transition: $transition-ease;
+        text-transform: capitalize;
         &:hover {
             color: $red-color;
         }

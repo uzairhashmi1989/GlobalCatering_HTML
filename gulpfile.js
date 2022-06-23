@@ -3,6 +3,7 @@ var gulp = require('gulp');
 var sass = require('gulp-sass')(require('sass'));
 var rename = require('gulp-rename');
 var cleanCSS = require('gulp-clean-css');
+var rtlcss = require('gulp-rtlcss');
 
 var paths = {
     style: {
@@ -20,7 +21,13 @@ function style() {
             basename: 'custom',
             suffix: '.min'
         }))
-        .pipe(gulp.dest(paths.style.dest));
+        .pipe(gulp.dest(paths.style.dest))
+        .pipe(rtlcss()) // Convert to RTL.
+        .pipe(rename({
+            basename: 'custom-ar',
+            suffix: '.min'
+        }))
+        .pipe(gulp.dest(paths.style.dest))
 }
 
 function watch() {
