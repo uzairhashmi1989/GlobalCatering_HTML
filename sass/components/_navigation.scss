@@ -327,7 +327,8 @@
                 border-width: 0px 2px 2px 0px;
                 border-style: solid;
                 border-color: #000;
-                transform: rotate(45deg) translateY(3px);
+                transform: rotate(45deg);
+                top: 3px;
                 transition: all 0.4s linear;
                 @media #{$ipadproL} {
                     padding: 3px;
@@ -341,7 +342,8 @@
                 }
             }
             &:hover::before {
-                transform: rotate(225deg) translate(-5px, -5px);
+                transform: rotate(225deg);
+                top: 6px;
             }
 
             .mobile-icon {
