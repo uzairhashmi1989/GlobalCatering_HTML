@@ -40,7 +40,7 @@
             <div class="hero-home__locations">
 
                 <!-- London, UK -->
-                <div class="hero-home__locations__map animate" data-animation="animate__zoomIn" data-duration="10">
+                <div class="hero-home__locations__map hero-home__locations__map--london animate" data-animation="animate__zoomIn" data-duration="10">
                     <div class="hero-home__locations__pin">
                         <span>London, UK</span>
                         <span class="hero-home__locations__pin__pool"></span>

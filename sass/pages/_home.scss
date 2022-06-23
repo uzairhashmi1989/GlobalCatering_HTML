@@ -137,6 +137,33 @@
                 top: 13%;
             }
 
+            &--london {
+                .hero-home__locations__pin {
+                    background-color: $green-color;
+                    transition: $transition-ease;
+                    &:hover {
+                        background-color: #81ad3e;
+                    }
+                }
+
+                .hero-home__locations__pin {
+                    +.hero-home__locations__popup {
+                        .hero-home__locations__popup__title {
+                            background-color: $green-color;
+                        }
+                    }
+
+                    .hero-home__locations__pin__pool::before {
+                        background-color: $green-color;
+                    }
+
+                    .hero-home__locations__pin__pool::after {
+                        animation: heartbeat 1s ease-in-out 0s infinite alternate;
+                    }
+
+                }
+            }
+
             &--abu-dhabi {
                 left: 66.5%;
 
