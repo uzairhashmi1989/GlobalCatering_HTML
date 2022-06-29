@@ -33,7 +33,8 @@
             </div>
             <div class="hero-home__bg">
                 <picture>
-                    <source media="(max-width: 767px)" srcset="/assets/images/home/converted/mob-banner.webp">
+                    <source media="(max-width: 450px)" srcset="/assets/images/home/converted/mob-banner-480.webp">
+                    <source media="(max-width: 767px)" srcset="/assets/images/home/converted/mob-banner-767.webp">
                     <img src="/assets/images/home/converted/banner.webp" alt="banner image" />
                 </picture>
             </div>
