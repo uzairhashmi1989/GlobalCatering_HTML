@@ -14,6 +14,8 @@
         p {
             padding: 0 5em;
             margin-bottom: 1.4347em;
+            max-height: 3.3043em;
+            overflow-y: auto;
 
             @media #{$tab} {
                 padding: 0;
@@ -28,7 +30,7 @@
     &__container {
         position: relative;
         z-index: 1;
-        height: 100%;
+        // height: 100%;
     }
 
     &__bg {
@@ -71,6 +73,7 @@
             display: flex;
             flex-wrap: wrap;
             align-items: center;
+            height: 100%;
 
             .hero-home__text {
                 max-width: 28em;
@@ -115,7 +118,7 @@
         bottom: 0;
         width: 100%;
         height: 61%;
-        z-index: 1;
+        z-index: 0;
 
         &__map {
             position: absolute;
@@ -526,8 +529,6 @@
                 height: calc(100% - em(50));
                 overflow-y: auto;
                 padding: em(20);
-                // padding-right: .5em;
-                // padding-left: 2em;
                 scrollbar-width: thin;
                 scrollbar-color: $purple-color transparent;
                 &::-webkit-scrollbar {
@@ -733,6 +734,7 @@
 
 // facilities
 .facilities {
+    position: relative;
     &__box {
         position: relative;
         overflow: hidden;
@@ -866,10 +868,23 @@
 
         }
     }
+
+    .swiper-pagination-bullets {
+        bottom: -30px;
+        .swiper-pagination-bullet-active {
+            background: var(--red-color);
+        }
+    }
+
+
 }
 
 // foods-safety
 .foods-safety {
+    @media #{$mob} {
+        padding-top: 4em;
+    }
+    
     .twocol-row {
         justify-content: space-between;
 
@@ -971,6 +986,38 @@
 
 // news
 .news {
+
+    &__slider {
+        position: relative;
+        .swiper-button-next, 
+        .swiper-button-prev {
+            top: em(-43);
+            @media #{$mob} {
+                top: -2.3em;
+            }
+        }
+        .swiper-button-prev, 
+        .swiper-rtl .swiper-button-next {
+            left: unset;
+            right: 50px;
+        }
+        .swiper-button-next::after {
+            background: url("../svg/long-right-arrow.svg") center/contain no-repeat;
+        }
+
+        .swiper-button-prev::after {
+            background: url("../svg/long-right-arrow.svg") center/contain no-repeat;
+            transform: scale(-1);
+        }
+
+        .swiper-button-prev::after,
+        .swiper-button-next::after {
+            content: "";
+            width: 30px;
+            height: 15px;
+        }
+    }
+
     &__box {
         &__figure {
             height: em(338);
@@ -1091,9 +1138,9 @@
         position: absolute;
         right: 0;
         width: em(783);
-        top: 50%;
-        transform: translateY(-50%);
-
+        height: em(685);
+        top: 19em;
+        // transform: translateY(-50%);
         @media #{$ipadpro} {
             width: 47%;
             bottom: unset;
@@ -1105,6 +1152,9 @@
 
         @media #{$tab} {
             display: none;
+        }
+        img {
+            height: 100%;
         }
     }
 }

@@ -4,6 +4,9 @@
     position: relative;
     z-index: 1;
     // justify-content: flex-end;
+    @media #{$ipadpro} {
+        width: 50%;
+    }
     @media #{$ipad} {
         position: fixed;
         right: -100%;
@@ -262,7 +265,7 @@
         padding: 0 1.3em;
         position: relative;
         @media #{$ipadpro} {
-            padding: 0 0.7em;
+            padding: 0 1em;
         }
         @media #{$ipad} {
             width: 100%;

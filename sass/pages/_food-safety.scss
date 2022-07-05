@@ -89,7 +89,17 @@
                 }
 
                 &__img {
-                    width: auto;
+                    width: 100%;
+                    height: em(632);
+
+                    @media #{$ipad} {
+                        height: 22.5em;
+                    }
+
+                    
+                    img {
+                        height: 100%;
+                    }
                 }
             }
         }
@@ -134,7 +144,15 @@
                 }
 
                 &__img {
-                    width: auto;
+                    width: 100%;
+                    height: em(632);
+                    @media #{$ipad} {
+                        height: 22.5em;
+                    }
+
+                    img {
+                        height: 100%;
+                    }
                 }
 
                 &__stroke {
@@ -272,6 +290,7 @@
             .img-wrapper {
                 display: flex;
                 justify-content: center;
+                margin-bottom: 1em;
             }
 
             a {

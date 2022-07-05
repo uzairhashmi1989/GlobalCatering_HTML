@@ -604,3 +604,21 @@ main {
         font-size: 1.4em;
     }
 }
+
+
+// scroll
+.c-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: $purple-color transparent;
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $purple-color;
+        border-radius: 10px;
+        border: 0px;
+    }
+}

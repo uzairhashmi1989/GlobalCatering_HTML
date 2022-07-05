@@ -114,14 +114,15 @@ var sh = $(window).height();
         spaceBetween: 0,
         loop: false,
         speed: 2000,
-        // autoplay: {
-        //     delay: 2500,
-        //     disableOnInteraction: false,
-        // },
+        autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+        },
         pagination: {
           el: ".facilities .swiper-pagination",
           clickable: true,
         },
+        
         breakpoints: {
           576: {
             slidesPerView: 2,
@@ -201,6 +202,17 @@ var sh = $(window).height();
     if(nestedPath[2]) {
       $("a[href='/business-sectors/']").addClass('active')
     }
+
+    if(path == "/contact-us/") {
+        $("body").addClass("contact-us-body")
+    }
+
+    if(path == "/news/") {
+        $("body").addClass("contact-us-body")
+    } 
+
+
+
 
     // logout dropdown
     $(".nav-login__user").on("click", function () {

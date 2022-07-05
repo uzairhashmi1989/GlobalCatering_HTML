@@ -2,6 +2,9 @@
 
 .news-details {
     margin-top: -8.375em;
+    @media #{$mob} {
+        margin-top: -13.375em;
+    }
     .twocol-row {
         margin: 0 em(-12);
         .col-33 {

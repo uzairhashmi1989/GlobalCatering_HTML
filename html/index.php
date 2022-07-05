@@ -22,7 +22,7 @@
             <div class="container hero-home__container">
                 <div class="hero-home__text">
                     <h1 class="h1 animate" data-animation="animate__fadeInUp" data-duration="10">INSPIRED BY FOOD</h1>
-                    <p class=" animate" data-animation="animate__fadeInUp" data-duration="20">We operate market-leading businesses in four sectors - restaurants, catering, retail, and wholesale. Learn more about our diversified portfolio.</p>
+                    <p class="animate c-scroll" data-animation="animate__fadeInUp" data-duration="20">We operate market-leading businesses in four sectors - restaurants, catering, retail, and wholesale. Learn more about our diversified portfolio.</p>
                     <a href="/about-us.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="30">
                         <span class="thm-btn__text">Read more</span>
                         <span class="thm-btn__icon">
@@ -941,27 +941,9 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="swiper-slide">
-                        <div class="facilities__box">
-                            <div class="facilities__box__figure img__observer__one">
-                                <img src="assets/images/final-imgs/hompage/converted/restaurant-2.webp" alt="facilities" class="observer__child">
-                            </div>
-                            <div class="facilities__box__stroke-title">
-                                <span>Restaurants</span>
-                            </div>
-                            <div class="facilities__box__text">
-                                <h5 class="facilities__box__title h5">Restaurants</h5>
-                                <p class="facilities__box__para">Our deep understanding of food, cultures, consumers, and changing lifestyles has helped us create a portfolio of restaurants across the UAE, Middle East, Turkey, and the UK.</p>
-                                <a href="/business-sectors.php#Restaurant" class="thm-btn thm-btn--white-border">
-                                    <span class="thm-btn__text">Read more</span>
-                                    <span class="thm-btn__icon">
-                                        <img src="/assets/svg/long-right-arrow.svg" alt="icon" width="26" height="15" class="svg-convert">
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div> -->
                 </div>
+            </div>
+            <div class="swiper-pagination"></div>
         </section>
 
         <!-- foods safety -->
@@ -1436,6 +1418,8 @@
 
                         </div>
                     </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
                 <a href="/news.php" class="thm-btn animate" data-animation="animate__fadeInUp" data-duration="200">
                     <span class="thm-btn__text">Read more</span>
