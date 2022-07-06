@@ -163,21 +163,8 @@
     }
 
     &__map-wrapper {
-        position: absolute;
-        right: 0;
-        max-width: 47.5%;
-        top: 7%;
-        padding: 0 em(40) 0 em(90);
-        @media #{$ipadpro} {
-            // max-width: 42.625em;
-        }
-        @media #{$ipad} {
-            // max-width: 35.625em;
-        }
         @media #{$tab} {
-            position: relative;
-            max-width: 100%;
-            padding: 0 3em;
+            // padding: 0 3em;
             margin-top: 2em;
         }
 
@@ -186,6 +173,7 @@
             height: 100%;
         }
     }
+
     &__details {
         padding-top: em(47);
         .h5 {
@@ -224,4 +212,25 @@
     &__map {
         height: em(235);
     }
+
+    .twocol-row {
+        justify-content: space-between;
+    }
+
+    .container {
+        padding: 0 2.5% 0 10.5%;
+        @media #{$ipad} {
+            padding: 0 2.5% 0 5em;
+        }
+    
+        @media #{$tab} {
+            padding: 0 3em;
+        }
+    
+        @media #{$mob} {
+            padding: 0 15px;
+        }
+    }
+
+
 }

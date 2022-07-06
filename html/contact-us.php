@@ -49,7 +49,7 @@
             <div class="container">
                 <div class="lets-connect__form-wrapper animate" data-animation="animate__fadeInUp" data-duration="200">
                     <div class="twocol-row">
-                        <div class="col-50">
+                        <div class="col-40">
                             <form action="" class="lets-connect__form">
                                 <h4 class="h4">Let’s Connect</h4>
                                 <div class="twocol-row">
@@ -104,59 +104,59 @@
                                 </div>
                             </form>
                         </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="lets-connect__map-wrapper animate" data-animation="animate__fadeInUp" data-duration="300">
-                <div class="lets-connect__map">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.7757309841036!2d54.36467551532182!3d24.493226284228513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e665d209623bd%3A0xe1ed936de70ae237!2sGlobal%20Catering%20Services!5e0!3m2!1sen!2s!4v1652861208790!5m2!1sen!2s" width="600" height="235" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-                </div>
-                <div class="lets-connect__details">
-                    <h3 class="h3">Contact Details</h3>
-                    <div class="twocol-row">
                         <div class="col-50">
-                            <h5 class="h5">Abu Dhabi</h5>
-                            <address>
-                                <p>Fatima Bint Mubarak Street, Abu Dhabi Plaza Tower</p>
-                                <ul>
-                                    <li>
-                                        <span>P.O BOX:</span>
-                                        <span>48244</span>
-                                    </li>
-                                    <li>
-                                        <span>Phone:</span>
-                                        <a href="tel:+971 26446667">+971 26446667</a>
-                                    </li>
-                                    <li>
-                                        <span>Fax:</span>
-                                        <a href="tel:+971 26446678">+971 26446678</a>
-                                    </li>
-                                </ul>
-                            </address>
-                        </div>
-                        <div class="col-50">
-                            <h5 class="h5">Dubai</h5>
-                            <address>
-                                <p>Al Kawakeb Building, E Block, Financial Center Area, Sheikh Zayed Road Dubai, United Arab Emirates</p>
-                                <ul>
-                                    <li>
-                                        <span>P.O BOX:</span>
-                                        <span>120023</span>
-                                    </li>
-                                    <li>
-                                        <span>Phone:</span>
-                                        <a href="tel:+971 43881184">+971 43881184</a>
-                                    </li>
-                                    <li>
-                                        <span>Fax:</span>
-                                        <a href="tel:+971 43883120">+971 43883120</a>
-                                    </li>
-                                </ul>
-                            </address>
-                        </div>
+                            <div class="lets-connect__map-wrapper animate" data-animation="animate__fadeInUp" data-duration="300">
+                                    <div class="lets-connect__map">
+                                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3630.7757309841036!2d54.36467551532182!3d24.493226284228513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5e665d209623bd%3A0xe1ed936de70ae237!2sGlobal%20Catering%20Services!5e0!3m2!1sen!2s!4v1652861208790!5m2!1sen!2s" width="600" height="235" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                                    </div>
+                                    <div class="lets-connect__details">
+                                        <h3 class="h3">Contact Details</h3>
+                                        <div class="twocol-row">
+                                            <div class="col-50">
+                                                <h5 class="h5">Abu Dhabi</h5>
+                                                <address>
+                                                    <p>Fatima Bint Mubarak Street, Abu Dhabi Plaza Tower</p>
+                                                    <ul>
+                                                        <li>
+                                                            <span>P.O BOX:</span>
+                                                            <span>48244</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Phone:</span>
+                                                            <a href="tel:+971 26446667">+971 26446667</a>
+                                                        </li>
+                                                        <li>
+                                                            <span>Fax:</span>
+                                                            <a href="tel:+971 26446678">+971 26446678</a>
+                                                        </li>
+                                                    </ul>
+                                                </address>
+                                            </div>
+                                            <div class="col-50">
+                                                <h5 class="h5">Dubai</h5>
+                                                <address>
+                                                    <p>Al Kawakeb Building, E Block, Financial Center Area, Sheikh Zayed Road Dubai, United Arab Emirates</p>
+                                                    <ul>
+                                                        <li>
+                                                            <span>P.O BOX:</span>
+                                                            <span>120023</span>
+                                                        </li>
+                                                        <li>
+                                                            <span>Phone:</span>
+                                                            <a href="tel:+971 43881184">+971 43881184</a>
+                                                        </li>
+                                                        <li>
+                                                            <span>Fax:</span>
+                                                            <a href="tel:+971 43883120">+971 43883120</a>
+                                                        </li>
+                                                    </ul>
+                                                </address>
+                                            </div>
 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                     </div>
                 </div>
             </div>

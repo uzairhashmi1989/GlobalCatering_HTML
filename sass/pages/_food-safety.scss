@@ -94,11 +94,10 @@
 
                     @media #{$ipad} {
                         height: 22.5em;
-                    }
-
-                    
+                    }                   
                     img {
                         height: 100%;
+                        width: 100%;
                     }
                 }
             }
@@ -152,6 +151,7 @@
 
                     img {
                         height: 100%;
+                        width: 100%;
                     }
                 }
 
