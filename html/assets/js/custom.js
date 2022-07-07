@@ -444,6 +444,7 @@ var sh = $(window).height();
 
 
 
+  // intersection observer for src append attribute on viewport
 
 const imgElements = document.querySelectorAll("img[data-src]");
 

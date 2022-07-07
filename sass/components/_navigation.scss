@@ -332,7 +332,7 @@
                 border-color: #000;
                 transform: rotate(45deg);
                 top: 3px;
-                transition: all 0.4s linear;
+                transition: all 0.2s linear;
                 @media #{$ipadproL} {
                     padding: 3px;
                 }
@@ -380,7 +380,7 @@
                 border-radius: 10px;
                 visibility: hidden;
                 opacity: 0;
-                transition: all 0.5s linear 0.4s;
+                transition: all 0.1s linear 0.2s;
                 box-shadow: 0 16px 11px -14px rgba(0,0,0,0.7);
                 @media #{$ipad} {
                     position: relative;
