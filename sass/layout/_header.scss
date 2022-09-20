@@ -56,13 +56,20 @@
                     font-weight: 400;
                     transition: $transition-ease;
                     &:first-child {
-                        visibility: hidden;
+                        // visibility: hidden;
+                    }
+                    
+                    &:last-child {
+                        pointer-events: none;
+                        color: var(--);
                     }
                     @media #{$mob} {
                         padding: 0 1em;
                         font-size: 1em;
                     }
-                    &:last-child {
+                    &.arabic-lang {
+                        pointer-events: none; // temporary
+                        color: $primary-color;
                         &::before {
                             content: "";
                             position: absolute;
@@ -74,11 +81,11 @@
                             transform: translateY(-50%);
                             right: 0;
                             margin: 0 auto;
-                            visibility: hidden;
+                            // visibility: hidden;
                         }
                     }
                     &.active {
-                        color: $black-color;
+                        color: $red-color;
                     }
                     &:hover {
                         color: $red-color;
@@ -101,6 +108,9 @@
                     position: absolute;
                     min-width: 11em;
                     pointer-events: none;
+                    @media #{$mob} {
+                        top: 2em;
+                    }
                     &::before {
                         content: "";
                         position: absolute;
@@ -168,6 +178,10 @@
                                 padding: 1em 3.5em 1em 1em;
                                 width: 100%;
                                 border: none;
+                                @media #{$mob} {
+                                    padding-top: 0.5em;
+                                    padding-bottom: 0.5em;
+                                }
                                 &:focus,
                                 &:focus-visible {
                                     outline: 0;
@@ -227,6 +241,7 @@ header .brand-logo {
     right: 0;
     margin: 0 auto;
     width: em(260);
+    z-index: 2;
     @media #{$ipadpro} {
         width: 11.25em;
     }

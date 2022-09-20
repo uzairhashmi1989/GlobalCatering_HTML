@@ -95,9 +95,15 @@
         position: absolute;
         right: 0;
         bottom: 12%;
-        @media #{$ipadpro} {
+
+        @media (max-width: 1199px){
+            width: 40%;
+        }
+        @media (max-width: 1024px){
             width: 46%;
         }
+
+        
 
         @media #{$tab} {
             position: relative;
@@ -140,7 +146,7 @@
             letter-spacing: -6px;
 
             @media #{$ipadpro} {
-                font-size: 4.5em;
+                font-size: 6.5em;
             }
 
             @media #{$tab} {
@@ -245,8 +251,21 @@
 
         .home-left-panel__para-btn--inner {
             max-width: 46em;
+            @media #{$mob} {
+                margin-bottom: 0;
+            }
         }
 
+    }
+
+    .twocol-row {
+        .col-50:last-child {
+            max-height: em(553);
+            overflow-y: auto;
+            @media #{$mob} {
+                max-height: unset;
+            }
+        }
     }
 
 }

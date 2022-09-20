@@ -3,22 +3,22 @@
         <div class="header__wrapper">
             <nav class="navigation">
                 <ul class="menu">
-                    <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="200">
+                    <li class="menu__menuitem">
                         <a href="/" class="menu__menuitem--menulink">
                             Home
                         </a>
                     </li>
-                    <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="300">
+                    <li class="menu__menuitem">
                         <a href="/about-us.php" class="menu__menuitem--menulink">
                             About
                         </a>
                     </li>
-                    <li class="menu__menuitem menu__menuitem--dropdown-wrapper  animate" data-animation="animate__fadeInUp" data-duration="400">
+                    <li class="menu__menuitem menu__menuitem--dropdown-wrapper" >
                         <a href="/business-sectors/" class="menu__menuitem--menulink">
                             Business Sectors
                         </a>
                         <span class="mobile-icon">
-                            <img src="/assets/svg/chevron-down.svg" alt="icon">
+                            <img src="/assets/svg/chevron-down.svg" alt="icon" width="16" height="16">
                         </span>
                         <ul class="menu__menuitem__dropdown">
                             <li>
@@ -35,14 +35,14 @@
                             </li>
                         </ul>
                     </li>
-                    <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="500">
+                    <li class="menu__menuitem">
                         <a href="/food-safety.php" class="menu__menuitem--menulink">
                             Food Safety 
                         </a>
                     </li>
 
 
-                    <li class="menu__menuitem animate" data-animation="animate__fadeInUp" data-duration="600">
+                    <li class="menu__menuitem">
                         <a href="/news.php" class="menu__menuitem--menulink">
                             News 
                         </a>
@@ -51,17 +51,17 @@
                 </ul>
             </nav>
             <div class="brand-logo">
-                <a href="/" class="brand-logo__anchor animate" data-animation="animate__fadeInUp" data-duration="800">
+                <a href="/" class="brand-logo__anchor">
                     <img class="svg-convert" src="/assets/svg/logo.svg" alt="logo-here" width="265" height="107" />
                 </a>
             </div>
             <div class="header__wrapper__language__search">
-                <div class="header-languages animate" data-animation="animate__fadeInUp" data-duration="900"> 
-                    <a href="/">En</a>
-                    <a href="javascript:;">Ar</a>
-                    <div class="header-languages__popup">Coming Soon</div>
+                <div class="header-languages"> 
+                    <a href="/" class="english-lang active">En</a>
+                    <a href="javascript:;" class="arabic-lang">Ar</a>
+                    <!-- <div class="header-languages__popup">Coming Soon</div> -->
                 </div>
-                <div class="header-searh-icon animate" data-animation="animate__fadeInUp" data-duration="1000">
+                <div class="header-searh-icon">
                     <a class="menu-item header--right__cta__search" href="javacript:;" role="button">
                         <span class="search-wrapper">
                             <img src="/assets/svg/search-icon.svg" alt="icon" class="svg-convert search-icon-1 icon-show" width="20" height="20">

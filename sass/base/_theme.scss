@@ -69,6 +69,7 @@ body {
     background-color: $white-color;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
+    direction: ltr;
 
     @media (max-width: 1400px) and (min-width: 1300px) and (min-height: 900px) {
         font-size: 11.485px;
@@ -141,6 +142,10 @@ svg {
 }
 
 .animate {
+    opacity: 0;
+}
+
+.lazy-img {
     opacity: 0;
 }
 
@@ -597,5 +602,23 @@ main {
         position: absolute;
         right: 0;
         font-size: 1.4em;
+    }
+}
+
+
+// scroll
+.c-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: $purple-color transparent;
+    &::-webkit-scrollbar {
+        width: 5px;
+    }
+    &::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $purple-color;
+        border-radius: 10px;
+        border: 0px;
     }
 }

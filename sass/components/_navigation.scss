@@ -4,6 +4,9 @@
     position: relative;
     z-index: 1;
     // justify-content: flex-end;
+    @media #{$ipadpro} {
+        width: 50%;
+    }
     @media #{$ipad} {
         position: fixed;
         right: -100%;
@@ -262,7 +265,7 @@
         padding: 0 1.3em;
         position: relative;
         @media #{$ipadpro} {
-            padding: 0 0.7em;
+            padding: 0 1em;
         }
         @media #{$ipad} {
             width: 100%;
@@ -327,8 +330,9 @@
                 border-width: 0px 2px 2px 0px;
                 border-style: solid;
                 border-color: #000;
-                transform: rotate(45deg) translateY(3px);
-                transition: all 0.1s linear;
+                transform: rotate(45deg);
+                top: 3px;
+                transition: all 0.2s linear;
                 @media #{$ipadproL} {
                     padding: 3px;
                 }
@@ -341,7 +345,8 @@
                 }
             }
             &:hover::before {
-                transform: rotate(225deg) translate(-5px, -5px);
+                transform: rotate(225deg);
+                top: 6px;
             }
 
             .mobile-icon {
@@ -375,7 +380,7 @@
                 border-radius: 10px;
                 visibility: hidden;
                 opacity: 0;
-                transition: all 0.5s linear 0.4s;
+                transition: all 0.1s linear 0.2s;
                 box-shadow: 0 16px 11px -14px rgba(0,0,0,0.7);
                 @media #{$ipad} {
                     position: relative;

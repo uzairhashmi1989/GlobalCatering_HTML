@@ -98,7 +98,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-50">
+                        <div class="col-50 c-scroll">
                             <div class="home-left-panel">                           
                                 <div class="home-left-panel__para-btn  home-left-panel__para-btn--inner">
                                     <!-- <p class="animate" data-animation="animate__fadeInUp" data-duration="300"> GCS also runs a successful and reputed catering business. Catering is an important aspect of any event, and we provide a full suite of services that help our customers create memorable events. We cater to private and corporate events, high-profile celebrations, and small exclusive gatherings. We also cater to industry segments with specialist needs, such as schools, hospitals, factories, hotels, and more.</p>                            -->

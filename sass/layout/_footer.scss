@@ -266,6 +266,9 @@
                         display: flex;
                         flex-wrap: wrap;
                         position: relative;
+                        border-bottom: 1px solid #ffffff87;
+                        max-width: 79%;
+                        padding-bottom: 1em;
                         @media #{$mob} {
                             margin-bottom: 1.5em;
                         }
@@ -281,7 +284,10 @@
                             display: flex;
                             align-items: center;
                             justify-content: space-between;
-                            flex: 0 1 65%;
+                            flex: 0 1 100%;
+                            &:hover {
+                                color: $yellow-color;
+                            }
                         }
                         .icon {
                             width: 12px;
@@ -294,20 +300,20 @@
                                 flex-basis: 91%;
                             }
                         }
-                        &:last-child {
-                            &::before {
-                                content: "";
-                                position: absolute;
-                                width: 79%;
-                                height: 1px;
-                                background: $white-color;
-                                top: em(-12);
-                                opacity: .5;
-                                left: 0;
-                                @media #{$mob} {
-                                    // top: -5px;
-                                }
-                            }
+                        & {
+                            // &::before {
+                            //     content: "";
+                            //     position: absolute;
+                            //     width: 79%;
+                            //     height: 1px;
+                            //     background: $white-color;
+                            //     top: em(-12);
+                            //     opacity: .5;
+                            //     left: 0;
+                            //     @media #{$mob} {
+                            //         // top: -5px;
+                            //     }
+                            // }
                         }
                     }
                 }
@@ -340,7 +346,7 @@
             &::after {
                 content: "";
                 position: relative;
-                background: url('/assets/svg/white-right-long-arrow.svg');
+                background: url('../svg/white-right-long-arrow.svg') no-repeat;
                 width: 20px;
                 height: 12px;
                 left: 0.7em;
